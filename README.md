@@ -1,4 +1,4 @@
-# safenoddycode
+# PyNoddy Inversion
 
 This repository is seperated into
 1. core code
