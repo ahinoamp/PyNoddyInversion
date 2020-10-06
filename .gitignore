@@ -244,8 +244,6 @@ MDS_experiment/Isomap projection of the digits (time 0.09s).png
 MDS_experiment/MDS embedding of the digits (time 0.54s).png
 MDS_experiment/Random forest embedding of the digits (time 0.15s).png
 MDS_experiment/t-SNE embedding of the digits (time 1.27s).png
-Data/
-PostProcessing/
 *.vtk
 ~$MagneticThoughts.xlsx
 ParameterHistory.csv
