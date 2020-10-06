@@ -120,7 +120,7 @@ def simulate_calc_mismatch(P):
     while((errcode != 1) & (num_tries < 100)):
 
         errcode = calculate_model(P['SampledInputFileName'], P['output_name'],
-                                  outputoption='TOPOLOGY')
+                                  outputoption='TOPOLOGY', Windows=P['HypP']['Windows'])
         if(P['verbose'] & (num_tries > 0)):
             print('Topology & geology calc is having issues: '
                   + str(num_tries) + ' times')
@@ -141,7 +141,8 @@ def simulate_calc_mismatch(P):
         while((errcode != 1) & (num_tries < 100)):
             errcode = calculate_model(P['SampledInputFileName'],
                                       P['output_name'],
-                                      outputoption='ANOM_FROM_BLOCK')
+                                      outputoption='ANOM_FROM_BLOCK',
+                                      Windows=P['HypP']['Windows'])
             if(P['verbose'] & (num_tries > 0)):
                 print('Gravity & mag calc is having issues: ' + str(num_tries)
                       + ' times')
@@ -375,7 +376,7 @@ def calc_granitetop(P):
         topgranite[((np.isnan(isnanTotal))&(topgranite<=-1200))] = np.NaN
    
     if(np.sum(topgranite<-1500)):
-        print('FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF')
+        print('There might be an issue')
         
     P['GT']['simViz']=topgranite
     P['xLith'] = np.linspace(P['xminL'], P['xmaxL'], P['nxL'], dtype=np.float32)+P['xmin']

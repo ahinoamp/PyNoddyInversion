@@ -48,7 +48,7 @@ def getHypPara():
     param['Name']='ExplorationRate'
     param['Type']= 'pRandChoice'
     param['parameters']= ['LinearErrorBased', 'None']
-    param['Methods']= ['MCMC']
+    param['Methods']= ['MCMC', 'Annealing']
     HyperParameters.append(param)
 
     param = {}
@@ -77,7 +77,7 @@ def getHypPara():
     param['Name']='ExplorationStage'
     param['Type']= 'pRandChoice'
     param['parameters']= ['Explore']
-    param['Methods']= ['MCMC']
+    param['Methods']= ['MCMC', 'Annealing']
     HyperParameters.append(param)
 
     param = {}
@@ -86,7 +86,14 @@ def getHypPara():
     param['parameters']= ['Track Acceptance', 'Error must decrease', 'Const diff', 'Annealing']
     param['Methods']= ['MCMC']
     HyperParameters.append(param)
-   
+
+    param = {}
+    param['Name']='AcceptProbType'
+    param['Type']= 'pRandChoice'
+    param['parameters']= ['Annealing']
+    param['Methods']= ['Annealing']
+    HyperParameters.append(param)
+    
     param = {}
     param['Name']='cubesize'
     param['Type']= 'pRandChoice'
@@ -114,7 +121,7 @@ def getHypPara():
     param['Type']= 'pRandFloat'
     param['Condition']= [['AcceptProbType', 'Annealing']]
     param['parameters']= [0.001, 0.025]
-    param['Methods']= ['MCMC']
+    param['Methods']= ['MCMC', 'Annealing']
     HyperParameters.append(param)
 
     param = {}
@@ -122,7 +129,7 @@ def getHypPara():
     param['Type']= 'pRandFloat'
     param['Condition']= [['AcceptProbType', 'Annealing']]
     param['parameters']= [0.95, 0.999]
-    param['Methods']= ['MCMC']
+    param['Methods']= ['MCMC', 'Annealing']
     HyperParameters.append(param)
 
     param = {}
@@ -223,7 +230,7 @@ def getHypPara():
     param['Type']= 'pRandInt'
     param['parameters']= [35, 60]
     param['Condition']= [['ErrorType', 'Local']]
-    param['Methods']= ['MCMC']
+    param['Methods']= ['MCMC', 'Annealing']
     HyperParameters.append(param)
 
     param = {}
@@ -231,14 +238,14 @@ def getHypPara():
     param['Type']= 'pRandInt'
     param['parameters']= [35, 70]
     param['Condition']= [['LocalWeightsMode', 'Many']]
-    param['Methods']= ['MCMC']
+    param['Methods']= ['MCMC', 'Annealing']
     HyperParameters.append(param)
 
     param = {}
     param['Name']='nExploreRuns'
     param['Type']= 'pRandInt'
     param['parameters']= [40, 70]
-    param['Methods']= ['MCMC']
+    param['Methods']= ['MCMC', 'Annealing']
     HyperParameters.append(param)
 
     #############################
@@ -355,7 +362,7 @@ def getHypPara():
     param['Type']= 'pRandInt'
     param['parameters']= [1, 30]
     param['Condition']= [['MO_WeightingMethod', 'Extreme']]
-    param['Methods']= ['MCMC']
+    param['Methods']= ['MCMC', 'Annealing']
     HyperParameters.append(param)
 
     param = {}
@@ -423,7 +430,7 @@ def sampleParameters(HypPara, params):
             params['LocalWeightsMode']='Many'    
             params['LocalWeightsMethod'] = 'RuleBased'
 
-
+    
 class Predictor(multiprocessing.Process):
     def __init__(self, input_queue, output_queue, gpu_id):
         multiprocessing.Process.__init__(self)
@@ -458,7 +465,7 @@ if __name__ == "__main__":
       
   
     #sample the realizations
-    num_threads =  700
+    num_threads =  25
     OutputImageFreq = 15
     tasks = []
     num_gpus = 16
@@ -468,8 +475,10 @@ if __name__ == "__main__":
     for i in range(num_threads):
         params = {}
         
-        optimMethod = random.choice(['MCMC', 'GA', 'NSGA', 'Annealing'])
-
+        optimMethods = ['MCMC', 'GA', 'NSGA', 'Annealing']
+#        optimMethod = np.random.choice(optimMethods)
+        optimMethod = optimMethods[np.mod(i, 4)]
+        
         params['OptimMethod'] =optimMethod
         sampleParameters(HypPara, params)        
             
@@ -496,6 +505,7 @@ if __name__ == "__main__":
                                 'FaultMarkers': 400, 'GT': 315, 'Mag':330}
         params['verbose']=True    
         params['graniteIdx'] = 4
+        params['Windows'] = False
         tasks.append(params)
 
     HypParametersPD = pd.DataFrame(tasks)    

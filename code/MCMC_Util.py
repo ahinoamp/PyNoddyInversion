@@ -70,10 +70,10 @@ def get_normalizing_factor(P, diff):
     acceptanceList =  P['AllAcceptedList']
 
     if(P['HypP']['AcceptProbType']=='Track Acceptance'):
-        if(len(P['iterationNum'])==1):
-            lastNormFactor = np.abs(diff)
-        else:
+        if('lastNormFactor' in list(P.keys())):
             lastNormFactor = P['lastNormFactor']
+        else:
+            lastNormFactor = np.abs(diff)
             
         nLastTimesConsider = np.min([len(acceptanceList), 20])
         lastAcceptanceRate = np.mean(acceptanceList[len(acceptanceList)-nLastTimesConsider:])

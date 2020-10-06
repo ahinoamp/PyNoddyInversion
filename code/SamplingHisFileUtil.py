@@ -202,15 +202,21 @@ def get_exploration_rate(P, i):
         ExplorationRate=1
     #LinearErrorBased exploration
     elif(P['HypP']['ErrorType']=='Global'):
-        last_err = GI.get_combo_opt_error(P, -1)
+        last_err = GI.get_combo_err(P, idx=-1,
+                                           errNorm = P['HypP']['ErrorNorm'],
+                                           datawts = P['data_wts'])
         ExplorationRate = np.min([1.2, P['HypP']['SteppingSizeMult']*last_err])
     #Error type is local
     else:
-        lastErrorParameter = GI.get_combo_opt_local_error(P, P['lastAcceptedIdx'])
-        ExplorationRate = np.min([1.2, P['HypP']['SteppingSizeMult']*lastErrorParameter])
+        lastErrorParameter = GI.get_combo_param_err_idx(P, idx=-1, 
+                                           errNorm = P['HypP']['ErrorNorm'],
+                                           datawts = P['data_wts'])
+        
+        ExplorationRate = np.min([1.2, np.mean(P['HypP']['SteppingSizeMult']*lastErrorParameter)])
     
     return ExplorationRate
 
+    
 def UpdateTemplateGivenParam(paraValList, ModelParamTable, 
                                   OutputfileName, P):
     '''replace values in the history file template given parameters values'''

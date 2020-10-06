@@ -67,7 +67,7 @@ def GA_Noddy(HypP):
     
     #5. Register functions in a toolbox of functions
     toolbox = base.Toolbox()
-    GI.register_sim_functions(P['HypPara'], toolbox)
+    GI.register_sim_functions(P['HypP'], toolbox)
     register_functions(P, toolbox)
     P['toolbox']=toolbox
     

@@ -79,7 +79,7 @@ def NSGA2_Noddy(HypP):
 
     toolbox = base.Toolbox()
     register_functions(P, toolbox)
-    GI.register_sim_functions(P['HypPara'], toolbox)
+    GI.register_sim_functions(P['HypP'], toolbox)
     P['toolbox']=toolbox
 
     NGEN = int(P['HypP']['ngen'])
