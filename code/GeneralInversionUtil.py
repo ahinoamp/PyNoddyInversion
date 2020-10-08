@@ -232,8 +232,8 @@ def CalcLocalErrWts_MinMaxRanges(P, dt):
     '''Calculate the area of influence of parameters by scanning the minimum 
     and maximum values they can take'''
 
-    xObs= P[dt]['xObs']-P['xy_origin'][0]
-    yObs= P[dt]['yObs']-P['xy_origin'][1]
+    xObs= P[dt]['xObs']-P['xmin']
+    yObs= P[dt]['yObs']-P['ymin']
 
     FullParamHis = P['FullParamHis']
     
