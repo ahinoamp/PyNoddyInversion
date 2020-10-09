@@ -140,16 +140,17 @@ def register_functions_MCMC(P, toolbox):
 
 if __name__== "__main__":
     tasks = pd.read_pickle('Combo_Scratch/parameters.pkl')
-    params = tasks.iloc[3, :]
+    params = tasks.iloc[0, :]
     params = params.to_dict()
     params['OutputImageFreq']=4
     params['verbose']=True    
 #    params['MCMC']=True    
     params['nruns']=300
     params['SimulationsExplorationStage']=1
-    params['nExploreRuns']=10
+    params['nExploreRuns']=3
 #    params['cubesize']=150    
 #    params['MO_WeightingMethod']='Extreme'
 #    params['MCMC_SwitchWeightFreq']=2
+    params['Windows'] = True
 
     MCMC_Noddy(params)

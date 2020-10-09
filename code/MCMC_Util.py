@@ -122,14 +122,14 @@ def check_acceptance_local(P):
 
 
     # 2. Calculate the difference
-    current_err = GI.get_combo_param_err_indices(P, -1, 
+    current_err = GI.get_combo_param_err_idx(P, -1, 
                                                  errNorm = P['HypP']['ErrorNorm'], 
                                                  datawts=P['data_wts']) 
       
     Diff = current_err - lastacceptederror
 
     # 3. Calculate accept probability 
-    normalizingFactor = get_norm_factor_local(P)     
+    normalizingFactor = get_norm_factor_local(P, Diff)     
     P['lastNormFactor'] = normalizingFactor
     acceptanceProbability = np.exp(-Diff/normalizingFactor.reshape((-1,1)))
 
@@ -152,26 +152,29 @@ def check_acceptance_local(P):
         print('Accepted percentage: ' + str(np.mean(P['AllAcceptedMatrix'][:])))
         print('Last Combo Error: ' + str(np.mean(P['MismatchList'])))
 
-def get_norm_factor_local(P):
+def get_norm_factor_local(P, diff):
     '''Get local error normalization parameter for acceptance function'''
 
-    if(P['AcceptProbType']=='Error must decrease'):
+    if(P['HypP']['AcceptProbType']=='Error must decrease'):
         normalizingFactor=0.000001*np.ones((P['nParam'],))
-    elif(P['AcceptProbType']=='Const diff'):
+    elif(P['HypP']['AcceptProbType']=='Const diff'):
         normalizingFactor = P['ConstNormFactor']*np.ones((P['nParam'],))
-    elif(P['AcceptProbType']=='Annealing'):
+    elif(P['HypP']['AcceptProbType']=='Annealing'):
         normalizingFactor = P['InitialTemperature']*P['ReductionRate']**P['iterationNum']
         normalizingFactor = normalizingFactor*np.ones((P['nParam'],))
-    elif(P['AcceptProbType']=='Track Acceptance'):
+    elif(P['HypP']['AcceptProbType']=='Track Acceptance'):
         nLastTimesConsider = np.min([np.shape(P['AllAcceptedMatrix'])[1], 20])
         lastAcceptanceRate = np.mean(P['AllAcceptedMatrix'][:,np.shape(P['AllAcceptedMatrix'])[1]-nLastTimesConsider:], axis=1)
-        normalizingFactor = P['lastNormFactor']
+        if('lastNormFactor' in list(P.keys())):
+            normalizingFactor = P['lastNormFactor']
+        else:
+            normalizingFactor = np.abs(diff)
         #since the acceptance rate is too high, need to decrease normalizaing constant
-        filterHigh = lastAcceptanceRate>=P['AcceptanceGoal']
-        normalizingFactor[filterHigh] = P['lastNormFactor'][filterHigh]*0.95
+        filterHigh = lastAcceptanceRate>=P['HypP']['AcceptanceGoal']
+        normalizingFactor[filterHigh] = normalizingFactor[filterHigh]*0.95
         #since the acceptance rate is too low, need to increase normalizaing constant
-        filterLow = lastAcceptanceRate<P['AcceptanceGoal']
-        normalizingFactor[filterLow] = P['lastNormFactor'][filterLow]*1.05
+        filterLow = lastAcceptanceRate<P['HypP']['AcceptanceGoal']
+        normalizingFactor[filterLow] = normalizingFactor[filterLow]*1.05
 
     return normalizingFactor
 

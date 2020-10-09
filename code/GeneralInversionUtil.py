@@ -270,12 +270,12 @@ def CalcLocalErrWts_MinMaxRanges(P, dt):
             zaxisIdx = (eventFilter) & (FullParamHis['Prop']=='ZAxis')
             b = FullParamHis['maxV'].loc[zaxisIdx].values[-1]
 
-            dipdirectionIdx = (eventFilter) & (FullParamHis['Prop']=='Dip Direction')
-            alpha = FullParamHis['maxV'].loc[dipdirectionIdx].values[-1]
-            alpha = np.deg2rad(-(alpha+90))
-
             if('Fault' in eventName):
-               
+
+                dipdirectionIdx = (eventFilter) & (FullParamHis['Prop']=='Dip Direction')
+                alpha = FullParamHis['maxV'].loc[dipdirectionIdx].values[-1]
+                alpha = np.deg2rad(-(alpha+90))
+                
                 nTimes = int(np.max([(xmax-xmin)/b,10]))
                 Xs = np.linspace(xmin,xmax,nTimes)
                 Ys = np.linspace(ymin,ymax,nTimes)
@@ -552,7 +552,7 @@ def get_combo_param_err_indices(P, indices, errNorm = 'L1', datawts=None):
                 errpointsnorm = errpointsnorm**2
             elif(errNorm=='Lhalf'):
                 errpointsnorm = errpointsnorm**0.5           
-            local_err = errpointsnorm*P[dt]['LocalErrorWeights'][:, i]
+            local_err = np.sum(errpointsnorm*P[dt]['LocalErrorWeights'][:, i])
             if(datawts==None):
                 datawt = 1./len(P['DataTypes'])
             else: 
@@ -567,7 +567,7 @@ def get_combo_param_err_idx(P, idx, errNorm='L1', datawts=None):
     '''calculate the combined local error'''
             
     nParam = P['nParam']
-    ErrorPerParameter = np.zeros((nParam,P['iterationNum']))
+    ErrorPerParameter = np.zeros((nParam,1))
     for dt in P['DataTypes']:
         err = P[dt]['L1MismatchMatrix'][:, idx]
         norm_err = err/P['DatNormCoef'][dt]
@@ -575,7 +575,7 @@ def get_combo_param_err_idx(P, idx, errNorm='L1', datawts=None):
             norm_err = norm_err**2
         elif(errNorm=='Lhalf'):
             norm_err = norm_err**0.5           
-        local_err = norm_err*P[dt]['LocalErrorWeights']
+        local_err = np.dot(norm_err.T,P[dt]['LocalErrorWeights'])
         if(datawts==None):
             datawt = 1./len(P['DataTypes'])
         else: 
@@ -585,7 +585,7 @@ def get_combo_param_err_idx(P, idx, errNorm='L1', datawts=None):
 
     return ErrorPerParameter
 
-def get_combo_param_err_matrix(P, errNorm='L1'):
+def get_combo_param_err_matrix(P, errNorm='L1', datawts=None):
     '''calculate the combined local error'''
     
     nParam = P['nParam']
@@ -598,7 +598,11 @@ def get_combo_param_err_matrix(P, errNorm='L1'):
         elif(errNorm=='Lhalf'):
             norm_err = norm_err**0.5           
         local_err = np.dot(P[dt]['LocalErrorWeights'].T, norm_err)
-        weighted_err = local_err*P['dat_opt_wts'][dt]
+        if(datawts==None):
+            datawt = 1./len(P['DataTypes'])
+        else: 
+            datawt = datawts[dt]
+        weighted_err = local_err*datawt
         ErrorPerParameter = ErrorPerParameter + weighted_err
 
     return ErrorPerParameter
