@@ -55,7 +55,7 @@ def getHypPara():
     param['Name']='ErrorType'
     param['Type']= 'pRandChoice'
     param['parameters']= ['Global', 'Local']
-    param['Methods']= ['MCMC', 'GA', 'NSGA']
+    param['Methods']= ['MCMC', 'GA', 'NSGA', 'Annealing']
     HyperParameters.append(param)
 
     param = {}
@@ -63,7 +63,7 @@ def getHypPara():
     param['Type']= 'pRandChoice'
     param['Condition']= [['ErrorType', 'Local']]
     param['parameters']= ['Once', 'Many']
-    param['Methods']= ['MCMC', 'NSGA', 'GA']
+    param['Methods']= ['MCMC', 'NSGA', 'GA', 'Annealing']
     HyperParameters.append(param)
 
     param = {}
@@ -83,7 +83,7 @@ def getHypPara():
     param = {}
     param['Name']='AcceptProbType'
     param['Type']= 'pRandChoice'
-    param['parameters']= ['Track Acceptance', 'Error must decrease', 'Const diff', 'Annealing']
+    param['parameters']= ['Track Acceptance', 'Error must decrease', 'Const diff']
     param['Methods']= ['MCMC']
     HyperParameters.append(param)
 
@@ -121,7 +121,7 @@ def getHypPara():
     param['Type']= 'pRandFloat'
     param['Condition']= [['AcceptProbType', 'Annealing']]
     param['parameters']= [0.001, 0.025]
-    param['Methods']= ['MCMC', 'Annealing']
+    param['Methods']= ['Annealing']
     HyperParameters.append(param)
 
     param = {}
@@ -129,7 +129,7 @@ def getHypPara():
     param['Type']= 'pRandFloat'
     param['Condition']= [['AcceptProbType', 'Annealing']]
     param['parameters']= [0.95, 0.999]
-    param['Methods']= ['MCMC', 'Annealing']
+    param['Methods']= ['Annealing']
     HyperParameters.append(param)
 
     param = {}
@@ -256,7 +256,7 @@ def getHypPara():
     param['Name']='MO_WeightingMethod'
     param['Type']= 'pRandChoice'
     param['parameters']= ['Proportions', 'Extreme', 'Equal']
-    param['Methods']= ['GA', 'MCMC']
+    param['Methods']= ['GA', 'MCMC', 'Annealing']
     HyperParameters.append(param)
 
     param = {}
@@ -346,7 +346,7 @@ def getHypPara():
     param['Name']='nruns'
     param['Type']= 'pRandInt'
     param['parameters']= [2000, 4000]
-    param['Methods']= ['GA', 'NSGA', 'MCMC']
+    param['Methods']= ['GA', 'NSGA', 'MCMC', 'Annealing']
     HyperParameters.append(param)
 
     param = {}

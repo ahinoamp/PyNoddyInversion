@@ -541,7 +541,7 @@ def get_combo_param_err_indices(P, indices, errNorm = 'L1', datawts=None):
     '''calculate the combined local error at specified step indices'''
     
     nParam = P['nParam']          
-    ErrorPerParameter = np.zeros((nParam,1))
+    ErrorPerParameter = np.zeros((nParam,))
     for i in range(nParam):
         idx = indices[i]
         LastMismatchReCalibrated = 0
@@ -567,7 +567,7 @@ def get_combo_param_err_idx(P, idx, errNorm='L1', datawts=None):
     '''calculate the combined local error'''
             
     nParam = P['nParam']
-    ErrorPerParameter = np.zeros((nParam,1))
+    ErrorPerParameter = np.zeros((nParam,))
     for dt in P['DataTypes']:
         err = P[dt]['L1MismatchMatrix'][:, idx]
         norm_err = err/P['DatNormCoef'][dt]

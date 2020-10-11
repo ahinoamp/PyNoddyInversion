@@ -147,7 +147,7 @@ if __name__== "__main__":
 #    params['MCMC']=True    
     params['nruns']=300
     params['SimulationsExplorationStage']=1
-    params['nExploreRuns']=3
+    params['nExploreRuns']=1
 #    params['cubesize']=150    
 #    params['MO_WeightingMethod']='Extreme'
 #    params['MCMC_SwitchWeightFreq']=2

@@ -51,6 +51,7 @@ def check_acceptance_global(P):
     P['lastAcceptanceProbability'] = acceptanceProbability
     P['lastNormFactor'] = normalizingFactor
     if(P['verbose']):
+        print('normalizingFactor: ' + str(normalizingFactor))        
         print('acceptanceProbability: ' + str(acceptanceProbability))        
         print('Accepted percentage: ' + str(np.mean(P['AllAcceptedList'])))
         print('Last Combo Error: ' + str(current_err))
@@ -98,7 +99,10 @@ def calcAcceptanceProb(diff, normalizingFactor):
     '''Calculate the acceptance proability and determine proposal acceptance'''
 
     randN = np.random.rand()
-    acceptanceProbability = np.exp(-diff/normalizingFactor)
+    if(diff<=0):
+        acceptanceProbability=1.0001
+    else:
+        acceptanceProbability = np.exp(-diff/normalizingFactor)
     if(acceptanceProbability > randN):
         accept=1
     else:
@@ -131,10 +135,10 @@ def check_acceptance_local(P):
     # 3. Calculate accept probability 
     normalizingFactor = get_norm_factor_local(P, Diff)     
     P['lastNormFactor'] = normalizingFactor
-    acceptanceProbability = np.exp(-Diff/normalizingFactor.reshape((-1,1)))
+    acceptanceProbability = np.exp(-Diff/normalizingFactor)
 
     # 4. Draw a random number and accept/reject
-    randN = np.random.rand(nP,1)
+    randN = np.random.rand(nP,)
     filterA = acceptanceProbability > randN        
     currentAcceptIdx = np.zeros((nP,), dtype=int)
     currentAcceptIdx[filterA.reshape((-1,))] = P['iterationNum']
@@ -144,13 +148,14 @@ def check_acceptance_local(P):
     P['lastAcceptedIdx']=lastAcceptedIdx
 
     currentAcceptReject = np.zeros((nP,), dtype=int)
-    currentAcceptReject[filterA.reshape((-1,))] = 1                      
+    currentAcceptReject[filterA] = 1                      
     P['AllAcceptedMatrix'] = np.hstack((P['AllAcceptedMatrix'], currentAcceptReject.reshape((-1,1))))
     P['AllAcceptedList'].append(np.mean(currentAcceptReject))
 
     if(P['verbose']):          
+        print('Normalizing factor: ' + str(np.mean(normalizingFactor)))
         print('Accepted percentage: ' + str(np.mean(P['AllAcceptedMatrix'][:])))
-        print('Last Combo Error: ' + str(np.mean(P['MismatchList'])))
+        print('Last Combo Error: ' + str(np.mean(current_err)))
 
 def get_norm_factor_local(P, diff):
     '''Get local error normalization parameter for acceptance function'''
@@ -160,7 +165,7 @@ def get_norm_factor_local(P, diff):
     elif(P['HypP']['AcceptProbType']=='Const diff'):
         normalizingFactor = P['ConstNormFactor']*np.ones((P['nParam'],))
     elif(P['HypP']['AcceptProbType']=='Annealing'):
-        normalizingFactor = P['InitialTemperature']*P['ReductionRate']**P['iterationNum']
+        normalizingFactor = P['HypP']['InitialTemperature']*P['HypP']['ReductionRate']**P['iterationNum']
         normalizingFactor = normalizingFactor*np.ones((P['nParam'],))
     elif(P['HypP']['AcceptProbType']=='Track Acceptance'):
         nLastTimesConsider = np.min([np.shape(P['AllAcceptedMatrix'])[1], 20])
