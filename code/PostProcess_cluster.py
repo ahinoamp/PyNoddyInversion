@@ -106,7 +106,7 @@ def LoadResults(folder, DataTypes):
     return HyperParameters, MismatchMatrix
 
 folder= 'Combo_Scratch/'
-DataTypes = ['Grav','Mag','Tracer','GT','FaultIntersection']
+DataTypes = ['Grav','Mag','Tracer','GT','FaultMarkers']
 
 HyperParameters, MismatchMatrix = LoadResults(folder, DataTypes)
 
@@ -119,8 +119,8 @@ NumbersTreatCategorical= ['OptimMethod', 'ScenarioNum', 'GeneralPerturbStrategy'
                   'ErrorNorm', 'errCalcMethodFaultIntersection', 'LocalWeightsMode',
                   'SelectionMethod', 'MatingMethodLocal','MatingMethodGlobal', 'MO_WeightingMethod']
 
-NotHyperParameters= ['Grav', 'Mag', 'Tracer', 'GT', 'FaultIntersection', 'MinMismatch', 'thread_num',
-                     'Toy', 'verbose', 'OutputImageFreq', 'BaseFolder']
+NotHyperParameters= ['Grav', 'Mag', 'Tracer', 'GT', 'FaultMarkers', 'MinMismatch', 'thread_num',
+                     'Toy', 'verbose', 'OutputImageFreq', 'BaseFolder', 'DatNormCoef']
 QuantVariables = []
 CatagoricalVars = []
 

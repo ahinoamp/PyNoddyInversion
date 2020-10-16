@@ -69,7 +69,7 @@ def EvalPopGlobal(population, P, toolbox, folder, verbose,
                 P['BestIdxGen'] = P['iterationNum']
                 P['BestIdxP'] = copy.deepcopy(P)
 
-    if((P['iterationNum']<50) & (P['HypP']['DatNormMethod']=='MedianInitialRounds')):
+    if((P['iterationNum']<(P['HypP']['npop']+4)) & (P['HypP']['DatNormMethod']=='MedianInitialRounds')):
         UpdateDatNormCoef(P, population)
         
 def UpdateDatNormCoef(P, population):
