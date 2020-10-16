@@ -10,11 +10,13 @@ This repository is seperated into
 3. examples
 4. scratch
 
-A file containing the functions for calling the kinematic structural geology simulator Noddy and analyzing
-the results in order to simulate gravity, magentic, granite top, tracer connectivity, and fault markers:
-1. SimulationUtilties.py
+Inside the core folder, the main files are: 
+
+1. SimulationUtilties.py: A file containing the functions for calling the kinematic structural geology simulator Noddy and analyzing
+the results in order to simulate gravity, magentic, granite top, tracer connectivity, and fault markers
 
 Three optimisation/search algorithm files:
+
 2.  GA_Noddy.py: the genetic algorithm workflow
 
 3.  MCMC_Noddy.py: the Markov Chain Monte Carlo workflow as well as the simulated annealing workflow
