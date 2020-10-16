@@ -135,7 +135,9 @@ def check_acceptance_local(P):
     # 3. Calculate accept probability 
     normalizingFactor = get_norm_factor_local(P, Diff)     
     P['lastNormFactor'] = normalizingFactor
-    acceptanceProbability = np.exp(-Diff/normalizingFactor)
+    acceptanceProbability = np.zeros(np.shape(Diff))
+    acceptanceProbability[Diff<=0] = 1
+    acceptanceProbability[Diff>0] = np.exp(-Diff[Diff>0]/normalizingFactor[Diff>0])
 
     # 4. Draw a random number and accept/reject
     randN = np.random.rand(nP,)
@@ -163,7 +165,7 @@ def get_norm_factor_local(P, diff):
     if(P['HypP']['AcceptProbType']=='Error must decrease'):
         normalizingFactor=0.000001*np.ones((P['nParam'],))
     elif(P['HypP']['AcceptProbType']=='Const diff'):
-        normalizingFactor = P['ConstNormFactor']*np.ones((P['nParam'],))
+        normalizingFactor = P['HypP']['ConstNormFactor']*np.ones((P['nParam'],))
     elif(P['HypP']['AcceptProbType']=='Annealing'):
         normalizingFactor = P['HypP']['InitialTemperature']*P['HypP']['ReductionRate']**P['iterationNum']
         normalizingFactor = normalizingFactor*np.ones((P['nParam'],))

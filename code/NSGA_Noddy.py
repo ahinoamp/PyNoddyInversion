@@ -207,9 +207,10 @@ def register_functions(P, toolbox):
     
 if __name__ == "__main__":
     tasks = pd.read_pickle('Combo_Scratch/parameters.pkl')
-    params = tasks.iloc[1, :]
+    params = tasks.iloc[22, :]
     params = params.to_dict()
-    params['npop'] = 4
-    params['ngen'] = 2
+    params['npop'] = 30
+    params['ngen'] = 3
+    params['Windows'] = True
  
     NSGA2_Noddy(params)

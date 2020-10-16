@@ -21,7 +21,7 @@ def OptimisationSwitchBoard(P):
     elif(P['OptimMethod']=='GA'):
         GA.GA_Noddy(P)            
     elif(P['OptimMethod']=='Annealing'):
-        PSO.MCMC_Noddy(P)                    
+        mcmc.MCMC_Noddy(P)                    
     elif(P['OptimMethod']=='NSGA'):
         NSGA.NSGA2_Noddy(P)                            
 

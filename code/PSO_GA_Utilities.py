@@ -795,6 +795,7 @@ def VizBestInd(population, folder, P, ModelParamTable, gen):
       
     figfilename = P['folder']+'VisualInspection/Viz_T'+str(P['HypP']['thread_num'])+'_G_' + str(gen) +'_Err_'+ '{:.0f}'.format(Error*1000)+'.png'
     hisfilename = P['folder']+'HistoryFileInspection/His_'+str(P['HypP']['thread_num'])+'_G_' + str(gen)+'_Err_'+'{:.0f}'.format(Error*1000)+'.his'
+    P['BestIdxP']['DatNormCoef'] = P['DatNormCoef'].copy()
     GI.OutputImageAndHisFile(P['BestIdxP'], figfilename,hisfilename)
 
     if(P['verbose']):

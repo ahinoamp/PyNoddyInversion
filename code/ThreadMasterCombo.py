@@ -502,7 +502,7 @@ if __name__ == "__main__":
         params['xy_origin']=[316448, 4379166, -2700]
         params['xy_extent'] = [8800, 9035,3900]
         params['DatNormCoef'] = {'Grav': 2.4, 'Tracer': 1.0, 
-                                'FaultMarkers': 400, 'GT': 315, 'Mag':330}
+                                'FaultMarkers': 400, 'GT': 315, 'Mag':300}
         params['verbose']=True    
         params['graniteIdx'] = 4
         params['Windows'] = False

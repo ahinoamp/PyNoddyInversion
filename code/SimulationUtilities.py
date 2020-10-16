@@ -789,8 +789,8 @@ def calc_fault_markers(P):
 
     # calculate error and normalize by the confidence of each pick/marker
     confidenceM = P['FaultMarkers']['Obs']['Confidence'].values.reshape((-1,1))
-    pt_error_array_L1 = L1_err(simDistance2Markers, MarkersObs)
-    pt_error_array_L1 = (pt_error_array_L1*confidenceM)/np.sum(confidenceM)
+    pt_error_array_L1 = np.abs(simDistance2Markers - MarkersObs)
+    pt_error_array_L1 = (pt_error_array_L1*confidenceM)/np.mean(confidenceM)
 
     # book keeping
     book_keep(P, pt_error_array_L1, 'FaultMarkers')
