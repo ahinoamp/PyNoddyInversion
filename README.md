@@ -1,6 +1,6 @@
 # PyNoddy_Inversion
 
-![geologic model](/Github.png)
+![geologic model](/Github.PNG)
 
 PyNoddy_Inversion is a repository for stochastic inversion of geological and geophysical data for constraining structural features in the subsurace.
 
