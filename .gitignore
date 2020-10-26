@@ -149,6 +149,7 @@ keephistory/
 PSO_GA_Scratch/
 Thread66/
 Combo_Scratch/
+Plots/
 Thread156/
 Models2Plot/
 Faults/
@@ -266,3 +267,4 @@ largePostMatrix.csv
 largeMatrix.csv
 SimGravityAll.csv
 Realizations/groupd_0_b.png
+code/PostProcessing/Plots/FaultZone_NorthMidProp_XAxis.png

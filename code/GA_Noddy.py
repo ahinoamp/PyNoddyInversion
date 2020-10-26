@@ -113,11 +113,11 @@ def GA_Noddy(HypP):
         offspring = GA_Util.varAnd(offspring, toolbox, cxpb, mutpb)
 
         # Evaluate the individuals with an invalid fitness
-        toolbox.EvalPop(pop, P, toolbox, folder, verbose, P['ModelParamTable'],
+        toolbox.EvalPop(offspring, P, toolbox, folder, verbose, P['ModelParamTable'],
                     vNames)
             
         # Update the hall of fame with the generated individuals
-        GA_Util.VizBestInd(pop, folder, P, P['ModelParamTable'], gen)
+        GA_Util.VizBestInd(offspring, folder, P, P['ModelParamTable'], gen)
 
         # Replace the current pop by the offspring
         pop[:] = offspring
@@ -198,9 +198,9 @@ def register_functions(P, toolbox):
     
 if __name__ == "__main__":
     tasks = pd.read_pickle('Combo_Scratch/parameters.pkl')
-    params = tasks.iloc[0, :]
+    params = tasks.iloc[1, :]
     params = params.to_dict()
-    params['MO_WeightingMethod'] = 'Equal'
+    params['Windows'] = True
     params['npop'] = 4
     params['ngen'] = 2
     GA_Noddy(params)

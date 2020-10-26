@@ -617,7 +617,7 @@ def CheckEarlyStop(P):
     MismatchList = get_combo_err_list(P)
     BreakEarly=0
 
-    if(idx>100):
+    if(idx>150):
         meanLastRun = np.mean(MismatchList[idx-100:idx-50])
         meanThisRun = np.mean(MismatchList[idx-50:idx])
         PercentImproveMean = (meanLastRun - meanThisRun)/meanLastRun     

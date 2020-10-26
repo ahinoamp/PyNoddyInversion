@@ -10,15 +10,22 @@ Plot prior and posterior histograms of parameter values
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+import os
 
-DataTypes = ['Grav','Mag','Tracer','GT','FaultIntersection']
+# I've explicitly declared my path as being in Windows format, so I can use forward slashes in it.
+
+
+DataTypes = ['Grav','Mag','Tracer','GT','FaultMarkers']
 DataTypesLabels = ['Gravity','Magnetics','Tracer','Granite Top','Wellbore Fault']
 
-Data = pd.read_csv('Z:/FinalThesisRun/PlotsCombo/ParametersWithMismatch.csv')
+folderresults = os.path.abspath(os.path.join(os.path.dirname( __file__), '..', 'Combo_Scratch'))
+file=folderresults+'/'+'ParametersWithMismatch.csv'
+Data = pd.read_csv(file)
+
 Data['Status'] = 'Prior'
 PercentPosterior = 5
 threshold = np.percentile(Data['MinMismatch'], 5)
-filterPosterior = Data['MinMismatch'] < 0.54
+filterPosterior = Data['MinMismatch'] < 0.55
 print('number of prior: ' + str(len(Data)))
 print('number of posterior: ' + str(np.sum(filterPosterior)))
 Data.loc[filterPosterior, 'Status'] = 'Posterior'    
@@ -52,4 +59,4 @@ for dt in DataTypes:
     ax.set_xlim([0, 1.5])
     i=i+1
 
-plt.savefig('PaperPlots/ErrorHistograms.png', dpi=300,bbox_inches='tight')    
+plt.savefig('Plots/ErrorHistograms.png', dpi=50,bbox_inches='tight')    

@@ -320,6 +320,7 @@ def CreatePyNoddyTemplate(filename, P, nLayers = 4, nFaults = 5, faultnames =['f
     plugTxt = plugTxt.replace('$Plug_Density$', '$Plug'+str(0)+'_Density$')
     plugTxt = plugTxt.replace('$Plug_MagSus$', '$Plug'+str(0)+'_MagSus$')
     plugTxt = plugTxt.replace('$Plug_Radius$', '$Plug'+str(0)+'_Radius$')
+    plugTxt = plugTxt.replace('$Plug_Dip Direction$', '$Plug'+str(0)+'_Dip Direction$')
     file1.write(plugTxt+ '\n') 
     
     EventTitle = 'Event #4	= PLUG'    
@@ -334,6 +335,7 @@ def CreatePyNoddyTemplate(filename, P, nLayers = 4, nFaults = 5, faultnames =['f
     plugTxt = plugTxt.replace('$Plug_Density$', '$Plug'+str(1)+'_Density$')
     plugTxt = plugTxt.replace('$Plug_Radius$', '$Plug'+str(1)+'_Radius$')
     plugTxt = plugTxt.replace('$Plug_MagSus$', '$Plug'+str(1)+'_MagSus$')
+    plugTxt = plugTxt.replace('$Plug_Dip Direction$', '$Plug'+str(1)+'_Dip Direction$')
     file1.write(plugTxt+ '\n') 
     
     EventTitle = 'Event #5	= PLUG'    
@@ -348,6 +350,7 @@ def CreatePyNoddyTemplate(filename, P, nLayers = 4, nFaults = 5, faultnames =['f
     plugTxt = plugTxt.replace('$Plug_Density$', '$Plug'+str(2)+'_Density$')
     plugTxt = plugTxt.replace('$Plug_Radius$', '$Plug'+str(2)+'_Radius$')
     plugTxt = plugTxt.replace('$Plug_MagSus$', '$Plug'+str(2)+'_MagSus$')
+    plugTxt = plugTxt.replace('$Plug_Dip Direction$', '$Plug'+str(2)+'_Dip Direction$')
     file1.write(plugTxt+ '\n') 
     
     for i in range(nFaults):

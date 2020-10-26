@@ -142,15 +142,18 @@ if __name__== "__main__":
     tasks = pd.read_pickle('Combo_Scratch/parameters.pkl')
     params = tasks.iloc[0, :]
     params = params.to_dict()
-    params['OutputImageFreq']=4
+    params['OutputImageFreq']=1
     params['verbose']=True    
 #    params['MCMC']=True    
     params['nruns']=300
-    params['SimulationsExplorationStage']=1
-    params['nExploreRuns']=1
+#    params['SimulationsExplorationStage']=1
+#    params['nExploreRuns']=5
 #    params['cubesize']=150    
 #    params['MO_WeightingMethod']='Extreme'
 #    params['MCMC_SwitchWeightFreq']=2
     params['Windows'] = True
-
+    params['ScenarioNum'] = 16
+    params['DataTypes'] = ['Grav']
+    params['DatNormCoef'] = {'Grav': 2.4}
+        
     MCMC_Noddy(params)

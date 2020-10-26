@@ -97,7 +97,7 @@ def getHypPara():
     param = {}
     param['Name']='cubesize'
     param['Type']= 'pRandChoice'
-    param['parameters']= [150]
+    param['parameters']= [100, 150]
     param['Methods']= ['MCMC', 'Annealing', 'NSGA', 'GA']
     HyperParameters.append(param)
 
@@ -338,7 +338,7 @@ def getHypPara():
     param = {}
     param['Name']='npop'
     param['Type']= 'pRandInt'
-    param['parameters']= [45, 120]
+    param['parameters']= [25, 80]
     param['Methods']= ['GA', 'NSGA']
     HyperParameters.append(param)
 
@@ -427,7 +427,6 @@ def sampleParameters(HypPara, params):
     if(optimMethod=='NSGA'):
         params['ngen']=int(float(params['nruns'])/float(params['npop']))
         if(params['ErrorType']=='Local'):
-            params['LocalWeightsMode']='Many'    
             params['LocalWeightsMethod'] = 'RuleBased'
 
     
@@ -502,7 +501,7 @@ if __name__ == "__main__":
         params['xy_origin']=[316448, 4379166, -2700]
         params['xy_extent'] = [8800, 9035,3900]
         params['DatNormCoef'] = {'Grav': 2.4, 'Tracer': 1.0, 
-                                'FaultMarkers': 400, 'GT': 315, 'Mag':300}
+                                'FaultMarkers': 500, 'GT': 315, 'Mag':300}
         params['verbose']=True    
         params['graniteIdx'] = 4
         params['Windows'] = False

@@ -58,22 +58,22 @@ def add2Table(P, scenario_scalar, eventN_scalar, event_name,
 
 def add_strat_event(P):
     # Event 1: stratigraphy
-    LayerNames = ['Sed', 'Felsic', 'Mafic', 'Intrusive']
-    LayerDensityMin = [ 2.1, 2.3, 2.2, 2.5]
-    LayerDensityMax = [ 2.36, 2.65, 2.42, 2.72]
-    LayerDensityStd = [ 0.02, 0.02, 0.02,  0.02]
+    LayerNames = ['Sed', 'Mafic','Felsic',  'Intrusive']
+    LayerDensityMin = [ 2.1, 2.2, 2.3, 2.5]
+    LayerDensityMax = [ 2.36, 2.42, 2.65,  2.72]
+    LayerDensityStd = [ 0.02, 0.02, 0.02,   0.02]
     nL = len(LayerNames)
     add2Table(P, 0, 1, LayerNames, ['Density']*nL, ['Gaussian']*nL, 
               LayerDensityMin, LayerDensityMax, LayerDensityStd)    
     
-    LayerMagSusMin = [0.000001, 0.000001, 0.0001, 0.0001]
-    LayerMagSusMax = [0.001, 0.003, 0.02, 0.03162]
+    LayerMagSusMin = [0.000001, 0.0001, 0.000001, 0.0001]
+    LayerMagSusMax = [0.001, 0.02, 0.003,  0.03162]
     LayerMagSusStd = [0.07, 0.07, 0.07, 0.07]
     add2Table(P, 0, 1, LayerNames, ['MagSus']*nL, ['LogGaussian']*nL, 
               LayerMagSusMin, LayerMagSusMax, LayerMagSusStd)    
     
-    LayerThicknessMin = [150, 400, 400]
-    LayerThicknessMax = [200, 850, 850]
+    LayerThicknessMin = [150, 250, 250]
+    LayerThicknessMax = [200, 800, 800]
     LayerThickStd = [40, 50, 50]
     add2Table(P, 0, 1, LayerNames[:-1], ['Thickness']*(nL-1), ['Gaussian']*(nL-1), 
               LayerThicknessMin, LayerThicknessMax, LayerThickStd)    
@@ -93,39 +93,39 @@ def add_plug_events(P):
 
     # 3. Plug events 
     NameP0 = 'Plug0'
-    ParamP0 = ['X', 'Y', 'Z', 'Radius', 'XAxis', 'YAxis', 'ZAxis', 'Density', 'MagSus']
-    MinP0 = [6450, 3480, 500, 200, 200, 200, 2500, 2.6, 0.0001]
-    MaxP0 = [8450, 5480, 2500,800, 800, 800, 4000, 2.9, 0.01]
+    ParamP0 = ['X', 'Y', 'Z', 'Radius', 'XAxis', 'YAxis', 'ZAxis', 'Density', 'MagSus', 'Dip Direction']
+    MinP0 = [6950, 3980, 500, 200, 200, 300, 2500, 2.6, 0.0001, 5]
+    MaxP0 = [7950, 4980, 2500,800, 800, 1000, 4000, 2.9, 0.01, 20]
     StdP0 = [P['HypP']['XYZ_Axes_StepStd'], P['HypP']['XYZ_Axes_StepStd'],P['HypP']['XYZ_Axes_StepStd'],
            P['HypP']['XYZ_Axes_StepStd'],P['HypP']['XYZ_Axes_StepStd'], P['HypP']['XYZ_Axes_StepStd'], 
-           P['HypP']['XYZ_Axes_StepStd'], 0.03, 0.07]
+           P['HypP']['XYZ_Axes_StepStd'], 0.03, 0.07, 2]
     DistP0 = ['Gaussian', 'Gaussian','Gaussian','Gaussian', 'Gaussian',
-              'Gaussian', 'Gaussian', 'Gaussian', 'LogGaussian']
-    add2Table(P, 0, 3, [NameP0]*len(ParamP0), ParamP0, ['Gaussian']*len(ParamP0), 
+              'Gaussian', 'Gaussian', 'Gaussian', 'LogGaussian', 'Gaussian']
+    add2Table(P, 0, 3, [NameP0]*len(ParamP0), ParamP0, DistP0, 
               MinP0, MaxP0, StdP0)    
     
     NameP1 = 'Plug1'
-    ParamP1 = ['X', 'Y', 'Z', 'Radius', 'XAxis', 'YAxis', 'ZAxis', 'Density', 'MagSus']
-    MinP1 = [2650, 2300, 400,  50,  50,  50,  2500, 2.6, 0.0001]
-    MaxP1 = [4750, 4380, 2500, 400, 500, 500, 4000, 2.9, 0.01]
+    ParamP1 = ['X', 'Y', 'Z', 'Radius', 'XAxis', 'YAxis', 'ZAxis', 'Density', 'MagSus', 'Dip Direction']
+    MinP1 = [3150, 2880, 400,  50,  150,  150,  2500, 2.6, 0.0001, 0]
+    MaxP1 = [4150, 3880, 2500, 400, 600, 600, 4000, 2.9, 0.01, 10]
     StdP1 = [P['HypP']['XYZ_Axes_StepStd'], P['HypP']['XYZ_Axes_StepStd'],P['HypP']['XYZ_Axes_StepStd'],
            P['HypP']['XYZ_Axes_StepStd'],P['HypP']['XYZ_Axes_StepStd'], P['HypP']['XYZ_Axes_StepStd'], 
-           P['HypP']['XYZ_Axes_StepStd'], 0.03, 0.07]
+           P['HypP']['XYZ_Axes_StepStd'], 0.03, 0.07, 2]
     DistP1 = ['Gaussian', 'Gaussian','Gaussian','Gaussian', 'Gaussian',
-              'Gaussian', 'Gaussian', 'Gaussian', 'LogGaussian']
-    add2Table(P, 0, 4, [NameP1]*len(ParamP0), ParamP1, ['Gaussian']*len(ParamP1), 
+              'Gaussian', 'Gaussian', 'Gaussian', 'LogGaussian', 'Gaussian']
+    add2Table(P, 0, 4, [NameP1]*len(ParamP0), ParamP1,DistP1, 
               MinP1, MaxP1, StdP1)    
 
     NameP2 = 'Plug2'
-    ParamP2 = ['X', 'Y', 'Z', 'Radius', 'XAxis', 'YAxis', 'ZAxis', 'Density', 'MagSus']
-    MinP2 = [3150, 4780, 500,  0,  50,  50, 2500, 2.6, 0.0001]
-    MaxP2 = [5150, 6780,2500,400, 400, 400, 4000, 2.9, 0.01]
+    ParamP2 = ['X', 'Y', 'Z', 'Radius', 'XAxis', 'YAxis', 'ZAxis', 'Density', 'MagSus', 'Dip Direction']
+    MinP2 = [3650, 5080, 500,  0,  150,  150, 2500, 2.6, 0.0001, 0]
+    MaxP2 = [4650, 6080,2500,400, 600, 600, 4000, 2.9, 0.01, 10]
     StdP2 = [P['HypP']['XYZ_Axes_StepStd'], P['HypP']['XYZ_Axes_StepStd'],P['HypP']['XYZ_Axes_StepStd'],
            P['HypP']['XYZ_Axes_StepStd'],P['HypP']['XYZ_Axes_StepStd'], P['HypP']['XYZ_Axes_StepStd'], 
-           P['HypP']['XYZ_Axes_StepStd'], 0.03, 0.07]
+           P['HypP']['XYZ_Axes_StepStd'], 0.03, 0.07, 2]
     DistP2 = ['Gaussian', 'Gaussian','Gaussian','Gaussian', 'Gaussian',
-              'Gaussian', 'Gaussian', 'Gaussian', 'LogGaussian']
-    add2Table(P, 0, 5, [NameP2]*len(ParamP2), ParamP2, ['Gaussian']*len(ParamP2), 
+              'Gaussian', 'Gaussian', 'Gaussian', 'LogGaussian', 'Gaussian']
+    add2Table(P, 0, 5, [NameP2]*len(ParamP2), ParamP2, DistP2, 
               MinP2, MaxP2, StdP2)    
                   
 def add_faulting_events(P):
@@ -146,7 +146,7 @@ def add_faulting_events(P):
     
     # The codes of scenarios 1-5 are saved for pre-configured fault scenarios
     # otherwise scenario number refers to the number of faults
-    if(Scenario<6):
+    if(Scenario<1):
         FaultData = pd.read_csv('Data/Scenario'+str(Scenario)+'_Vertices.csv').sort_values(['id'])
     else:
         FaultData = pd.read_csv('Data/FaultBank7_19.csv').sort_values(['id'])
@@ -180,14 +180,14 @@ def add_faulting_events(P):
                 stdV =(maxV-minV)/10.0
             elif(Prop=='Dip'):
                 minV = np.max([50, pVal-P['HypP']['DipMoveEachDirection']])
-                maxV = np.min([130, pVal+P['HypP']['DipMoveEachDirection']])
+                maxV = np.min([90, pVal+P['HypP']['DipMoveEachDirection']])
                 stdV = P['HypP']['Dip_StepStd']
             elif(Prop=='Dip Direction'):
                 minV = pVal-P['HypP']['AzimuthMoveEachDirection']
                 maxV = pVal+P['HypP']['AzimuthMoveEachDirection']
                 stdV = (maxV-minV)/10.0
             elif(Prop=='Slip'):
-                minV = pVal*0.5
+                minV = np.max([150, pVal*0.5])
                 maxV = pVal*2
                 stdV = P['HypP']['Slip_StepStd']
             elif(Prop=='Amplitude'):
@@ -261,7 +261,7 @@ def SetUpFaultRepresentation(Data, xy_origin, SlipParam=0.04, nPointsDivideList=
     fault_params['nFaults']=nFaults
     
     for i in range(nFaults):
-        SlipParam = random.uniform(0.046, 0.15)
+        SlipParam = random.uniform(0.05, 0.25)
         filterV = Data['id']==Faults[i]
         xy = Data.loc[filterV, ['X', 'Y']].values
         EastWest = random.choice(['East', 'West'])
@@ -385,7 +385,7 @@ def SetUpFaultRepresentation(Data, xy_origin, SlipParam=0.04, nPointsDivideList=
 
 def SelectFaultingEvents(ModelParamTable, P):
     ScenarioNum=P['HypP']['ScenarioNum']
-    if(ScenarioNum<6):
+    if(ScenarioNum<1):
         filterV = ((ModelParamTable['Scenario']==0)|(ModelParamTable['Scenario']==ScenarioNum))
         ModelParamTableF = ModelParamTable[filterV].reset_index(drop=True)    
         GroupVals = ModelParamTable.groupby(['Scenario', 'EventNum']).ngroup()+1
@@ -417,7 +417,7 @@ def SelectFaultingEvents(ModelParamTable, P):
         i=0
         xyAcceptedPairs = []
         trickval = 0
-        while (i <= ScenarioNum):
+        while (i < ScenarioNum):
             #Look at corner Order[i]
             Zone_i = ZoneDictionary[str(Order[np.mod(i+trickval,9)])]
             #Get the groupnumbers of people in that zone
@@ -501,7 +501,8 @@ def checkLineOverlap(truexyproposed, xyAcceptedPairs):
     return accepted 
 
 def OrderFaultingEvents(ModelParamTable, P):
-    FaultAzimuthsF = ModelParamTable['Prop']=='Dip Direction'
+    FaultAzimuthsF = ((ModelParamTable['Prop']=='Dip Direction')&
+                    (ModelParamTable['EventNum']>P['nNonFaultingEvents']))
     FaultAzimuths = (np.mod(ModelParamTable.loc[FaultAzimuthsF, 'minV'].values+90, 360)
                      +np.mod(ModelParamTable.loc[FaultAzimuthsF, 'maxV'].values+90, 360))/2
     EventNumbers = ModelParamTable.loc[FaultAzimuthsF, 'EventNum'].values.tolist()
