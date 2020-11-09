@@ -15,9 +15,14 @@ from glob import glob
 import pickle
 import math
 
-folder = 'Z:/TransferThesisDraft/HistoryFileTransfer/Blocks/'
+folder = 'PickleResults/Blocks/'
 
-Norm = pd.read_pickle('NormalizingFactorSummary.pkl')
+Norm = {}
+Norm['Grav'] = 2.4
+Norm['Tracer'] = 1.0
+Norm['FaultMarkers'] = 500
+Norm['GT'] = 315
+Norm['Mag'] = 300
 
 picklefiles = glob(folder+'*.pickle')
 nFiles = len(picklefiles)
@@ -60,7 +65,7 @@ for i in range(nFiles):
                Err[1]/Norm['Mag'] +
                Err[2]/Norm['Tracer'] +
                Err[3]/Norm['GT'] +
-               Err[4]/Norm['FaultIntersection'])/5.0
+               Err[4]/Norm['FaultMarkers'])/5.0
     
     ErrList.append(NormErr)    
 
@@ -68,20 +73,19 @@ for i in range(nFiles):
 
 
     # loop through voxels and tally frequencies
-    if(NormErr>0.65):                              
-        for x in range(nx):
-            for y in range(ny):
-                for z in range(nz):
-                    # get litho
-                    litho = int(FaultPriorMatrix[x][y][z]) 
-                    # update litho frequency
-                    n_block_pri[litho][x][y][z] += 1
-    
-        # keep track of the number of models we've loaded
-        n_models_pri += 1
+    for x in range(nx):
+        for y in range(ny):
+            for z in range(nz):
+                # get litho
+                litho = int(FaultPriorMatrix[x][y][z]) 
+                # update litho frequency
+                n_block_pri[litho][x][y][z] += 1
+
+    # keep track of the number of models we've loaded
+    n_models_pri += 1
 
     #posterior stuff
-    else:                              
+    if(NormErr<0.511):                                                           
         # loop through voxels and tally frequencies
         for x in range(nx):
             for y in range(ny):
@@ -122,33 +126,33 @@ for x in range(nx):
             e_block_pri[x][y][z] = entropy
 
 
-#posterior stuff
-e_block_post = np.ndarray((nx, ny, nz))
-# convert frequency fields to probabilities & calculate information entropy
-for x in range(nx):
-    for y in range(ny):
-        for z in range(nz):
-            entropy = 0.0
-            for litho in range(len(litholist)):
-                # convert frequency to probability
-                p_block_post[litho][x][y][z] = n_block_post[litho][x][y][z] / float(n_models_post)
+# #posterior stuff
+# e_block_post = np.ndarray((nx, ny, nz))
+# # convert frequency fields to probabilities & calculate information entropy
+# for x in range(nx):
+#     for y in range(ny):
+#         for z in range(nz):
+#             entropy = 0.0
+#             for litho in range(len(litholist)):
+#                 # convert frequency to probability
+#                 p_block_post[litho][x][y][z] = n_block_post[litho][x][y][z] / float(n_models_post)
 
-                # fix domain to 0 < p < 1
-                if(p_block_post[litho][x][y][z] == 0):
-                    p_block_post[litho][x][y][z] = 0.0000000000000001
-                if(p_block_post[litho][x][y][z] >= 0.9999999999999999):
-                    p_block_post[litho][x][y][z] = 0.9999999999999999
+#                 # fix domain to 0 < p < 1
+#                 if(p_block_post[litho][x][y][z] == 0):
+#                     p_block_post[litho][x][y][z] = 0.0000000000000001
+#                 if(p_block_post[litho][x][y][z] >= 0.9999999999999999):
+#                     p_block_post[litho][x][y][z] = 0.9999999999999999
 
-                # calculate
-                p = p_block_post[litho][x][y][z]  # shorthand
-                entropy += p * math.log(p, 2) + (1 - p) * (math.log(1 - p, 2))
+#                 # calculate
+#                 p = p_block_post[litho][x][y][z]  # shorthand
+#                 entropy += p * math.log(p, 2) + (1 - p) * (math.log(1 - p, 2))
 
-            # entropy = entropy * -1 / float(self.n_rocktypes) #divide by n
-            e_block_post[x][y][z] = entropy
+#             # entropy = entropy * -1 / float(self.n_rocktypes) #divide by n
+#             e_block_post[x][y][z] = entropy
 
-np.savetxt(folder+'p_block_post.csv', p_block_post[1].ravel(), delimiter=',', fmt='%.4f') 
-np.savetxt(folder+'p_block_pri.csv', p_block_pri[1].ravel(), delimiter=',', fmt='%.4f') 
-np.savetxt(folder+'e_block_pri.csv', -1*e_block_pri.ravel(), delimiter=',', fmt='%.4f') 
-np.savetxt(folder+'e_block_post.csv', -1*e_block_post.ravel(), delimiter=',', fmt='%.4f') 
+#np.savetxt(folder+'p_block_post.csv', p_block_post[1].ravel(), delimiter=',', fmt='%.4f') 
+np.savetxt('p_block_pri.csv', p_block_pri[1].ravel(), delimiter=',', fmt='%.4f') 
+np.savetxt('e_block_pri.csv', -1*e_block_pri.ravel(), delimiter=',', fmt='%.4f') 
+#np.savetxt(folder+'e_block_post.csv', -1*e_block_post.ravel(), delimiter=',', fmt='%.4f') 
 print(np.max(e_block_pri))
-print(np.max(e_block_post))
+#print(np.max(e_block_post))

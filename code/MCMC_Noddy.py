@@ -9,20 +9,14 @@ Created on Wed Feb 19 12:03:16 2020
 #############################
 import pandas as pd
 import numpy as np
-import random
-from scipy.interpolate import griddata
-import matplotlib.pyplot as plt
 import time
-from pathlib import Path
 from deap import base
 
 import GeneralInversionUtil as GI
 import VisualizationUtilities as Viz
-import PriorUncertaintyUtil as Unc
 import LoadInputDataUtility as DI
 import SimulationUtilities as sim
 import SamplingHisFileUtil as sample
-import PSO_GA_Utilities as PSOGA
 import MCMC_Util as MCMC
 
 def MCMC_Noddy(HypPara):
@@ -140,14 +134,14 @@ def register_functions_MCMC(P, toolbox):
 
 if __name__== "__main__":
     tasks = pd.read_pickle('Combo_Scratch/parameters.pkl')
-    params = tasks.iloc[0, :]
+    params = tasks.iloc[91, :]
     params = params.to_dict()
     params['OutputImageFreq']=1
     params['verbose']=True    
 #    params['MCMC']=True    
     params['nruns']=300
 #    params['SimulationsExplorationStage']=1
-#    params['nExploreRuns']=5
+    params['nExploreRuns']=5
 #    params['cubesize']=150    
 #    params['MO_WeightingMethod']='Extreme'
 #    params['MCMC_SwitchWeightFreq']=2

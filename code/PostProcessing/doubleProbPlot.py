@@ -20,7 +20,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 
-folder = 'Z:/FinalThesisRun/'
+folder = 'C:/Users/ahino/Documents/FinalGeothermicsToday/'
 
 scalar_field_pri = np.loadtxt(folder+'p_block_pri.csv',delimiter=',')
 scalar_field_pri = np.reshape(scalar_field_pri, (74,76,26)).T
@@ -65,7 +65,7 @@ cornerptsP = [[origin[0], origin[1], origin[2]],
               [origin[0], origin[1], origin[2]+extent[2]]]
 cornerpts = Points(cornerptsP, r=0.05).c("k")
 
-vp2.show(cornerpts, 'hi1', at=0, elevation=-20, azimuth=0)
+#vp2.show(cornerpts, 'hi1', at=0, elevation=-20, azimuth=0)
 vp2.show(legoPost, cornerpts, at=1, interactive=1, elevation=-20, azimuth=0)
 
 ##second
@@ -88,7 +88,7 @@ vp3 = Plotter(axes=dict(xtitle='Easting (m)',
 
 cornerpts = Points(cornerptsP, r=0.05).c("k")
 
-vp3.show(legoPri, cornerpts, 'hi1', at=0, elevation=-20, azimuth=0)
+#vp3.show(legoPri, cornerpts, 'hi1', at=0, elevation=-20, azimuth=0)
 vp3.show(legoPost, cornerpts, at=1, interactive=1, elevation=-20, azimuth=0)
 
 # fig, axs = plt.subplots(1, 2, figsize=(8,8))

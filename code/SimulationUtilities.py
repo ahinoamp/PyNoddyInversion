@@ -197,6 +197,7 @@ def calc_gravity(P):
     gSim = P['toolbox'].shift_geophys(P, gSim, 'Grav')      
     
     # calculate error
+    P['Grav']['Sim_Obs'] = gSim
     pt_error_array_L1 = L1_err(gSim, P['Grav']['Obs'])
 
     # book keeping
@@ -304,6 +305,7 @@ def calc_magnetics(P):
     P['gSimMag'] = simMag
     
     # calculate error
+    P['Mag']['Sim_Obs'] = simMag
     pt_error_array_L1 = L1_err(simMag, P['Mag']['Obs'])
 
     # book keeping
@@ -348,7 +350,7 @@ def calc_granitetop(P):
     # is greater than a certain expected amount, the value of the granite top
     # for that depth is removed.
     # If there are no intrusions, this whole section can be removed.
-    topgranite[(topgraniteIdx==0)|((topgraniteIdx>19))]=np.NaN
+    topgranite[(topgraniteIdx==0)|((topgraniteIdx>21))]=np.NaN
     isnanright = np.pad(topgranite,((0,0),(1,0)), mode='constant')[:, :-1]
     isnanleft = np.pad(topgranite,((0,0),(0,1)), mode='constant')[:, 1:]
     isnantop = np.pad(topgranite,((1,0),(0,0)), mode='constant')[:-1, :]
@@ -392,6 +394,7 @@ def calc_granitetop(P):
                               (P['GT']['xObs'], P['GT']['yObs']), method='linear')
 
     # calculate error
+    P['GT']['Sim_Obs'] = GT_Sim
     pt_error_array_L1 = L1_err(GT_Sim, P['GT']['Obs'])
 
     # book keeping

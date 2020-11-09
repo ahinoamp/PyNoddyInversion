@@ -55,9 +55,6 @@ def finalXYclean(x,y):
     yc = xyclean[:,1]
     return xc, yc
 
-
-
-
 def getZSection(FaultsXY, i, P, sliceValue):
     fn = P['faultNumbers'][i]
   
@@ -217,8 +214,6 @@ plt.close('all')
 start = 0
 ErrList = []
 for h in range(nFiles):
-    if(h<4000):
-        continue
     print(h)
     hisfile = historyfiles[h]
     print(historyfiles[h])

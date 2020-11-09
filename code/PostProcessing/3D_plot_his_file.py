@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on October 4, 2020
+Created on Thu Feb 27 12:53:20 2020
 
-@author: ahinoamp@gmail.com
-
-This script takes a history file and plots it in 3dimensions using vedo
+@author: ahinoamp
 """
 import pynoddy
 import vedo as vtkP
@@ -14,24 +12,7 @@ import meshio
 import pandas as pd
 import matplotlib.pylab as pl
 from scipy.interpolate import griddata
-
-import sys
-from pathlib import Path
-
-import sys
-from pathlib import Path # if you haven't already done so
-file = Path(__file__).resolve()
-parent, root = file.parent, file.parents[1]
-sys.path.append(str(root))
-
-# Additionally remove the current file's directory from sys.path
-try:
-    sys.path.remove(str(parent))
-except ValueError: # Already removed
-    pass
-    
-import SimulationUtilities as sim # N = 3
-
+import SimulationUtilities as sim
 
 def getDXF_parsed_structure(output_name):
     filename = output_name + '.dxf'
@@ -186,17 +167,12 @@ def CalculatePlotStructure(modelfile, plot, includeGravityCalc=0, cubesize = 250
     print('Convert 2 VTK time took '+str(end - start) + ' seconds')
 
 #     ## Now get the lithology data
-    #load and reshape files
-    filename = output_name+'.g12'
-    LithologyCodes = np.genfromtxt(filename, delimiter='\t', dtype=int)
-    LithologyCodes = LithologyCodes[:, 0:-1]
+#     N1 = pynoddy.output.NoddyOutput(output_name)
+#     Lithology = N1.block
+# #    Lithology=np.swapaxes(Lithology,0,2)
 
-    lithology = np.zeros(P['shapeL'])
-    for i in range(P['shapeL'][2]):
-        startIdx = P['shapeL'][1]*i 
-        stopIdx = P['shapeL'][1]*(i+1)
-        lithology[:,:,i] = LithologyCodes[startIdx:stopIdx,:].T
-    lithology = lithology[::-1,:,:]
+
+#     lithology = N1.block
 
 #     [maxX, maxY, maxZ] = np.max(points, axis=0)
 #     [minX, minY, minZ] = np.min(points, axis=0)
@@ -231,12 +207,17 @@ def CalculatePlotStructure(modelfile, plot, includeGravityCalc=0, cubesize = 250
 
     return points
 
+num = 2321
 
-modelfile = 'HistoryFile_37.his'
+folder = 'C:/Users/ahino/Documents/FinalGeothermicsToday/Top50/Thread2321/'
+# Model with five faults three layers 
+modelfile = 'faultmodel.his'
+#modelfile = 'ToyHistory1.his'
+#Alter the mesh size if desiring to speed up the process. Recommended size is 100
 cubesize = 200
 includeGravityCalc = 0
-xy_origin=[316448, 4379166, 1200-4000]
-xy_extent = [8800, 9035,4000]
+xy_origin=[316448, 4379166, -2700]
+xy_extent = [8850, 9035,3900]
 vtkP.settings.embedWindow(False) #you can also choose to change to itkwidgets, k3d, False (popup)
 
 plot = vtkP.Plotter(axes=1, bg='white', interactive=1)

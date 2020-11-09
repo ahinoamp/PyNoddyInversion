@@ -102,7 +102,7 @@ def SampleParametersMinMax(P):
         # If the property being sampled is the slip, make sure the slip isn't
         # larger than 0.2*faultlength
         if('Slip' in prop):
-            maxV = np.min([maxV, 2000, 0.2*XAxis])
+            maxV = np.min([maxV, 2000, 0.35*XAxis])
         # If the property is magnetic susceptability, the numbers are drawn 
         # from the log of the values range
         if(DistType=='LogGaussian'):

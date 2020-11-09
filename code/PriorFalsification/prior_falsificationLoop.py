@@ -4,7 +4,6 @@ Created on Sun Aug  9 10:04:17 2020
 
 @author: ahinoamp
 """
-import dmat_4mixpca as mixPCA
 import numpy as np
 import David_falsification as dfalse
 from sklearn import (manifold, datasets, decomposition, ensemble,
@@ -15,16 +14,16 @@ Names= ['allThree', 'grav','mag', 'gt']
 nCList = [40, 30, 30,30]
 # load the data
 # realizatons x data_samples x data_types.
-folder = 'Z:/OptimisationPatua/ReducedDimensionSpace2/'
+folder = ''
 
-for d in range(1):
+for d in range(4):
     run=1
     DataTypes = DataTypesList[d]
     Name = Names[d]
     if(run==1):
         for i in range(len(DataTypes)):
             DataType = DataTypes[i]
-            data_iObs = np.loadtxt(folder+DataType+'_ObslargeMatrix.csv', delimiter=',')
+            data_iObs = np.loadtxt(folder+DataType+'_obs.csv', delimiter=',')
             data_iObs = data_iObs.reshape(1,-1)
             data_iSim = np.loadtxt(folder+DataType+'_largeMatrix.csv', delimiter=',').T
             meanV = np.mean(data_iSim)

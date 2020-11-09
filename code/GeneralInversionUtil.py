@@ -614,10 +614,10 @@ def CheckEarlyStop(P):
     '''check whether the MCMC loop has converged and stop if converged'''
 
     idx=P['iterationNum']
-    MismatchList = get_combo_err_list(P)
     BreakEarly=0
+    if(idx>200):
+        MismatchList = get_combo_err_list(P)
 
-    if(idx>150):
         meanLastRun = np.mean(MismatchList[idx-100:idx-50])
         meanThisRun = np.mean(MismatchList[idx-50:idx])
         PercentImproveMean = (meanLastRun - meanThisRun)/meanLastRun     

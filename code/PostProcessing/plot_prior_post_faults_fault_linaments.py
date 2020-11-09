@@ -6,27 +6,17 @@ Created on Wed May 27 16:52:30 2020
 
 Plot prior vs. posterior fault lineaments
 """
-import GravityInversionUtilities as GI
-import LoadInputDataUtility as DI
 import matplotlib.pyplot as plt
 import numpy as np
 from glob import glob
 import pandas as pd
-from scipy import interpolate
-import scipy as sp
-from scipy.interpolate import Rbf, InterpolatedUnivariateSpline
-import re
-from scipy.signal import savgol_filter
-from matplotlib.lines import Line2D
 import pickle
-from matplotlib.patches import Patch
-from matplotlib.lines import Line2D
-import random
 
 def getXZ(folder):
     
     picklefiles = glob(folder+'*.pickle')
     nFiles = len(picklefiles)
+    print(nFiles)
     fz = 18
     
     directions = ['X', 'Y', 'Z']
@@ -70,6 +60,7 @@ def getXZPost(folder,threshold, Norm):
     
     picklefiles = glob(folder+'*.pickle')
     nFiles = len(picklefiles)
+    print(nFiles)
     fz = 18
     
     directions = ['X', 'Y', 'Z']
@@ -94,8 +85,9 @@ def getXZPost(folder,threshold, Norm):
                Err[1]/Norm['Mag'] +
                Err[2]/Norm['Tracer'] +
                Err[3]/Norm['GT'] +
-               Err[4]/Norm['FaultIntersection'])/5.0 
+               Err[4]/Norm['FaultMarkers'])/5.0 
 
+        print(Err)
         if(Err<threshold):            
             for d in range(len(directions)):
         
@@ -121,25 +113,31 @@ plt.close('all')
 Norm = {}
 Norm['Grav'] = 2.4
 Norm['Tracer'] = 1.0
-Norm['FaultIntersection'] = 2400
+Norm['FaultMarkers'] = 500
 Norm['GT'] = 315
-Norm['Mag'] = 330
+Norm['Mag'] = 300
             
 P={}
-xy_origin=[316448, 4379166, 1200-4000]
-xy_extent = [8800, 9035,4000]
+xy_origin=[316448, 4379166, -2700]
+xy_extent = [8850, 9035,3900]
 P['xy_origin']=xy_origin
 P['xy_extent'] = xy_extent
 
-folderPri = 'Z:/FinalThesisRun/Best/FaultsBest/'
-folderPost = 'Z:/FinalThesisRun/Best/FaultsBest/'
+folderPri = 'PickleResults/Faults/'
+folderPost = 'Scratch2/Faults/'
 
-xLargePost, zLargePost = getXZPost(folderPost, threshold=0.54,Norm=Norm)
-xLargePri, zLargePri = getXZ(folderPri)
+xLargePost, zLargePost = getXZPost(folderPost, threshold=0.51,Norm=Norm)
+
+#xLargePri, zLargePri = getXZ(folderPri)
 
 OneLargeDict = pd.DataFrame({'xLargePost':xLargePost, 
-                'zLargePost':zLargePost,
-                'xLargePri':xLargePri,
-                'zLargePri':zLargePri})
+                'zLargePost':zLargePost})
 
-OneLargeDict.to_pickle('Z:/FinalThesisRun/PriorPosteriorFaultLineaments.pkl')
+print(len(xLargePost))
+
+#OneLargeDict = pd.DataFrame({'xLargePost':xLargePost, 
+#                'zLargePost':zLargePost,
+#                'xLargePri':xLargePri,
+#                'zLargePri':zLargePri})
+
+OneLargeDict.to_pickle('PosteriorFaultLineaments.pkl')

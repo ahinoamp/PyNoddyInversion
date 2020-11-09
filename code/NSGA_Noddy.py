@@ -209,8 +209,8 @@ if __name__ == "__main__":
     tasks = pd.read_pickle('Combo_Scratch/parameters.pkl')
     params = tasks.iloc[6, :]
     params = params.to_dict()
-#    params['npop'] = 3
-#    params['ngen'] = 3
+    params['npop'] = 8
+    params['ngen'] = 3
     params['Windows'] = True
  
     NSGA2_Noddy(params)

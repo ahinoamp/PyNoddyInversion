@@ -4,22 +4,10 @@ Created on Wed May 27 16:52:30 2020
 
 @author: ahinoamp
 """
-import GravityInversionUtilities as GI
-import LoadInputDataUtility as DI
-import matplotlib.pyplot as plt
 import numpy as np
 from glob import glob
 import pandas as pd
-from scipy import interpolate
-import scipy as sp
-from scipy.interpolate import Rbf, InterpolatedUnivariateSpline
-import re
-from scipy.signal import savgol_filter
-from matplotlib.lines import Line2D
 import pickle
-from matplotlib.patches import Patch
-from matplotlib.lines import Line2D
-import random
 
 P={}
 xy_origin=[316448, 4379166, 1200-4000]
@@ -34,17 +22,14 @@ zsection = 0
         
 fz = 14
 
-folder = 'Z:/OptimisationPatua/ReducedDimensionSpace2/'
-
-Norm = pd.read_pickle('NormalizingFactorSummary.pkl')
+folder = 'PriorFalsificationResults/'
 DataTypes = ['grav', 'mag', 'gt']
-dictName = ['gravSim', 'magSim', 'gtSim']
-
+dictName = ['GravSim', 'MagSim', 'GTSim']
+datasize = [337, 743, 32]
 for d in range(3):
     DataType=DataTypes[d]
     picklefiles = glob(folder+DataType+'*.pickle')
     nFiles = len(picklefiles)
-    nFiles = 1590
     
     started=0
     numPrior = nFiles
@@ -58,22 +43,15 @@ for d in range(3):
             dictFaultI = pickle.load(handle)
             
         info = dictFaultI[dictName[d]]
-        Err = dictFaultI['Err']
-        NormErr = (Err[0]/Norm['Grav'] + 
-                   Err[1]/Norm['Mag'] +
-                   Err[2]/Norm['Tracer'] +
-                   Err[3]/Norm['GT'] +
-                   Err[4]/Norm['FaultIntersection'])/5.0
+        if(np.shape(info)[0]!=datasize[d]):
+            print('problem : ' +str(np.shape(info)))
+            continue
         
-        ErrList.append(NormErr)    
-    
         if(i==0):
             largeMatrix = info.reshape(-1,1)
         else:
             largeMatrix = np.concatenate((largeMatrix, info.reshape(-1,1)), axis=1)
             
-    np.savetxt(folder+DataType+'_largeMatrix.csv', largeMatrix, delimiter=',', fmt='%.4f') 
-    
-errPD=pd.DataFrame({'ErrNorm': ErrList})
-errPD.to_csv('ErrNorm.csv')
+    np.savetxt(DataType+'_largeMatrix.csv', largeMatrix, delimiter=',', fmt='%.4f') 
+
             

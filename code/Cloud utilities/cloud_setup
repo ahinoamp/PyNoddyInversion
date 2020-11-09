@@ -6,9 +6,13 @@ sudo apt-get install build-essential libssl-dev libffi-dev python-dev -y
 
 wget https://bootstrap.pypa.io/get-pip.py
 sudo python get-pip.py
+
 mkdir localerrinversion
+
 cd localerrinversion
+
 python3 -m venv venv
+
 source venv/bin/activate
 
 pip install pandas

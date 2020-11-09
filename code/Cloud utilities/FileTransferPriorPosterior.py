@@ -1,12 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Oct. 4, 2020
+Created on Wed May 27 14:26:40 2020
 
-@author: ahinoamp@gmail.com
-
-This script copies a portion of the paramter history into a separate file for 
-further analysis
-
+@author: ahinoamp
 """
 import os
 import re
@@ -16,7 +12,6 @@ from shutil import copyfile
 import pandas as pd
 
 
-Norm = pd.read_pickle('NormalizingFactorSummary.pkl')
 folder= 'Combo_Scratch/'
 
 folders = [os.path.isdir(folder+'/'+i) for i in os.listdir(folder)]
@@ -30,7 +25,7 @@ firstRun=0
 for i in range(nFolders):
     threadfolder = folders[i]
     print('reading: '+ threadfolder)
-    parameterhistoryFiles = glob(threadfolder+"ParameterHistory.csv")
+    parameterhistoryFiles = glob(threadfolder+"ParameterHis.csv")
     if(len(parameterhistoryFiles)>0):
         parameterhistoryf = parameterhistoryFiles[0]
     else:

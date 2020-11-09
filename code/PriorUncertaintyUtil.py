@@ -60,7 +60,7 @@ def add_strat_event(P):
     # Event 1: stratigraphy
     LayerNames = ['Sed', 'Mafic','Felsic',  'Intrusive']
     LayerDensityMin = [ 2.1, 2.2, 2.3, 2.5]
-    LayerDensityMax = [ 2.36, 2.42, 2.65,  2.72]
+    LayerDensityMax = [ 2.36, 2.42, 2.65,  2.85]
     LayerDensityStd = [ 0.02, 0.02, 0.02,   0.02]
     nL = len(LayerNames)
     add2Table(P, 0, 1, LayerNames, ['Density']*nL, ['Gaussian']*nL, 
@@ -72,8 +72,8 @@ def add_strat_event(P):
     add2Table(P, 0, 1, LayerNames, ['MagSus']*nL, ['LogGaussian']*nL, 
               LayerMagSusMin, LayerMagSusMax, LayerMagSusStd)    
     
-    LayerThicknessMin = [150, 250, 250]
-    LayerThicknessMax = [200, 800, 800]
+    LayerThicknessMin = [100, 250, 250]
+    LayerThicknessMax = [350, 950, 950]
     LayerThickStd = [40, 50, 50]
     add2Table(P, 0, 1, LayerNames[:-1], ['Thickness']*(nL-1), ['Gaussian']*(nL-1), 
               LayerThicknessMin, LayerThicknessMax, LayerThickStd)    
@@ -83,8 +83,8 @@ def add_tilt_event(P):
     #Tilt
     TiltProp = ['Plunge Direction', 'Rotation']
     TiltMin = [0, 0]
-    TiltMax = [360, 2]
-    TiltStd = [8, 0.4]
+    TiltMax = [360, 3.5]
+    TiltStd = [8, 0.2]
 
     add2Table(P, 0, 2, ['Tilt']*len(TiltProp), TiltProp, 
               ['Gaussian']*len(TiltProp), TiltMin, TiltMax, TiltStd)    
@@ -94,7 +94,7 @@ def add_plug_events(P):
     # 3. Plug events 
     NameP0 = 'Plug0'
     ParamP0 = ['X', 'Y', 'Z', 'Radius', 'XAxis', 'YAxis', 'ZAxis', 'Density', 'MagSus', 'Dip Direction']
-    MinP0 = [6950, 3980, 500, 200, 200, 300, 2500, 2.6, 0.0001, 5]
+    MinP0 = [6950, 3980, 500, 200, 200, 300, 2500, 2.5, 0.0001, 5]
     MaxP0 = [7950, 4980, 2500,800, 800, 1000, 4000, 2.9, 0.01, 20]
     StdP0 = [P['HypP']['XYZ_Axes_StepStd'], P['HypP']['XYZ_Axes_StepStd'],P['HypP']['XYZ_Axes_StepStd'],
            P['HypP']['XYZ_Axes_StepStd'],P['HypP']['XYZ_Axes_StepStd'], P['HypP']['XYZ_Axes_StepStd'], 
@@ -106,7 +106,7 @@ def add_plug_events(P):
     
     NameP1 = 'Plug1'
     ParamP1 = ['X', 'Y', 'Z', 'Radius', 'XAxis', 'YAxis', 'ZAxis', 'Density', 'MagSus', 'Dip Direction']
-    MinP1 = [3150, 2880, 400,  50,  150,  150,  2500, 2.6, 0.0001, 0]
+    MinP1 = [3150, 2880, 400,  50,  150,  150,  2500, 2.5, 0.0001, 0]
     MaxP1 = [4150, 3880, 2500, 400, 600, 600, 4000, 2.9, 0.01, 10]
     StdP1 = [P['HypP']['XYZ_Axes_StepStd'], P['HypP']['XYZ_Axes_StepStd'],P['HypP']['XYZ_Axes_StepStd'],
            P['HypP']['XYZ_Axes_StepStd'],P['HypP']['XYZ_Axes_StepStd'], P['HypP']['XYZ_Axes_StepStd'], 
@@ -118,7 +118,7 @@ def add_plug_events(P):
 
     NameP2 = 'Plug2'
     ParamP2 = ['X', 'Y', 'Z', 'Radius', 'XAxis', 'YAxis', 'ZAxis', 'Density', 'MagSus', 'Dip Direction']
-    MinP2 = [3650, 5080, 500,  0,  150,  150, 2500, 2.6, 0.0001, 0]
+    MinP2 = [3650, 5080, 500,  0,  150,  150, 2500, 2.5, 0.0001, 0]
     MaxP2 = [4650, 6080,2500,400, 600, 600, 4000, 2.9, 0.01, 10]
     StdP2 = [P['HypP']['XYZ_Axes_StepStd'], P['HypP']['XYZ_Axes_StepStd'],P['HypP']['XYZ_Axes_StepStd'],
            P['HypP']['XYZ_Axes_StepStd'],P['HypP']['XYZ_Axes_StepStd'], P['HypP']['XYZ_Axes_StepStd'], 

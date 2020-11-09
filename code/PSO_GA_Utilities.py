@@ -9,10 +9,6 @@ This file has utilities for running the Genetic algorithms (include NSGA)
 
 import pandas as pd
 import GeneralInversionUtil as GI
-import VisualizationUtilities as Viz
-import PriorUncertaintyUtil as Unc
-import LoadInputDataUtility as DI
-import time
 import matplotlib.pyplot as plt
 import numpy as np
 from scipy.interpolate import griddata
@@ -20,7 +16,6 @@ from collections.abc import Sequence
 from itertools import repeat
 import random
 import copy
-from functools import partial
 from operator import attrgetter
 
 import SamplingHisFileUtil as sample
@@ -715,6 +710,7 @@ def mutPolynomialBounded(individual, eta, low, up, indpb):
                 delta_q = 1.0 - val ** mut_pow
 
             x = x + delta_q * (xu - xl)
+
             x = min(max(x, xl), xu)
             individual[i] = x
             if(individual[i]>xu):

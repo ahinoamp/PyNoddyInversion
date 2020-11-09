@@ -1,929 +1,959 @@
-DipDirecti,Zone,Length,layer,path,id,X,Y
-West,NorthWest,9522.0910000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"1",322400.887,4391431.375
-West,NorthWest,9522.0910000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"1",320337.146,4388523.376
-West,NorthWest,9522.0910000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"1",318992.587,4387147.549
-West,NorthWest,9522.0910000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"1",318085.792,4386209.484
-West,NorthWest,9522.0910000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"1",317210.265,4385427.764
-West,NorthWest,9522.0910000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"1",316397.276,4384771.119
-West,NorthWest,9522.0910000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"1",316022.050,4384427.162
-West,NorthEast,7162.9870000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"2",321681.704,4384864.926
-West,NorthEast,7162.9870000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"2",323151.338,4387491.505
-West,NorthEast,7162.9870000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"2",323807.983,4388648.451
-West,NorthEast,7162.9870000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"2",324089.403,4389774.128
-West,NorthEast,7162.9870000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"2",324433.359,4390899.805
-West,NorthEast,7162.9870000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"2",324558.435,4391368.837
-West,NorthWest,9064.5410000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"3",323404.331,4391435.323
-West,NorthWest,9064.5410000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"3",322118.520,4389646.368
-West,NorthWest,9064.5410000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"3",321224.043,4388360.557
-West,NorthWest,9064.5410000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"3",320255.026,4387056.111
-West,NorthWest,9064.5410000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"3",319490.993,4386347.983
-West,NorthWest,9064.5410000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"3",318764.230,4385490.776
-West,NorthWest,9064.5410000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"3",318018.832,4384838.552
-West,NorthWest,9064.5410000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"3",317646.133,4384484.488
-West,NorthWest,5109.4950000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"4",320776.804,4387969.223
-West,NorthWest,5109.4950000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"4",319472.358,4386608.872
-West,NorthWest,5109.4950000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"4",318652.420,4385770.300
-West,NorthWest,5109.4950000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"4",317608.863,4384745.378
-West,NorthWest,5109.4950000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"4",317124.355,4384409.949
-West,SouthWest,5307.7330000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"5",317942.640,4378916.800
-West,SouthWest,5307.7330000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"5",318520.323,4379569.023
-West,SouthWest,5307.7330000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"5",319135.276,4380239.881
-West,SouthWest,5307.7330000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"5",319452.070,4380929.374
-West,SouthWest,5307.7330000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"5",319489.340,4381264.803
-West,SouthWest,5307.7330000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"5",319619.785,4382382.900
-West,SouthWest,5307.7330000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"5",319619.785,4383687.346
-West,SouthWest,9862.4050000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"6",316733.021,4377608.194
-West,SouthWest,9862.4050000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"6",317907.022,4378633.116
-West,SouthWest,9862.4050000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"6",318801.500,4379471.688
-West,SouthWest,9862.4050000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"6",319509.628,4380645.690
-West,SouthWest,9862.4050000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"6",319658.707,4381521.532
-West,SouthWest,9862.4050000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"6",319192.834,4382341.470
-West,SouthWest,9862.4050000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"6",318372.896,4383105.502
-West,SouthWest,9862.4050000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"6",317329.339,4384186.329
-West,SouthWest,9862.4050000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"6",316323.052,4384931.727
-West,SouthWest,7036.9460000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"7",316807.561,4385211.251
-West,SouthWest,7036.9460000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"7",318186.547,4383683.186
-West,SouthWest,7036.9460000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"7",319640.072,4382192.390
-West,SouthWest,7036.9460000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"7",320988.901,4380747.708
-West,SouthWest,7036.9460000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"7",321572.910,4380427.894
-West,SouthWest,7036.9460000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"7",321878.819,4380288.844
-East,MidEast,5722.7430000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"8",325957.319,4387931.953
-East,MidEast,5722.7430000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"8",325565.985,4385695.760
-East,MidEast,5722.7430000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"8",325230.556,4384055.885
-East,MidEast,5722.7430000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"8",324913.762,4382751.439
-East,MidEast,5722.7430000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"8",324764.682,4382341.470
-East,NorthEast,5716.0690000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"9",324205.634,4384838.552
-East,NorthEast,5716.0690000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"9",324410.618,4385733.030
-East,NorthEast,5716.0690000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"9",324820.587,4386757.952
-East,NorthEast,5716.0690000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"9",325230.556,4387298.365
-East,NorthEast,5716.0690000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"9",325994.589,4387708.334
-East,NorthEast,5716.0690000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"9",326665.447,4387764.239
-East,NorthEast,5716.0690000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"9",327485.384,4387335.635
-East,NorthEast,5716.0690000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"9",327988.528,4387112.016
-West,MidMid,6219.3640000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"10",320151.251,4381361.340
-West,MidMid,6219.3640000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"10",320058.076,4382740.326
-West,MidMid,6219.3640000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"10",320281.696,4383821.153
-West,MidMid,6219.3640000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"10",320635.760,4384659.725
-West,MidMid,6219.3640000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"10",321399.792,4385703.282
-West,MidMid,6219.3640000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"10",322145.190,4386802.744
-West,MidMid,6219.3640000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"10",322257.000,4386970.459
-West,MidWest,6318.5920000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"11",320888.090,4385828.233
-West,MidWest,6318.5920000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"11",320450.084,4385275.511
-West,MidWest,6318.5920000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"11",320053.793,4384545.500
-West,MidWest,6318.5920000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"11",319939.077,4383919.777
-West,MidWest,6318.5920000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"11",319803.503,4383064.622
-West,MidWest,6318.5920000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"11",319761.789,4381667.173
-West,MidWest,6318.5920000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"11",319667.930,4380916.306
-West,MidWest,6318.5920000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"11",319250.781,4380238.439
-West,MidWest,6318.5920000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"11",318875.347,4379435.427
-East,MidMid,4812.1500000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"12",321950.806,4386329.348
-East,MidMid,4812.1500000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"12",321261.313,4385080.807
-East,MidMid,4812.1500000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"12",321056.328,4384577.663
-East,MidMid,4812.1500000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"12",320888.614,4383962.710
-East,MidMid,4812.1500000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"12",320795.439,4383105.502
-East,MidMid,4812.1500000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"12",320851.344,4381763.786
-East,MidMid,5082.0810000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"13",321317.217,4384726.743
-East,MidMid,5082.0810000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"13",321056.328,4384428.584
-East,MidMid,5082.0810000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"13",320851.344,4383459.566
-East,MidMid,5082.0810000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"13",320758.169,4382024.676
-East,MidMid,5082.0810000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"13",320814.074,4380832.039
-East,MidMid,5082.0810000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"13",320963.154,4380049.371
-East,MidMid,5082.0810000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"13",321019.058,4379788.482
-East,SouthMid,5664.7480000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"14",324690.143,4379285.339
-East,SouthMid,5664.7480000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"14",322901.188,4380123.911
-East,SouthMid,5664.7480000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"14",321503.385,4381150.952
-East,SouthMid,5664.7480000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"14",321030.616,4381429.051
-East,SouthMid,5664.7480000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"14",320641.277,4381818.390
-East,SouthMid,5664.7480000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"14",320516.133,4382430.208
-West,SouthMid,5109.8820000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"15",318801.500,4379974.832
-West,SouthMid,5109.8820000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"15",320944.519,4380608.420
-West,SouthMid,5109.8820000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"15",322342.140,4380701.595
-West,SouthMid,5109.8820000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"15",323124.807,4380757.499
-West,SouthMid,5109.8820000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"15",323814.300,4380776.134
-West,MidEast,6772.5140000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"16",323199.347,4380049.371
-West,MidEast,6772.5140000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"16",323367.062,4382006.041
-West,MidEast,6772.5140000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"16",323422.966,4383310.487
-West,MidEast,6772.5140000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"16",323534.776,4384559.028
-West,MidEast,6772.5140000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"16",323702.491,4386012.554
-West,MidEast,6772.5140000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"16",323777.030,4386795.222
-East,SouthEast,8291.2370000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"17",325789.604,4384819.917
-East,SouthEast,8291.2370000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"17",324615.603,4383180.042
-East,SouthEast,8291.2370000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"17",324205.634,4382285.565
-East,SouthEast,8291.2370000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"17",323721.125,4380943.849
-East,SouthEast,8291.2370000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"17",323012.998,4379900.292
-East,SouthEast,8291.2370000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"17",322304.870,4379210.799
-East,SouthEast,8291.2370000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"17",321671.281,4378465.401
-East,SouthEast,8291.2370000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"17",321335.852,4377924.988
-West,MidMid,8294.3900000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"18",325416.906,4386907.031
-West,MidMid,8294.3900000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"18",323609.316,4385024.902
-West,MidMid,8294.3900000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"18",322603.029,4383832.265
-West,MidMid,8294.3900000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"18",321522.202,4382471.914
-West,MidMid,8294.3900000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"18",320497.280,4381372.453
-West,MidMid,8294.3900000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"18",319845.057,4380776.134
-West,MidMid,7193.9530000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"19",324801.952,4388453.732
-West,MidMid,7193.9530000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"19",323460.236,4386292.078
-West,MidMid,7193.9530000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"19",322733.473,4384838.552
-West,MidMid,7193.9530000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"19",321745.821,4382881.883
-West,MidMid,7193.9530000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"19",321112.233,4382341.470
-West,NorthEast,5305.4460000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"20",326590.907,4390522.211
-West,NorthEast,5305.4460000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"20",326013.224,4388528.272
-West,NorthEast,5305.4460000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"20",325286.461,4387466.080
-West,NorthEast,5305.4460000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"20",324746.047,4386981.571
-West,NorthEast,5305.4460000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"20",324596.968,4386422.523
-West,NorthEast,5305.4460000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"20",324522.428,4385788.935
-East,NorthEast,4428.2960000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"21",323665.221,4388267.382
-East,NorthEast,4428.2960000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"21",324336.079,4386459.793
-East,NorthEast,4428.2960000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"21",324615.603,4385621.220
-East,NorthEast,4428.2960000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"21",325081.477,4384913.092
-East,NorthEast,4428.2960000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"21",325193.286,4384670.838
-East,NorthEast,4428.2960000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"21",325323.731,4384186.329
-East,MidWest,5952.8420000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"22",317962.927,4381838.326
-East,MidWest,5952.8420000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"22",318894.675,4383645.916
-East,MidWest,5952.8420000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"22",319528.263,4384428.584
-East,MidWest,5952.8420000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"22",320646.359,4386292.078
-East,MidWest,5952.8420000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"22",321056.328,4386907.031
-East,NorthMid,5163.1360000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"23",323646.586,4390335.861
-East,NorthMid,5163.1360000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"23",322081.250,4388304.652
-East,NorthMid,5163.1360000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"23",321186.773,4387428.810
-East,NorthMid,5163.1360000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"23",320646.359,4386795.222
-East,NorthMid,5163.1360000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"23",320273.661,4386441.158
-West,MidMid,7176.5420000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"24",319081.024,4384782.648
-West,MidMid,7176.5420000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"24",321279.948,4383329.122
-West,MidMid,7176.5420000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"24",322006.710,4383217.312
-West,MidMid,7176.5420000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"24",323162.077,4382714.169
-West,MidMid,7176.5420000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"24",324224.269,4382229.660
-West,MidMid,7176.5420000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"24",325416.906,4381540.167
-East,SouthEast,7595.9750000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"25",318801.500,4384111.790
-East,SouthEast,7595.9750000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"25",320478.645,4383217.312
-East,SouthEast,7595.9750000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"25",321689.916,4382378.740
-East,SouthEast,7595.9750000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"25",321913.536,4381838.326
-East,SouthEast,7595.9750000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"25",322882.553,4381055.658
-East,SouthEast,7595.9750000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"25",324578.333,4380533.880
-East,SouthEast,7595.9750000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"25",325118.746,4380235.721
-West,NorthEast,2744.6560000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"26",324373.349,4385080.807
-West,NorthEast,2744.6560000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"26",323795.665,4385751.665
-West,NorthEast,2744.6560000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"26",323441.601,4386720.682
-West,NorthEast,2744.6560000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"26",323199.347,4387335.635
-West,NorthEast,2744.6560000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"26",323124.807,4387484.715
-West,MidMid,4120.0070000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"27",322863.918,4386161.634
-West,MidMid,4120.0070000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"27",322062.615,4384409.949
-West,MidMid,4120.0070000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"27",321578.107,4383720.456
-West,MidMid,4120.0070000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"27",321019.058,4382490.549
-West,MidMid,5207.1410000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"28",320832.709,4386124.364
-West,MidMid,5207.1410000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"28",320255.026,4384596.298
-West,MidMid,5207.1410000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"28",319975.501,4383422.297
-West,MidMid,5207.1410000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"28",320031.406,4382360.105
-West,MidMid,5207.1410000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"28",319826.422,4381148.833
-West,MidMid,5207.1410000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"28",319826.422,4381074.293
-East,NorthMid,5495.6320000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"29",321615.377,4383422.297
-East,NorthMid,5495.6320000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"29",321130.868,4385304.426
-East,NorthMid,5495.6320000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"29",320907.249,4386068.459
-East,NorthMid,5495.6320000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"29",320571.820,4386944.301
-East,NorthMid,5495.6320000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"29",320161.851,4387857.414
-East,NorthMid,5495.6320000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"29",320012.771,4388416.462
-East,NorthMid,5495.6320000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"29",319863.692,4388602.811
-West,MidWest,7161.8270000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"30",321287.470,4387398.207
-West,MidWest,7161.8270000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"30",320169.373,4385143.379
-West,MidWest,7161.8270000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"30",319778.039,4384528.426
-West,MidWest,7161.8270000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"30",319293.531,4383317.154
-West,MidWest,7161.8270000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"30",319200.356,4381509.565
-West,MidWest,7161.8270000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"30",318958.102,4380745.532
-East,MidEast,4663.0070000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"31",325696.430,4385472.141
-East,MidEast,4663.0070000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"31",324820.587,4383124.137
-East,MidEast,4663.0070000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"31",324466.523,4382565.089
-East,MidEast,4663.0070000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"31",324112.459,4381707.882
-East,MidEast,4663.0070000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"31",323888.840,4381186.103
-West,NorthEast,3955.4540000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"32",326199.573,4390429.036
-West,NorthEast,3955.4540000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"32",325994.589,4389441.384
-West,NorthEast,3955.4540000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"32",325752.335,4389143.225
-West,NorthEast,3955.4540000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"32",325510.080,4388677.351
-West,NorthEast,3955.4540000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"32",325267.826,4388099.668
-West,NorthEast,3955.4540000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"32",325006.937,4387615.159
-West,NorthEast,3955.4540000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"32",324690.143,4387056.111
-West,NorthEast,3955.4540000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"32",324615.603,4386851.127
-West,NorthEast,3955.4540000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"32",324615.603,4386851.127
-West,NorthEast,3955.4540000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"32",324615.603,4386851.127
-West,NorthEast,3955.4540000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"32",324615.603,4386851.127
-West,MidEast,5309.1530000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"33",326069.129,4385360.331
-West,MidEast,5309.1530000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"33",323963.380,4384559.028
-West,MidEast,5309.1530000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"33",323031.632,4384186.329
-West,MidEast,5309.1530000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"33",321224.043,4383496.836
-West,MidEast,5309.1530000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"33",321261.313,4383608.646
-East,NorthEast,3857.8700000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"34",324373.349,4389758.178
-East,NorthEast,3857.8700000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"34",323627.951,4387987.858
-East,NorthEast,3857.8700000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"34",323068.902,4387018.841
-East,NorthEast,3857.8700000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"34",322658.934,4386310.713
-East,NorthEast,5702.9850000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"35",324037.920,4388323.287
-East,NorthEast,5702.9850000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"35",323180.712,4385751.665
-East,NorthEast,5702.9850000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"35",322789.378,4383962.710
-East,NorthEast,5702.9850000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"35",322416.679,4382863.248
-East,NorthEast,4760.3660000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"36",325193.286,4390000.432
-East,NorthEast,4760.3660000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"36",324186.999,4388230.113
-East,NorthEast,4760.3660000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"36",323683.856,4387037.476
-East,NorthEast,4760.3660000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"36",323255.252,4385956.649
-East,NorthEast,4760.3660000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"36",323143.442,4385714.395
-West,NorthEast,7640.9470000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"37",326180.938,4389851.353
-West,NorthEast,7640.9470000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"37",324969.667,4387484.715
-West,NorthEast,7640.9470000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"37",324131.094,4386273.443
-West,NorthEast,7640.9470000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"37",323683.856,4385024.902
-West,NorthEast,7640.9470000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"37",323385.696,4384186.329
-West,NorthEast,7640.9470000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"37",322863.918,4383422.297
-West,NorthEast,7640.9470000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"37",322677.569,4383105.502
-West,NorthWest,12655.7280000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"38",315428.575,4381763.786
-West,NorthWest,12655.7280000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"38",319323.278,4386031.189
-West,NorthWest,12655.7280000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"38",321019.058,4388491.002
-West,NorthWest,12655.7280000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"38",322547.124,4392068.911
-East,SouthMid,5308.8700000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"39",324541.063,4378763.560
-East,SouthMid,5308.8700000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"39",322323.505,4380366.165
-East,SouthMid,5308.8700000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"39",320105.946,4381670.612
-West,MidEast,8932.5830000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"40",322360.774,4380477.975
-West,MidEast,8932.5830000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"40",323143.442,4382900.518
-West,MidEast,8932.5830000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"40",323162.077,4383627.281
-West,MidEast,8932.5830000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"40",323367.062,4384204.964
-West,MidEast,8932.5830000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"40",323888.840,4384689.473
-West,MidEast,8932.5830000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"40",324447.888,4385509.410
-West,MidEast,8932.5830000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"40",324186.999,4386422.523
-West,MidEast,8932.5830000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"40",324373.349,4388807.796
-East,MidEast,10090.1890000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"41",325864.144,4386366.618
-East,MidEast,10090.1890000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"41",324578.333,4383198.677
-East,MidEast,10090.1890000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"41",323553.411,4381353.818
-East,MidEast,10090.1890000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"41",323292.522,4379341.243
-East,MidEast,10090.1890000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"41",323012.998,4376825.526
-West,NorthEast,8956.6460000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"42",324746.047,4391696.212
-West,NorthEast,8956.6460000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"42",324112.459,4389702.273
-West,NorthEast,8956.6460000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"42",323739.760,4388453.732
-West,NorthEast,8956.6460000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"42",323311.157,4387913.318
-West,NorthEast,8956.6460000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"42",322733.473,4387167.921
-West,NorthEast,8956.6460000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"42",322174.425,4386720.682
-West,NorthEast,8956.6460000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"42",321615.377,4385583.950
-West,NorthEast,8956.6460000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"42",320944.519,4384055.885
-West,NorthEast,8956.6460000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"42",320851.344,4383794.995
-West,NorthEast,5386.3070000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"43",322267.600,4384391.314
-West,NorthEast,5386.3070000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"43",322565.759,4385080.807
-West,NorthEast,5386.3070000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"43",322677.569,4385677.125
-West,NorthEast,5386.3070000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"43",322658.934,4386180.269
-West,NorthEast,5386.3070000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"43",323217.982,4386925.666
-West,NorthEast,5386.3070000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"43",323963.380,4387447.445
-West,NorthEast,5386.3070000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"43",324336.079,4387913.318
-West,NorthEast,5386.3070000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"43",324447.888,4388994.145
-West,MidMid,3429.2890000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"44",319919.597,4380608.420
-West,MidMid,3429.2890000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"44",319862.600,4381985.249
-West,MidMid,3429.2890000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"44",319890.409,4382798.690
-West,MidMid,3429.2890000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"44",319939.077,4383500.890
-West,MidMid,3429.2890000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"44",320064.222,4384154.423
-West,MidMid,3129.6230000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"45",319453.723,4383385.027
-West,MidMid,3129.6230000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"45",321000.423,4386105.729
-East,NorthMid,3090.7280000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"46",319751.401,4386190.878
-East,NorthMid,3090.7280000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"46",321465.816,4388762.500
-West,MidMid,3097.2260000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"47",320981.788,4381819.691
-West,MidMid,3097.2260000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"47",321857.631,4383664.551
-West,MidMid,3097.2260000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"47",322137.155,4384559.028
-West,MidMid,3097.2260000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"47",322174.425,4384670.838
-East,SouthEast,7752.8540000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"48",320497.280,4381558.802
-East,SouthEast,7752.8540000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"48",325491.445,4379136.259
-East,SouthEast,7752.8540000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"48",327336.305,4378279.052
-East,SouthEast,7752.8540000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"48",327504.019,4378279.052
-West,SouthEast,9193.8210000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"49",328622.116,4380459.340
-West,SouthEast,9193.8210000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"49",324876.492,4381670.612
-West,SouthEast,9193.8210000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"49",322994.363,4382565.089
-West,SouthEast,9193.8210000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"49",321988.076,4383068.233
-West,SouthEast,9193.8210000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"49",321242.678,4383515.471
-West,SouthEast,9193.8210000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"49",320441.375,4383850.900
-West,SouthEast,9193.8210000000,FaultBank,C:/Users/ahino/OneDrive - Leland Stanford Junior University/School/Research/PhDResearch/PatuaCollaboration/GIS/Geomodel/FaultBank.shp,"49",320180.486,4384018.615
-,NorthMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"50",321261.313,4385080.807
-,NorthMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"50",320952.417,4385914.135
-,NorthMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"50",320851.344,4386599.555
-,NorthMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"50",321269.992,4387757.535
-,NorthMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"50",322025.294,4389090.421
-,NorthMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"50",322839.835,4390215.970
-,NorthMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"50",323461.849,4390986.082
-,MidMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"51",322863.918,4386161.634
-,MidMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"51",322595.888,4384859.426
-,MidMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"51",322264.705,4383620.934
-,MidMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"51",321823.337,4382605.788
-,MidMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"51",321249.559,4381767.189
-,MidEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"52",322473.913,4383679.194
-,MidEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"52",322784.636,4384244.145
-,MidEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"52",323490.825,4384780.849
-,MidEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"52",324310.004,4385091.572
-,MidEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"52",324535.984,4385374.047
-,MidEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"52",324606.603,4385882.503
-,SouthEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"53",322629.275,4383495.586
-,SouthEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"53",322954.122,4382845.892
-,SouthEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"53",323406.082,4382337.436
-,SouthEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"53",323448.454,4381603.000
-,SouthEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"53",323363.711,4381052.173
-,SouthMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"54",322431.542,4379639.796
-,SouthMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"54",321612.364,4378933.608
-,SouthMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"54",321485.250,4378594.637
-,SouthMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"54",321428.754,4378199.172
-,SouthMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"55",319423.179,4378298.038
-,SouthMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"55",320708.442,4379258.455
-,SouthMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"55",321923.086,4380317.737
-,NorthEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"56",323293.092,4384343.012
-,NorthEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"56",323504.949,4385204.562
-,NorthEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"56",323476.701,4386080.235
-,NorthEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"56",323391.958,4386955.909
-,NorthEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"57",323137.731,4384724.353
-,NorthEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"57",323109.483,4386037.864
-,NorthEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"57",323180.102,4386871.167
-,SouthEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"58",322645.658,4383060.008
-,SouthEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"58",322663.737,4382255.519
-,SouthEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"58",322645.658,4381306.401
-,MidMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"59",321316.894,4383864.498
-,MidMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"59",322030.992,4383954.891
-,MidMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"59",322591.423,4384081.439
-,MidMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"59",323278.403,4384235.106
-,MidMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"60",321063.796,4382725.557
-,MidMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"60",321172.267,4383276.950
-,MidMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"60",321344.012,4383873.538
-,MidMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"60",321492.956,4384243.068
-,MidMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"60",321618.101,4384462.071
-,MidMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"60",321649.387,4384587.215
-,MidWest,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"61",317963.346,4384849.773
-,MidWest,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"61",319002.856,4384605.714
-,MidWest,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"61",319518.091,4384271.263
-,NorthMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"62",320955.326,4386350.282
-,NorthMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"62",322320.004,4388399.765
-,NorthMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"62",321868.286,4387724.242
-,NorthMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"63",322806.512,4388283.929
-,NorthMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"63",322003.874,4387073.419
-,MidEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"64",323486.305,4382128.970
-,MidEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"64",324010.580,4382490.538
-,MidEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"64",324652.364,4383358.302
-,SouthMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"65",321132.155,4379540.930
-,SouthMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"65",321075.660,4379018.350
-,SouthMid,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"65",321386.383,4378312.162
-,NorthEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"66",324479.489,4390684.584
-,NorthEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"66",324112.271,4388961.484
-,NorthEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"66",324154.642,4388057.563
-,NorthEast,,SilerAdditionalFaults,C:/Users/ahino/Downloads/SilerAdditionalFaults/SilerAdditionalFaults.shp,"66",324253.509,4386786.424
-,SouthWest,,,,"67",317362.250,4379804.781
-,SouthWest,,,,"67",317362.250,4379990.117
-,SouthWest,,,,"67",317408.585,4380129.120
-,SouthWest,,,,"67",317501.253,4380291.289
-,SouthWest,,,,"67",317640.255,4380499.793
-,SouthWest,,,,"67",317686.589,4380615.628
-,SouthWest,,,,"67",317686.589,4380893.633
-,SouthWest,,,,"67",317686.589,4381194.805
-,SouthWest,,,,"67",317709.756,4381333.807
-,SouthWest,,,,"67",317825.592,4381982.485
-,SouthWest,,,,"67",317941.427,4382399.493
-,SouthWest,,,,"67",317987.761,4382654.331
-,SouthWest,,,,"67",318173.098,4383372.510
-,SouthWest,,,,"67",318196.265,4383673.682
-,SouthWest,,,,"68",317640.255,4379318.272
-,SouthWest,,,,"68",317593.921,4379642.611
-,SouthWest,,,,"68",317570.754,4379874.282
-,SouthWest,,,,"68",317640.255,4379990.117
-,SouthWest,,,,"68",317802.425,4380383.957
-,SouthWest,,,,"68",317895.093,4380685.129
-,SouthWest,,,,"68",317964.594,4381009.468
-,SouthWest,,,,"68",318057.263,4381426.476
-,SouthWest,,,,"68",318173.098,4381889.817
-,SouthWest,,,,"68",318312.100,4382399.493
-,SouthWest,,,,"68",318451.103,4382909.168
-,SouthWest,,,,"68",318543.771,4383279.842
-,SouthWest,,,,"68",318613.272,4383488.345
-,SouthWest,,,,"69",318520.604,4376468.722
-,SouthWest,,,,"69",318358.434,4376769.894
-,SouthWest,,,,"69",318288.933,4377047.899
-,SouthWest,,,,"69",318242.599,4377372.238
-,SouthWest,,,,"69",318288.933,4377673.410
-,SouthWest,,,,"69",318404.769,4377974.582
-,SouthWest,,,,"69",318543.771,4378159.918
-,SouthWest,,,,"69",318590.105,4378461.090
-,SouthWest,,,,"69",318520.604,4378692.761
-,SouthWest,,,,"69",318566.938,4378878.098
-,SouthWest,,,,"69",318752.275,4379132.936
-,SouthWest,,,,"69",318821.776,4379318.272
-,SouthWest,,,,"69",318844.943,4379526.776
-,SouthWest,,,,"69",319076.614,4379851.115
-,SouthWest,,,,"69",319539.955,4380870.466
-,SouthWest,,,,"69",320026.464,4381936.151
-,SouthWest,,,,"69",320304.469,4382445.827
-,SouthWest,,,,"69",320397.137,4382723.832
-,SouthMid,,,,"70",318821.776,4377812.412
-,SouthMid,,,,"70",318983.945,4378298.921
-,SouthMid,,,,"70",318983.945,4378507.425
-,SouthMid,,,,"70",319007.113,4378808.597
-,SouthMid,,,,"70",319122.948,4379017.100
-,SouthMid,,,,"70",319122.948,4379156.103
-,SouthMid,,,,"70",319122.948,4379387.773
-,SouthMid,,,,"70",319238.783,4379758.446
-,SouthMid,,,,"70",319377.786,4379990.117
-,SouthMid,,,,"70",319864.294,4380800.965
-,SouthMid,,,,"70",320234.967,4381519.144
-,SouthMid,,,,"70",320397.137,4381843.483
-,SouthMid,,,,"71",319586.289,4377395.405
-,SouthMid,,,,"71",319447.287,4378437.923
-,SouthMid,,,,"71",319447.287,4378924.432
-,SouthMid,,,,"71",319678.958,4379295.105
-,SouthMid,,,,"71",320049.631,4379712.112
-,SouthMid,,,,"71",320258.134,4380059.618
-,SouthMid,,,,"71",320651.975,4380546.127
-,SouthMid,,,,"71",321207.984,4381287.473
-,SouthMid,,,,"71",321393.321,4381542.311
-,SouthMid,,,,"72",319876.505,4379190.352
-,SouthMid,,,,"72",320627.372,4379788.266
-,SouthMid,,,,"72",320971.671,4380291.266
-,SouthMid,,,,"72",321620.349,4381241.116
-,SouthMid,,,,"72",321828.853,4381658.123
-,SouthMid,,,,"72",321967.855,4381912.961
-,SouthEast,,,,"73",322482.173,4378298.921
-,SouthEast,,,,"73",322459.006,4379781.614
-,SouthEast,,,,"73",322393.303,4380413.989
-,SouthEast,,,,"73",322365.493,4380789.423
-,SouthEast,,,,"73",322365.493,4381234.382
-,SouthEast,,,,"73",322448.922,4381943.535
-,SouthEast,,,,"73",322574.067,4382944.692
-,SouthEast,,,,"74",322899.181,4376978.398
-,SouthEast,,,,"74",323339.355,4377997.749
-,SouthEast,,,,"74",323918.532,4379781.614
-,SouthEast,,,,"74",324103.869,4380685.129
-,SouthEast,,,,"74",324266.038,4382492.161
-,SouthEast,,,,"74",324312.372,4383256.674
-,SouthEast,,,,"74",324335.539,4383488.345
-,SouthWest,,,,"75",317107.413,4378113.584
-,SouthWest,,,,"75",316829.408,4380082.786
-,SouthWest,,,,"75",316713.572,4381495.977
-,SouthWest,,,,"75",316620.904,4382584.829
-,SouthWest,,,,"75",316620.904,4382955.503
-,SouthWest,,,,"76",317871.926,4379040.267
-,SouthWest,,,,"76",318752.275,4381310.640
-,SouthWest,,,,"76",319192.449,4382654.331
-,SouthWest,,,,"76",319261.950,4383511.512
-,SouthWest,,,,"76",319331.452,4383859.018
-,NorthEast,,,,"77",325308.556,4386059.890
-,NorthEast,,,,"77",324708.479,4386094.166
-,NorthEast,,,,"77",323999.326,4386205.405
-,NorthEast,,,,"77",323331.887,4386302.740
-,NorthEast,,,,"77",322574.842,4386546.399
-,NorthEast,,,,"77",322389.505,4386685.401
-,MidEast,,,,"78",323501.525,4382886.001
-,MidEast,,,,"78",324544.043,4384206.524
-,MidEast,,,,"78",325007.384,4385110.040
-,MidEast,,,,"78",325239.055,4385851.387
-,NorthEast,,,,"79",324370.290,4386639.067
-,NorthEast,,,,"79",324416.624,4387056.074
-,NorthEast,,,,"79",324578.794,4387380.413
-,NorthEast,,,,"79",324879.966,4387751.087
-,NorthEast,,,,"79",325018.968,4388121.760
-,NorthEast,,,,"79",325204.305,4388585.101
-,NorthEast,,,,"79",325528.644,4389233.779
-,MidEast,,,,"80",324370.290,4384855.203
-,MidEast,,,,"80",323767.946,4384183.357
-,MidEast,,,,"80",323443.607,4383650.515
-,MidEast,,,,"80",323003.433,4383187.173
-,MidEast,,,,"80",322587.972,4382763.927
-,MidEast,,,,"80",322007.248,4382237.323
-,MidEast,,,,"80",321659.742,4381936.151
-,MidEast,,,,"80",321567.074,4381866.650
-,NorthMid,,,,"81",323814.280,4387334.079
-,NorthMid,,,,"81",323489.941,4386592.733
-,NorthMid,,,,"81",323119.268,4386013.556
-,NorthMid,,,,"81",322262.086,4385619.716
-,NorthMid,,,,"81",321590.241,4385480.713
-,NorthMid,,,,"81",320895.229,4385503.881
-,NorthMid,,,,"81",320455.055,4385550.215
-,NorthMid,,,,"81",319412.536,4385596.549
-,NorthMid,,,,"82",322910.764,4385851.387
-,NorthMid,,,,"82",322331.587,4385666.050
-,NorthMid,,,,"82",319227.200,4384994.205
-,NorthMid,,,,"82",318995.529,4384924.704
-,SouthEast,,,,"83",325204.305,4382746.999
-,SouthEast,,,,"83",324532.459,4381403.309
-,SouthEast,,,,"83",323976.450,4380383.957
-,SouthEast,,,,"83",323466.774,4379804.781
-,SouthEast,,,,"83",323119.268,4379248.771
-,SouthEast,,,,"83",322910.764,4379040.267
-,SouthEast,,,,"83",322725.428,4378878.098
-,NorthWest,,,,"84",320756.227,4385179.542
-,NorthWest,,,,"84",318671.190,4385225.876
-,NorthWest,,,,"84",317165.330,4385411.212
-,NorthWest,,,,"84",316609.320,4385457.546
-,SouthMid,,,,"85",318624.856,4382260.490
-,SouthMid,,,,"85",319736.875,4381773.982
-,SouthMid,,,,"85",320779.394,4381588.645
-,SouthMid,,,,"85",321636.575,4381472.810
-,SouthMid,,,,"85",322007.248,4381426.476
-,SouthMid,,,,"85",322354.755,4381380.142
-,MidMid,,,,"86",321451.239,4384646.699
-,MidMid,,,,"86",320501.389,4383511.512
-,MidMid,,,,"86",319991.713,4383025.004
-,MidMid,,,,"86",319528.372,4382631.164
-,MidMid,,,,"86",319319.868,4382445.827
-,MidMid,,,,"87",321219.568,4382561.662
-,MidMid,,,,"87",319551.539,4383581.014
-,MidMid,,,,"87",318856.527,4383812.684
-,MidMid,,,,"88",321219.568,4383303.009
-,MidMid,,,,"88",319991.713,4384021.188
-,MidMid,,,,"88",319389.369,4384623.532
-,MidMid,,,,"88",319111.364,4384855.203
-,MidMid,,,,"89",322285.253,4384947.871
-,MidMid,,,,"89",322030.416,4383349.343
-,MidMid,,,,"89",322007.248,4382329.992
-,MidMid,,,,"89",321868.246,4381495.977
-,MidMid,,,,"89",321613.408,4380754.631
-,NorthMid,,,,"90",321439.655,4386384.229
-,NorthMid,,,,"90",321624.992,4387137.159
-,NorthMid,,,,"90",321648.159,4387391.997
-,NorthMid,,,,"90",321682.909,4387797.421
-,NorthMid,,,,"90",321682.909,4388098.593
-,NorthMid,,,,"90",321682.909,4388585.101
-,NorthMid,,,,"90",321694.493,4388805.188
-,MidMid,,,,"91",321775.578,4381055.803
-,MidMid,,,,"91",321694.493,4381750.815
-,MidMid,,,,"91",321659.742,4382283.657
-,MidMid,,,,"91",321763.994,4382781.750
-,MidMid,,,,"91",322018.832,4383442.011
-,MidMid,,,,"91",322099.917,4383812.684
-,MidEast,,,,"92",323686.861,4381994.069
-,MidEast,,,,"92",324069.118,4383071.338
-,MidEast,,,,"92",324103.869,4383442.011
-,MidEast,,,,"92",324381.873,4384032.771
-,MidEast,,,,"92",324706.212,4384403.445
-,MidEast,,,,"92",324937.883,4384785.701
-,MidEast,,,,"92",325030.551,4385272.210
-,MidEast,,,,"92",325076.886,4385445.963
-,MidWest,,,,"93",319794.793,4383824.268
-,MidWest,,,,"93",319319.868,4384391.861
-,MidWest,,,,"93",319192.449,4384669.866
-,MidWest,,,,"93",318902.861,4385063.706
-,MidWest,,,,"93",318671.190,4385399.629
-,MidWest,,,,"93",318566.938,4385527.048
-,NorthMid,,,,"94",323686.861,4386662.234
-,NorthMid,,,,"94",323096.101,4386569.566
-,NorthMid,,,,"94",322702.261,4386407.396
-,NorthMid,,,,"94",321995.665,4386198.893
-,NorthMid,,,,"94",321763.994,4385978.806
-,NorthMid,,,,"94",321300.653,4385666.050
-,NorthMid,,,,"94",321196.401,4385538.631
-,NorthMid,,,,"95",320802.561,4387148.743
-,NorthMid,,,,"95",320918.396,4387693.169
-,NorthMid,,,,"95",320964.730,4388029.092
-,NorthMid,,,,"95",320987.897,4388411.348
-,NorthMid,,,,"95",320987.897,4388538.767
-,NorthWest,,,,"96",318960.778,4388504.017
-,NorthWest,,,,"96",318717.524,4388075.426
-,NorthWest,,,,"96",317953.011,4386940.239
-,NorthWest,,,,"96",317281.166,4386245.227
-,NorthWest,,,,"96",316562.986,4385642.883
-,NorthWest,,,,"96",316331.316,4385364.878
-,NorthWest,,,,"96",316030.144,4385133.207
-,MidWest,,,,"97",318381.602,4385260.626
-,MidWest,,,,"97",318103.597,4384519.280
-,MidWest,,,,"97",317848.759,4383916.936
-,MidWest,,,,"97",317593.921,4383268.258
-,MidWest,,,,"97",317501.253,4382758.582
-,MidWest,,,,"97",317362.250,4382156.239
-,MidWest,,,,"97",317292.749,4381924.568
-,MidWest,,,,"97",317246.415,4381762.398
-,MidWest,,,,"98",317454.919,4385121.624
-,MidWest,,,,"98",317061.078,4383638.931
-,MidWest,,,,"98",316945.243,4382781.750
-,MidWest,,,,"98",316759.906,4381762.398
-,MidWest,,,,"98",316713.572,4381183.221
-,MidWest,,,,"99",318080.430,4382573.246
-,MidWest,,,,"99",317084.245,4383152.423
-,MidWest,,,,"99",316505.069,4383546.263
-,MidWest,,,,"99",316041.727,4383777.934
-,MidWest,,,,"99",315902.725,4383847.435
-,SouthWest,,,,"100",319587.108,4380066.365
-,SouthWest,,,,"100",318627.665,4379503.214
-,SouthWest,,,,"100",318322.625,4379372.855
-,SouthWest,,,,"100",317822.046,4379278.996
-,SouthWest,,,,"100",317258.896,4379226.853
-,SouthWest,,,,"100",316690.405,4379121.352
-,SouthWest,,,,"100",316157.563,4378889.681
-,SouthWest,,,,"101",317065.964,4379106.922
-,SouthWest,,,,"101",317045.107,4379388.498
-,SouthWest,,,,"101",316992.963,4379868.219
-,SouthWest,,,,"101",316982.534,4380139.366
-,SouthWest,,,,"101",316961.677,4380410.513
-,SouthWest,,,,"101",316961.677,4380639.944
-,SouthWest,,,,"101",317024.249,4381109.237
-,SouthWest,,,,"101",317076.393,4381328.240
-,SouthWest,,,,"101",317128.537,4381432.527
-,SouthWest,,,,"101",317191.109,4381714.103
-,SouthWest,,,,"101",317253.681,4382183.395
-,SouthWest,,,,"101",317274.539,4382590.115
-,SouthWest,,,,"101",317274.539,4382756.975
-,SouthWest,,,,"101",317337.111,4383194.981
-,SouthWest,,,,"101",317368.397,4383507.843
-,SouthWest,,,,"101",317378.826,4383695.560
-,SouthEast,,,,"102",324845.790,4379054.779
-,SouthEast,,,,"102",324845.790,4379857.790
-,SouthEast,,,,"102",324751.932,4380264.510
-,SouthEast,,,,"102",324762.360,4380462.656
-,SouthEast,,,,"102",324772.789,4380963.235
-,SouthEast,,,,"102",324845.790,4381401.241
-,SouthEast,,,,"102",324887.505,4382047.822
-,SouthEast,,,,"102",324897.934,4382371.112
-,SouthEast,,,,"102",324897.934,4382631.830
-,SouthEast,,,,"102",324835.361,4383059.408
-,SouthEast,,,,"102",324804.075,4383309.697
-,SouthEast,,,,"102",324772.789,4383507.843
-,SouthEast,,,,"102",324751.932,4383716.417
-,SouthEast,,,,"102",324741.503,4383956.278
-,SouthEast,,,,"102",324741.503,4384237.853
-,SouthEast,,,,"102",324731.074,4384352.569
-,MidMid,,,,"103",320298.868,4382172.966
-,MidMid,,,,"103",320309.296,4382767.403
-,MidMid,,,,"103",320340.583,4382944.692
-,MidMid,,,,"103",320392.726,4383184.552
-,MidMid,,,,"103",320528.300,4383747.703
-,MidMid,,,,"103",320611.729,4384269.139
-,MidMid,,,,"103",320736.874,4384874.005
-,MidMid,,,,"103",320872.447,4385239.010
-,MidMid,,,,"103",321180.095,4385932.520
-,MidMid,,,,"103",321211.381,4386094.166
-,MidMid,,,,"103",321211.381,4386182.810
-,MidMid,,,,"103",321237.453,4386323.597
-,SouthEast,,,,"104",324282.639,4380582.586
-,SouthEast,,,,"104",324136.637,4381072.736
-,SouthEast,,,,"104",323969.778,4381875.748
-,SouthEast,,,,"104",323875.919,4382209.467
-,SouthEast,,,,"104",323782.061,4382418.041
-,SouthEast,,,,"104",323750.774,4382626.616
-,SouthEast,,,,"104",323719.488,4382835.190
-,SouthEast,,,,"104",323719.488,4383043.765
-,SouthEast,,,,"104",323719.488,4383273.196
-,SouthEast,,,,"104",323729.917,4383481.771
-,SouthEast,,,,"104",323761.203,4383857.205
-,SouthEast,,,,"104",323761.203,4383961.492
-,SouthEast,,,,"105",325033.507,4379790.004
-,SouthEast,,,,"105",324814.504,4380280.154
-,SouthEast,,,,"105",324647.644,4380905.877
-,SouthEast,,,,"105",324355.640,4381750.603
-,SouthEast,,,,"105",324188.781,4382230.324
-,SouthEast,,,,"105",324063.636,4382678.759
-,SouthEast,,,,"105",324001.064,4382960.335
-,SouthEast,,,,"105",323938.491,4383200.195
-,SouthEast,,,,"105",323938.491,4383450.485
-,SouthEast,,,,"105",323938.491,4383669.488
-,SouthEast,,,,"105",323938.491,4384003.207
-,SouthEast,,,,"105",323959.349,4384316.069
-,SouthWest,,,,"106",317889.833,4379988.149
-,SouthWest,,,,"106",318233.981,4380509.585
-,SouthWest,,,,"106",318421.698,4380801.590
-,SouthWest,,,,"106",318588.557,4381104.022
-,SouthWest,,,,"106",318849.276,4381542.029
-,SouthWest,,,,"106",319057.850,4381802.747
-,SouthWest,,,,"106",319141.280,4381907.034
-,SouthWest,,,,"106",319381.140,4382240.753
-,SouthWest,,,,"106",319516.714,4382480.614
-,SouthWest,,,,"106",319714.859,4382856.048
-,SouthWest,,,,"106",319996.435,4383304.483
-,SouthWest,,,,"106",320152.866,4383596.487
-,SouthWest,,,,"106",320288.439,4383982.350
-,SouthWest,,,,"106",320382.298,4384232.639
-,NorthEast,,,,"107",324355.640,4383085.479
-,NorthEast,,,,"107",324355.640,4384503.786
-,NorthEast,,,,"107",324428.641,4385369.369
-,NorthEast,,,,"107",324386.926,4386130.666
-,NorthEast,,,,"107",324324.354,4386672.960
-,NorthEast,,,,"107",324313.925,4387340.398
-,NorthEast,,,,"107",324397.355,4387778.404
-,NorthEast,,,,"107",324512.071,4388341.555
-,NorthEast,,,,"107",324678.931,4388842.134
-,NorthEast,,,,"107",324877.076,4389071.565
-,NorthEast,,,,"107",324981.363,4389196.710
-West,MidEast,,,,"108",322965.026,4382139.066
-West,MidEast,,,,"108",322965.026,4382902.093
-West,MidEast,,,,"108",323136.049,4383362.541
-West,MidEast,,,,"108",323267.605,4383730.899
-West,MidEast,,,,"108",323320.228,4384033.478
-West,MidEast,,,,"108",323517.563,4384454.459
-West,MidEast,,,,"108",323714.897,4384638.638
-West,MidEast,,,,"108",324175.345,4385046.463
-West,MidEast,,,,"108",324280.590,4385204.330
-West,MidEast,,,,"108",324359.524,4385388.509
-East,NorthEast,,,,"109",324398.990,4385612.155
-East,NorthEast,,,,"109",324398.990,4385796.334
-East,NorthEast,,,,"109",324320.057,4386072.602
-East,NorthEast,,,,"109",324162.189,4386309.404
-East,NorthEast,,,,"109",324030.633,4386585.672
-East,NorthEast,,,,"109",323964.854,4386967.186
-East,NorthEast,,,,"109",324017.477,4387322.388
-East,NorthEast,,,,"109",324030.633,4387664.435
-East,NorthEast,,,,"109",324135.878,4387914.392
-East,NorthEast,,,,"109",324227.967,4388177.505
-East,NorthEast,,,,"109",324267.434,4388295.906
-West,NorthEast,,,,"110",324464.769,4385704.245
-West,NorthEast,,,,"110",324609.481,4386283.093
-West,NorthEast,,,,"110",324793.660,4386717.229
-West,NorthEast,,,,"110",324977.839,4387151.365
-West,NorthEast,,,,"110",325306.730,4387677.591
-West,NorthEast,,,,"110",325451.442,4388085.415
-West,NorthEast,,,,"110",325675.088,4388532.707
-West,NorthEast,,,,"110",325872.422,4388901.065
-West,NorthEast,,,,"110",326030.290,4389164.178
-West,NorthEast,,,,"110",326122.379,4389295.734
-West,SouthMid,,,,"111",318813.004,4379130.921
-West,SouthMid,,,,"111",319760.210,4380078.127
-West,SouthMid,,,,"111",320049.634,4380393.862
-West,SouthMid,,,,"111",320470.614,4380722.753
-West,SouthMid,,,,"111",320799.505,4380933.243
-West,SouthMid,,,,"111",321352.042,4381446.313
-West,SouthMid,,,,"111",321549.377,4381683.115
-West,SouthMid,,,,"111",321707.245,4381919.916
-West,SouthMid,,,,"111",321799.334,4382143.562
-West,MidWest,,,,"112",319886.606,4381047.148
-West,MidWest,,,,"112",319873.450,4381547.062
-West,MidWest,,,,"112",319755.050,4382086.444
-West,MidWest,,,,"112",319465.626,4382678.447
-West,MidWest,,,,"112",318742.065,4383546.720
-West,MidWest,,,,"112",318492.108,4383849.299
-West,MidWest,,,,"112",318242.151,4384191.346
-West,MidWest,,,,"112",317992.194,4384441.303
-West,MidWest,,,,"112",317216.011,4385020.151
-West,MidWest,,,,"112",317044.988,4385164.863
-West,MidWest,,,,"112",316834.498,4385296.420
-West,MidWest,,,,"112",316545.074,4385467.443
-West,MidMid,,,,"113",319255.135,4383138.895
-West,MidMid,,,,"113",319439.314,4383599.342
-West,MidMid,,,,"113",319807.672,4384257.124
-West,MidMid,,,,"113",320136.563,4384730.727
-West,MidMid,,,,"113",320333.898,4384954.373
-West,MidMid,,,,"113",320478.610,4385151.708
-West,MidMid,,,,"113",320662.789,4385454.287
-West,MidMid,,,,"113",320820.656,4385638.466
-West,MidMid,,,,"113",321083.769,4386125.225
-West,MidMid,,,,"113",321189.014,4386296.248
-West,MidMid,,,,"113",321320.571,4386533.050
-West,NorthMid,,,,"114",318462.923,4384305.251
-West,NorthMid,,,,"114",318607.635,4384792.010
-West,NorthMid,,,,"114",318949.682,4385410.325
-West,NorthMid,,,,"114",319107.550,4385620.815
-West,NorthMid,,,,"114",319291.729,4385791.838
-West,NorthMid,,,,"114",319475.908,4385962.861
-West,NorthMid,,,,"114",319620.620,4386133.885
-West,NorthMid,,,,"114",319975.822,4386449.620
-West,NorthMid,,,,"114",320199.468,4386765.355
-West,NorthMid,,,,"114",320423.114,4387054.780
-West,NorthMid,,,,"114",320607.293,4387278.425
-West,NorthMid,,,,"114",320699.382,4387436.293
-West,NorthMid,,,,"114",320936.184,4387699.406
-West,NorthMid,,,,"114",321706.745,4388607.487
-West,NorthMid,,,,"114",321915.320,4388982.921
-West,NorthMid,,,,"114",322082.179,4389149.781
-West,NorthWest,,,,"115",320778.589,4389931.935
-West,NorthWest,,,,"115",320669.087,4389728.575
-West,NorthWest,,,,"115",320371.869,4389368.784
-West,NorthWest,,,,"115",320105.936,4388977.707
-West,NorthWest,,,,"115",319584.026,4388295.906
-West,NorthWest,,,,"115",318636.820,4387138.209
-West,NorthWest,,,,"115",318150.062,4386611.984
-West,NorthWest,,,,"115",317755.392,4386138.381
-West,NorthWest,,,,"115",317439.657,4385888.424
-West,NorthWest,,,,"115",317176.544,4385677.933
-West,NorthWest,,,,"115",316887.120,4385520.066
-West,NorthWest,,,,"115",316545.074,4385270.108
-West,NorthWest,,,,"115",315976.163,4384926.149
-West,NorthWest,,,,"115",315428.655,4384597.644
-West,NorthWest,,,,"115",315100.150,4384331.712
-West,NorthWest,,,,"115",314724.716,4384065.779
-West,NorthWest,,,,"115",314599.572,4383971.921
-East,MidMid,,,,"116",320269.286,4381446.313
-East,MidMid,,,,"116",320321.909,4382077.784
-East,MidMid,,,,"116",320361.376,4382801.344
-East,MidMid,,,,"116",320453.465,4383367.037
-East,MidMid,,,,"116",320716.578,4384327.398
-East,MidMid,,,,"116",321058.624,4385011.492
-East,MidMid,,,,"116",321242.803,4385577.184
-East,MidMid,,,,"116",321598.006,4386234.966
-East,MidMid,,,,"116",321650.628,4386353.367
-West,NorthEast,,,,"117",321649.462,4385099.085
-West,NorthEast,,,,"117",321899.419,4385691.089
-West,NorthEast,,,,"117",322175.687,4386440.960
-West,NorthEast,,,,"117",322438.800,4386888.252
-West,NorthEast,,,,"117",322780.847,4387309.233
-West,NorthEast,,,,"117",323043.960,4387651.279
-West,NorthEast,,,,"117",323346.539,4388006.481
-West,NorthEast,,,,"117",323662.275,4388493.240
-West,NorthEast,,,,"117",323938.543,4389111.555
-West,NorthEast,,,,"117",324175.345,4389756.182
-West,NorthEast,,,,"117",324464.769,4390729.699
-West,NorthEast,,,,"117",324622.636,4391242.769
-West,NorthEast,,,,"117",324714.726,4391492.726
-East,SouthEast,,,,"118",324859.438,4379027.757
-East,SouthEast,,,,"118",323885.921,4379356.648
-East,SouthEast,,,,"118",323030.804,4379882.874
-East,SouthEast,,,,"118",322425.645,4380238.076
-East,SouthEast,,,,"118",321136.392,4380948.481
-East,SouthEast,,,,"118",320649.633,4381303.683
-East,SouthEast,,,,"118",320202.341,4381540.485
-East,SouthEast,,,,"118",320070.785,4381658.885
-East,MidEast,,,,"119",323491.251,4380303.855
-East,MidEast,,,,"119",323925.387,4381382.617
-East,MidEast,,,,"119",324227.967,4382171.955
-East,MidEast,,,,"119",324464.769,4382816.582
-East,MidEast,,,,"119",324648.948,4383329.652
-East,MidEast,,,,"119",324898.905,4384000.589
-East,MidEast,,,,"119",325069.928,4384474.192
-East,MidEast,,,,"119",325148.862,4384829.395
-East,MidEast,,,,"119",325188.329,4385145.130
-East,MidEast,,,,"119",325293.574,4385460.865
-East,MidEast,,,,"119",325385.663,4385855.534
-East,MidEast,,,,"119",325556.687,4386342.293
-East,MidEast,,,,"119",325714.554,4386579.095
-East,MidEast,,,,"119",325793.488,4386710.651
-East,MidEast,,,,"119",325898.733,4386815.896
-East,MidEast,,,,"119",326337.097,4387210.039
-East,MidEast,,,,"119",326545.672,4387502.043
-East,MidEast,,,,"119",326879.391,4387919.192
-East,MidEast,,,,"119",327004.535,4388252.911
-East,MidEast,,,,"119",327087.965,4388607.487
-West,NorthEast,,,,"120",324042.779,4388357.198
-West,NorthEast,,,,"120",324021.921,4388252.911
-West,NorthEast,,,,"120",323834.204,4387877.477
-West,NorthEast,,,,"120",323729.917,4387606.330
-West,NorthEast,,,,"120",323596.496,4387000.075
-West,NorthEast,,,,"120",323609.652,4386565.939
-West,NorthEast,,,,"120",323662.275,4386079.180
-West,NorthEast,,,,"120",323754.364,4385434.554
-West,NorthEast,,,,"120",323741.208,4385039.885
-West,NorthEast,,,,"120",323649.119,4384763.616
-West,NorthEast,,,,"120",323491.251,4384487.348
-West,MidMid,,,,"121",321399.505,4381645.730
-West,MidMid,,,,"121",321517.905,4381790.442
-West,MidMid,,,,"121",321794.174,4382264.045
-West,MidMid,,,,"121",322083.598,4382711.337
-West,MidMid,,,,"121",322412.489,4383277.029
-West,MidMid,,,,"121",322557.201,4383895.344
-West,MidMid,,,,"121",322688.757,4384342.636
-West,MidMid,,,,"121",322780.847,4384789.928
-West,MidMid,,,,"121",322912.403,4385750.289
-West,MidMid,,,,"121",322912.403,4386579.095
-West,MidMid,,,,"121",322912.403,4386789.585
-West,MidMid,,,,"121",323166.766,4387460.328
-West,MidMid,,,,"121",323375.340,4387731.475
-West,MidMid,,,,"121",323646.487,4388127.766
-West,MidMid,,,,"121",323729.917,4388273.768
-West,MidMid,,,,"121",323750.774,4388336.341
-East,SouthMid,,,,"122",319518.248,4378304.197
-East,SouthMid,,,,"122",320162.875,4378817.267
-East,SouthMid,,,,"122",320439.143,4379185.625
-East,SouthMid,,,,"122",320846.968,4379488.205
-East,SouthMid,,,,"122",321162.703,4379869.718
-East,SouthMid,,,,"122",321491.594,4380119.676
-East,SouthMid,,,,"122",321781.018,4380382.788
-East,SouthMid,,,,"122",321886.263,4380501.189
-East,SouthWest,,,,"123",317308.101,4379185.625
-East,SouthWest,,,,"123",317294.945,4379488.205
-East,SouthWest,,,,"123",317321.256,4379738.162
-East,SouthWest,,,,"123",317387.035,4380080.209
-East,SouthWest,,,,"123",317492.280,4380356.477
-East,SouthWest,,,,"123",317558.058,4380474.878
-East,SouthWest,,,,"123",317676.459,4380606.434
-East,SouthWest,,,,"123",317689.614,4380895.858
-East,SouthWest,,,,"123",317729.081,4381264.216
-East,SouthWest,,,,"123",317755.392,4381698.352
-East,SouthWest,,,,"123",317808.015,4382000.932
-East,SouthWest,,,,"123",317860.638,4382514.002
-East,SouthWest,,,,"123",317873.793,4382948.138
-East,SouthWest,,,,"123",317873.793,4383237.562
-East,SouthWest,,,,"123",317794.859,4384092.679
-East,SouthWest,,,,"123",317794.859,4384368.947
-East,SouthWest,,,,"123",317768.548,4384447.881
-East,SouthWest,,,,"123",317768.548,4384526.815
-East,NorthMid,,,,"124",320899.590,4386026.558
-East,NorthMid,,,,"124",320728.567,4386434.383
-East,NorthMid,,,,"124",320794.345,4386986.919
-East,NorthMid,,,,"124",320899.590,4387526.301
-East,NorthMid,,,,"124",321189.014,4388289.328
-East,NorthMid,,,,"124",321386.349,4388670.841
-East,NorthWest,,,,"125",319949.506,4390416.870
-East,NorthWest,,,,"125",319683.573,4390166.581
-East,NorthWest,,,,"125",319433.284,4389994.507
-East,NorthWest,,,,"125",319120.422,4389697.289
-East,NorthWest,,,,"125",318885.776,4389384.427
-East,NorthWest,,,,"125",318463.413,4388962.064
-East,NorthWest,,,,"125",318018.505,4388512.974
-East,NorthWest,,,,"125",317334.412,4387947.281
-East,NorthWest,,,,"125",316939.743,4387421.056
-East,NorthWest,,,,"125",316702.941,4387105.320
-East,NorthWest,,,,"125",316176.716,4386592.250
-East,NorthWest,,,,"125",315939.914,4386276.515
-East,NorthWest,,,,"125",315874.136,4386184.425
-East,NorthWest,,,,"125",315506.870,4385645.731
-East,NorthWest,,,,"125",315162.723,4385285.940
-East,NorthWest,,,,"125",314849.861,4385004.364
-East,NorthWest,,,,"125",314521.356,4384582.001
-East,NorthWest,,,,"125",314224.138,4384316.069
-,MidEast,,,,"126",325848.685,4384703.669
-,MidEast,,,,"126",324444.284,4384814.909
-,MidEast,,,,"126",323804.656,4384856.624
-,MidEast,,,,"126",323262.363,4384981.769
-,MidEast,,,,"126",322845.214,4385134.723
-,MidEast,,,,"126",322219.491,4385273.773
-,MidEast,,,,"126",322024.821,4385343.298
-,NorthMid,,,,"127",321955.296,4384230.901
-,NorthMid,,,,"127",321357.383,4384661.954
-,NorthMid,,,,"127",321009.759,4384995.674
-,NorthMid,,,,"127",320731.660,4385287.678
-,NorthMid,,,,"127",320300.606,4385704.827
-,NorthMid,,,,"127",320092.031,4385982.926
-,NorthMid,,,,"127",319911.267,4386302.740
-,NorthMid,,,,"127",319841.742,4386372.265
+DipDirecti,Zone,Length,id,X,Y
+West,NorthWest,9522.091,1,322400.887,4391431.375
+West,NorthWest,9522.091,1,320337.146,4388523.376
+West,NorthWest,9522.091,1,318992.587,4387147.549
+West,NorthWest,9522.091,1,318085.792,4386209.484
+West,NorthWest,9522.091,1,317210.265,4385427.764
+West,NorthWest,9522.091,1,316397.276,4384771.119
+West,NorthWest,9522.091,1,316022.05,4384427.162
+West,NorthEast,7162.987,2,321681.704,4384864.926
+West,NorthEast,7162.987,2,323151.338,4387491.505
+West,NorthEast,7162.987,2,323807.983,4388648.451
+West,NorthEast,7162.987,2,324089.403,4389774.128
+West,NorthEast,7162.987,2,324433.359,4390899.805
+West,NorthEast,7162.987,2,324558.435,4391368.837
+West,NorthWest,9064.541,3,323404.331,4391435.323
+West,NorthWest,9064.541,3,322118.52,4389646.368
+West,NorthWest,9064.541,3,321224.043,4388360.557
+West,NorthWest,9064.541,3,320255.026,4387056.111
+West,NorthWest,9064.541,3,319490.993,4386347.983
+West,NorthWest,9064.541,3,318764.23,4385490.776
+West,NorthWest,9064.541,3,318018.832,4384838.552
+West,NorthWest,9064.541,3,317646.133,4384484.488
+West,NorthWest,5109.495,4,320776.804,4387969.223
+West,NorthWest,5109.495,4,319472.358,4386608.872
+West,NorthWest,5109.495,4,318652.42,4385770.3
+West,NorthWest,5109.495,4,317608.863,4384745.378
+West,NorthWest,5109.495,4,317124.355,4384409.949
+West,SouthWest,5307.733,5,317942.64,4378916.8
+West,SouthWest,5307.733,5,318520.323,4379569.023
+West,SouthWest,5307.733,5,319135.276,4380239.881
+West,SouthWest,5307.733,5,319452.07,4380929.374
+West,SouthWest,5307.733,5,319489.34,4381264.803
+West,SouthWest,5307.733,5,319619.785,4382382.9
+West,SouthWest,5307.733,5,319619.785,4383687.346
+West,SouthWest,9862.405,6,316733.021,4377608.194
+West,SouthWest,9862.405,6,317907.022,4378633.116
+West,SouthWest,9862.405,6,318801.5,4379471.688
+West,SouthWest,9862.405,6,319509.628,4380645.69
+West,SouthWest,9862.405,6,319658.707,4381521.532
+West,SouthWest,9862.405,6,319192.834,4382341.47
+West,SouthWest,9862.405,6,318372.896,4383105.502
+West,SouthWest,9862.405,6,317329.339,4384186.329
+West,SouthWest,9862.405,6,316323.052,4384931.727
+West,SouthWest,7036.946,7,316807.561,4385211.251
+West,SouthWest,7036.946,7,318186.547,4383683.186
+West,SouthWest,7036.946,7,319640.072,4382192.39
+West,SouthWest,7036.946,7,320988.901,4380747.708
+West,SouthWest,7036.946,7,321572.91,4380427.894
+West,SouthWest,7036.946,7,321878.819,4380288.844
+East,MidEast,5722.743,8,325957.319,4387931.953
+East,MidEast,5722.743,8,325565.985,4385695.76
+East,MidEast,5722.743,8,325230.556,4384055.885
+East,MidEast,5722.743,8,324913.762,4382751.439
+East,MidEast,5722.743,8,324764.682,4382341.47
+East,NorthEast,5716.069,9,324205.634,4384838.552
+East,NorthEast,5716.069,9,324410.618,4385733.03
+East,NorthEast,5716.069,9,324820.587,4386757.952
+East,NorthEast,5716.069,9,325230.556,4387298.365
+East,NorthEast,5716.069,9,325994.589,4387708.334
+East,NorthEast,5716.069,9,326665.447,4387764.239
+East,NorthEast,5716.069,9,327485.384,4387335.635
+East,NorthEast,5716.069,9,327988.528,4387112.016
+West,MidMid,6219.364,10,320151.251,4381361.34
+West,MidMid,6219.364,10,320058.076,4382740.326
+West,MidMid,6219.364,10,320281.696,4383821.153
+West,MidMid,6219.364,10,320635.76,4384659.725
+West,MidMid,6219.364,10,321399.792,4385703.282
+West,MidMid,6219.364,10,322145.19,4386802.744
+West,MidMid,6219.364,10,322257,4386970.459
+West,MidWest,6318.592,11,320888.09,4385828.233
+West,MidWest,6318.592,11,320450.084,4385275.511
+West,MidWest,6318.592,11,320053.793,4384545.5
+West,MidWest,6318.592,11,319939.077,4383919.777
+West,MidWest,6318.592,11,319803.503,4383064.622
+West,MidWest,6318.592,11,319761.789,4381667.173
+West,MidWest,6318.592,11,319667.93,4380916.306
+West,MidWest,6318.592,11,319250.781,4380238.439
+West,MidWest,6318.592,11,318875.347,4379435.427
+East,MidMid,4812.15,12,321950.806,4386329.348
+East,MidMid,4812.15,12,321261.313,4385080.807
+East,MidMid,4812.15,12,321056.328,4384577.663
+East,MidMid,4812.15,12,320888.614,4383962.71
+East,MidMid,4812.15,12,320795.439,4383105.502
+East,MidMid,4812.15,12,320851.344,4381763.786
+East,MidMid,5082.081,13,321317.217,4384726.743
+East,MidMid,5082.081,13,321056.328,4384428.584
+East,MidMid,5082.081,13,320851.344,4383459.566
+East,MidMid,5082.081,13,320758.169,4382024.676
+East,MidMid,5082.081,13,320814.074,4380832.039
+East,MidMid,5082.081,13,320963.154,4380049.371
+East,MidMid,5082.081,13,321019.058,4379788.482
+East,SouthMid,5664.748,14,324690.143,4379285.339
+East,SouthMid,5664.748,14,322901.188,4380123.911
+East,SouthMid,5664.748,14,321503.385,4381150.952
+East,SouthMid,5664.748,14,321030.616,4381429.051
+East,SouthMid,5664.748,14,320641.277,4381818.39
+East,SouthMid,5664.748,14,320516.133,4382430.208
+West,SouthMid,5109.882,15,318801.5,4379974.832
+West,SouthMid,5109.882,15,320944.519,4380608.42
+West,SouthMid,5109.882,15,322342.14,4380701.595
+West,SouthMid,5109.882,15,323124.807,4380757.499
+West,SouthMid,5109.882,15,323814.3,4380776.134
+West,MidEast,6772.514,16,323199.347,4380049.371
+West,MidEast,6772.514,16,323367.062,4382006.041
+West,MidEast,6772.514,16,323422.966,4383310.487
+West,MidEast,6772.514,16,323534.776,4384559.028
+West,MidEast,6772.514,16,323702.491,4386012.554
+West,MidEast,6772.514,16,323777.03,4386795.222
+East,SouthEast,8291.237,17,325789.604,4384819.917
+East,SouthEast,8291.237,17,324615.603,4383180.042
+East,SouthEast,8291.237,17,324205.634,4382285.565
+East,SouthEast,8291.237,17,323721.125,4380943.849
+East,SouthEast,8291.237,17,323012.998,4379900.292
+East,SouthEast,8291.237,17,322304.87,4379210.799
+East,SouthEast,8291.237,17,321671.281,4378465.401
+East,SouthEast,8291.237,17,321335.852,4377924.988
+West,MidMid,8294.39,18,325416.906,4386907.031
+West,MidMid,8294.39,18,323609.316,4385024.902
+West,MidMid,8294.39,18,322603.029,4383832.265
+West,MidMid,8294.39,18,321522.202,4382471.914
+West,MidMid,8294.39,18,320497.28,4381372.453
+West,MidMid,8294.39,18,319845.057,4380776.134
+West,MidMid,7193.953,19,324801.952,4388453.732
+West,MidMid,7193.953,19,323460.236,4386292.078
+West,MidMid,7193.953,19,322733.473,4384838.552
+West,MidMid,7193.953,19,321745.821,4382881.883
+West,MidMid,7193.953,19,321112.233,4382341.47
+West,NorthEast,5305.446,20,326590.907,4390522.211
+West,NorthEast,5305.446,20,326013.224,4388528.272
+West,NorthEast,5305.446,20,325286.461,4387466.08
+West,NorthEast,5305.446,20,324746.047,4386981.571
+West,NorthEast,5305.446,20,324596.968,4386422.523
+West,NorthEast,5305.446,20,324522.428,4385788.935
+East,NorthEast,4428.296,21,323665.221,4388267.382
+East,NorthEast,4428.296,21,324336.079,4386459.793
+East,NorthEast,4428.296,21,324615.603,4385621.22
+East,NorthEast,4428.296,21,325081.477,4384913.092
+East,NorthEast,4428.296,21,325193.286,4384670.838
+East,NorthEast,4428.296,21,325323.731,4384186.329
+East,MidWest,5952.842,22,317962.927,4381838.326
+East,MidWest,5952.842,22,318894.675,4383645.916
+East,MidWest,5952.842,22,319528.263,4384428.584
+East,MidWest,5952.842,22,320646.359,4386292.078
+East,MidWest,5952.842,22,321056.328,4386907.031
+East,NorthMid,5163.136,23,323646.586,4390335.861
+East,NorthMid,5163.136,23,322081.25,4388304.652
+East,NorthMid,5163.136,23,321186.773,4387428.81
+East,NorthMid,5163.136,23,320646.359,4386795.222
+East,NorthMid,5163.136,23,320273.661,4386441.158
+West,MidMid,7176.542,24,319081.024,4384782.648
+West,MidMid,7176.542,24,321279.948,4383329.122
+West,MidMid,7176.542,24,322006.71,4383217.312
+West,MidMid,7176.542,24,323162.077,4382714.169
+West,MidMid,7176.542,24,324224.269,4382229.66
+West,MidMid,7176.542,24,325416.906,4381540.167
+East,SouthEast,7595.975,25,318801.5,4384111.79
+East,SouthEast,7595.975,25,320478.645,4383217.312
+East,SouthEast,7595.975,25,321689.916,4382378.74
+East,SouthEast,7595.975,25,321913.536,4381838.326
+East,SouthEast,7595.975,25,322882.553,4381055.658
+East,SouthEast,7595.975,25,324578.333,4380533.88
+East,SouthEast,7595.975,25,325118.746,4380235.721
+West,NorthEast,2744.656,26,324373.349,4385080.807
+West,NorthEast,2744.656,26,323795.665,4385751.665
+West,NorthEast,2744.656,26,323441.601,4386720.682
+West,NorthEast,2744.656,26,323199.347,4387335.635
+West,NorthEast,2744.656,26,323124.807,4387484.715
+West,MidMid,4120.007,27,322863.918,4386161.634
+West,MidMid,4120.007,27,322062.615,4384409.949
+West,MidMid,4120.007,27,321578.107,4383720.456
+West,MidMid,4120.007,27,321019.058,4382490.549
+West,MidMid,5207.141,28,320832.709,4386124.364
+West,MidMid,5207.141,28,320255.026,4384596.298
+West,MidMid,5207.141,28,319975.501,4383422.297
+West,MidMid,5207.141,28,320031.406,4382360.105
+West,MidMid,5207.141,28,319826.422,4381148.833
+West,MidMid,5207.141,28,319826.422,4381074.293
+East,NorthMid,5495.632,29,321615.377,4383422.297
+East,NorthMid,5495.632,29,321130.868,4385304.426
+East,NorthMid,5495.632,29,320907.249,4386068.459
+East,NorthMid,5495.632,29,320571.82,4386944.301
+East,NorthMid,5495.632,29,320161.851,4387857.414
+East,NorthMid,5495.632,29,320012.771,4388416.462
+East,NorthMid,5495.632,29,319863.692,4388602.811
+West,MidWest,7161.827,30,321287.47,4387398.207
+West,MidWest,7161.827,30,320169.373,4385143.379
+West,MidWest,7161.827,30,319778.039,4384528.426
+West,MidWest,7161.827,30,319293.531,4383317.154
+West,MidWest,7161.827,30,319200.356,4381509.565
+West,MidWest,7161.827,30,318958.102,4380745.532
+East,MidEast,4663.007,31,325696.43,4385472.141
+East,MidEast,4663.007,31,324820.587,4383124.137
+East,MidEast,4663.007,31,324466.523,4382565.089
+East,MidEast,4663.007,31,324112.459,4381707.882
+East,MidEast,4663.007,31,323888.84,4381186.103
+West,NorthEast,3955.454,32,326199.573,4390429.036
+West,NorthEast,3955.454,32,325994.589,4389441.384
+West,NorthEast,3955.454,32,325752.335,4389143.225
+West,NorthEast,3955.454,32,325510.08,4388677.351
+West,NorthEast,3955.454,32,325267.826,4388099.668
+West,NorthEast,3955.454,32,325006.937,4387615.159
+West,NorthEast,3955.454,32,324690.143,4387056.111
+West,NorthEast,3955.454,32,324615.603,4386851.127
+West,NorthEast,3955.454,32,324615.603,4386851.127
+West,NorthEast,3955.454,32,324615.603,4386851.127
+West,NorthEast,3955.454,32,324615.603,4386851.127
+West,MidEast,5309.153,33,326069.129,4385360.331
+West,MidEast,5309.153,33,323963.38,4384559.028
+West,MidEast,5309.153,33,323031.632,4384186.329
+West,MidEast,5309.153,33,321224.043,4383496.836
+West,MidEast,5309.153,33,321261.313,4383608.646
+East,NorthEast,3857.87,34,324373.349,4389758.178
+East,NorthEast,3857.87,34,323627.951,4387987.858
+East,NorthEast,3857.87,34,323068.902,4387018.841
+East,NorthEast,3857.87,34,322658.934,4386310.713
+East,NorthEast,5702.985,35,324037.92,4388323.287
+East,NorthEast,5702.985,35,323180.712,4385751.665
+East,NorthEast,5702.985,35,322789.378,4383962.71
+East,NorthEast,5702.985,35,322416.679,4382863.248
+East,NorthEast,4760.366,36,325193.286,4390000.432
+East,NorthEast,4760.366,36,324186.999,4388230.113
+East,NorthEast,4760.366,36,323683.856,4387037.476
+East,NorthEast,4760.366,36,323255.252,4385956.649
+East,NorthEast,4760.366,36,323143.442,4385714.395
+West,NorthEast,7640.947,37,326180.938,4389851.353
+West,NorthEast,7640.947,37,324969.667,4387484.715
+West,NorthEast,7640.947,37,324131.094,4386273.443
+West,NorthEast,7640.947,37,323683.856,4385024.902
+West,NorthEast,7640.947,37,323385.696,4384186.329
+West,NorthEast,7640.947,37,322863.918,4383422.297
+West,NorthEast,7640.947,37,322677.569,4383105.502
+West,NorthWest,12655.728,38,315428.575,4381763.786
+West,NorthWest,12655.728,38,319323.278,4386031.189
+West,NorthWest,12655.728,38,321019.058,4388491.002
+West,NorthWest,12655.728,38,322547.124,4392068.911
+East,SouthMid,5308.87,39,324541.063,4378763.56
+East,SouthMid,5308.87,39,322323.505,4380366.165
+East,SouthMid,5308.87,39,320105.946,4381670.612
+West,MidEast,8932.583,40,322360.774,4380477.975
+West,MidEast,8932.583,40,323143.442,4382900.518
+West,MidEast,8932.583,40,323162.077,4383627.281
+West,MidEast,8932.583,40,323367.062,4384204.964
+West,MidEast,8932.583,40,323888.84,4384689.473
+West,MidEast,8932.583,40,324447.888,4385509.41
+West,MidEast,8932.583,40,324186.999,4386422.523
+West,MidEast,8932.583,40,324373.349,4388807.796
+East,MidEast,10090.189,41,325864.144,4386366.618
+East,MidEast,10090.189,41,324578.333,4383198.677
+East,MidEast,10090.189,41,323553.411,4381353.818
+East,MidEast,10090.189,41,323292.522,4379341.243
+East,MidEast,10090.189,41,323012.998,4376825.526
+West,NorthEast,8956.646,42,324746.047,4391696.212
+West,NorthEast,8956.646,42,324112.459,4389702.273
+West,NorthEast,8956.646,42,323739.76,4388453.732
+West,NorthEast,8956.646,42,323311.157,4387913.318
+West,NorthEast,8956.646,42,322733.473,4387167.921
+West,NorthEast,8956.646,42,322174.425,4386720.682
+West,NorthEast,8956.646,42,321615.377,4385583.95
+West,NorthEast,8956.646,42,320944.519,4384055.885
+West,NorthEast,8956.646,42,320851.344,4383794.995
+West,NorthEast,5386.307,43,322267.6,4384391.314
+West,NorthEast,5386.307,43,322565.759,4385080.807
+West,NorthEast,5386.307,43,322677.569,4385677.125
+West,NorthEast,5386.307,43,322658.934,4386180.269
+West,NorthEast,5386.307,43,323217.982,4386925.666
+West,NorthEast,5386.307,43,323963.38,4387447.445
+West,NorthEast,5386.307,43,324336.079,4387913.318
+West,NorthEast,5386.307,43,324447.888,4388994.145
+West,MidMid,3429.289,44,319919.597,4380608.42
+West,MidMid,3429.289,44,319862.6,4381985.249
+West,MidMid,3429.289,44,319890.409,4382798.69
+West,MidMid,3429.289,44,319939.077,4383500.89
+West,MidMid,3429.289,44,320064.222,4384154.423
+West,MidMid,3129.623,45,319453.723,4383385.027
+West,MidMid,3129.623,45,321000.423,4386105.729
+East,NorthMid,3090.728,46,319751.401,4386190.878
+East,NorthMid,3090.728,46,321465.816,4388762.5
+West,MidMid,3097.226,47,320981.788,4381819.691
+West,MidMid,3097.226,47,321857.631,4383664.551
+West,MidMid,3097.226,47,322137.155,4384559.028
+West,MidMid,3097.226,47,322174.425,4384670.838
+East,SouthEast,7752.854,48,320497.28,4381558.802
+East,SouthEast,7752.854,48,325491.445,4379136.259
+East,SouthEast,7752.854,48,327336.305,4378279.052
+East,SouthEast,7752.854,48,327504.019,4378279.052
+West,SouthEast,9193.821,49,328622.116,4380459.34
+West,SouthEast,9193.821,49,324876.492,4381670.612
+West,SouthEast,9193.821,49,322994.363,4382565.089
+West,SouthEast,9193.821,49,321988.076,4383068.233
+West,SouthEast,9193.821,49,321242.678,4383515.471
+West,SouthEast,9193.821,49,320441.375,4383850.9
+West,SouthEast,9193.821,49,320180.486,4384018.615
+,NorthMid,,50,321261.313,4385080.807
+,NorthMid,,50,320952.417,4385914.135
+,NorthMid,,50,320851.344,4386599.555
+,NorthMid,,50,321269.992,4387757.535
+,NorthMid,,50,322025.294,4389090.421
+,NorthMid,,50,322839.835,4390215.97
+,NorthMid,,50,323461.849,4390986.082
+,MidMid,,51,322863.918,4386161.634
+,MidMid,,51,322595.888,4384859.426
+,MidMid,,51,322264.705,4383620.934
+,MidMid,,51,321823.337,4382605.788
+,MidMid,,51,321249.559,4381767.189
+,MidEast,,52,322473.913,4383679.194
+,MidEast,,52,322784.636,4384244.145
+,MidEast,,52,323490.825,4384780.849
+,MidEast,,52,324310.004,4385091.572
+,MidEast,,52,324535.984,4385374.047
+,MidEast,,52,324606.603,4385882.503
+,SouthEast,,53,322629.275,4383495.586
+,SouthEast,,53,322954.122,4382845.892
+,SouthEast,,53,323406.082,4382337.436
+,SouthEast,,53,323448.454,4381603
+,SouthEast,,53,323363.711,4381052.173
+,SouthMid,,54,322431.542,4379639.796
+,SouthMid,,54,321612.364,4378933.608
+,SouthMid,,54,321485.25,4378594.637
+,SouthMid,,54,321428.754,4378199.172
+,SouthMid,,55,319423.179,4378298.038
+,SouthMid,,55,320708.442,4379258.455
+,SouthMid,,55,321923.086,4380317.737
+,NorthEast,,56,323293.092,4384343.012
+,NorthEast,,56,323504.949,4385204.562
+,NorthEast,,56,323476.701,4386080.235
+,NorthEast,,56,323391.958,4386955.909
+,NorthEast,,57,323137.731,4384724.353
+,NorthEast,,57,323109.483,4386037.864
+,NorthEast,,57,323180.102,4386871.167
+,SouthEast,,58,322645.658,4383060.008
+,SouthEast,,58,322663.737,4382255.519
+,SouthEast,,58,322645.658,4381306.401
+,MidMid,,59,321316.894,4383864.498
+,MidMid,,59,322030.992,4383954.891
+,MidMid,,59,322591.423,4384081.439
+,MidMid,,59,323278.403,4384235.106
+,MidMid,,60,321063.796,4382725.557
+,MidMid,,60,321172.267,4383276.95
+,MidMid,,60,321344.012,4383873.538
+,MidMid,,60,321492.956,4384243.068
+,MidMid,,60,321618.101,4384462.071
+,MidMid,,60,321649.387,4384587.215
+,MidWest,,61,317963.346,4384849.773
+,MidWest,,61,319002.856,4384605.714
+,MidWest,,61,319518.091,4384271.263
+,NorthMid,,62,320955.326,4386350.282
+,NorthMid,,62,322320.004,4388399.765
+,NorthMid,,62,321868.286,4387724.242
+,NorthMid,,63,322806.512,4388283.929
+,NorthMid,,63,322003.874,4387073.419
+,MidEast,,64,323486.305,4382128.97
+,MidEast,,64,324010.58,4382490.538
+,MidEast,,64,324652.364,4383358.302
+,SouthMid,,65,321132.155,4379540.93
+,SouthMid,,65,321075.66,4379018.35
+,SouthMid,,65,321386.383,4378312.162
+,NorthEast,,66,324479.489,4390684.584
+,NorthEast,,66,324112.271,4388961.484
+,NorthEast,,66,324154.642,4388057.563
+,NorthEast,,66,324253.509,4386786.424
+,SouthWest,,67,317362.25,4379804.781
+,SouthWest,,67,317362.25,4379990.117
+,SouthWest,,67,317408.585,4380129.12
+,SouthWest,,67,317501.253,4380291.289
+,SouthWest,,67,317640.255,4380499.793
+,SouthWest,,67,317686.589,4380615.628
+,SouthWest,,67,317686.589,4380893.633
+,SouthWest,,67,317686.589,4381194.805
+,SouthWest,,67,317709.756,4381333.807
+,SouthWest,,67,317825.592,4381982.485
+,SouthWest,,67,317941.427,4382399.493
+,SouthWest,,67,317987.761,4382654.331
+,SouthWest,,67,318173.098,4383372.51
+,SouthWest,,67,318196.265,4383673.682
+,SouthWest,,68,317640.255,4379318.272
+,SouthWest,,68,317593.921,4379642.611
+,SouthWest,,68,317570.754,4379874.282
+,SouthWest,,68,317640.255,4379990.117
+,SouthWest,,68,317802.425,4380383.957
+,SouthWest,,68,317895.093,4380685.129
+,SouthWest,,68,317964.594,4381009.468
+,SouthWest,,68,318057.263,4381426.476
+,SouthWest,,68,318173.098,4381889.817
+,SouthWest,,68,318312.1,4382399.493
+,SouthWest,,68,318451.103,4382909.168
+,SouthWest,,68,318543.771,4383279.842
+,SouthWest,,68,318613.272,4383488.345
+,SouthWest,,69,318520.604,4376468.722
+,SouthWest,,69,318358.434,4376769.894
+,SouthWest,,69,318288.933,4377047.899
+,SouthWest,,69,318242.599,4377372.238
+,SouthWest,,69,318288.933,4377673.41
+,SouthWest,,69,318404.769,4377974.582
+,SouthWest,,69,318543.771,4378159.918
+,SouthWest,,69,318590.105,4378461.09
+,SouthWest,,69,318520.604,4378692.761
+,SouthWest,,69,318566.938,4378878.098
+,SouthWest,,69,318752.275,4379132.936
+,SouthWest,,69,318821.776,4379318.272
+,SouthWest,,69,318844.943,4379526.776
+,SouthWest,,69,319076.614,4379851.115
+,SouthWest,,69,319539.955,4380870.466
+,SouthWest,,69,320026.464,4381936.151
+,SouthWest,,69,320304.469,4382445.827
+,SouthWest,,69,320397.137,4382723.832
+,SouthMid,,70,318821.776,4377812.412
+,SouthMid,,70,318983.945,4378298.921
+,SouthMid,,70,318983.945,4378507.425
+,SouthMid,,70,319007.113,4378808.597
+,SouthMid,,70,319122.948,4379017.1
+,SouthMid,,70,319122.948,4379156.103
+,SouthMid,,70,319122.948,4379387.773
+,SouthMid,,70,319238.783,4379758.446
+,SouthMid,,70,319377.786,4379990.117
+,SouthMid,,70,319864.294,4380800.965
+,SouthMid,,70,320234.967,4381519.144
+,SouthMid,,70,320397.137,4381843.483
+,SouthMid,,71,319586.289,4377395.405
+,SouthMid,,71,319447.287,4378437.923
+,SouthMid,,71,319447.287,4378924.432
+,SouthMid,,71,319678.958,4379295.105
+,SouthMid,,71,320049.631,4379712.112
+,SouthMid,,71,320258.134,4380059.618
+,SouthMid,,71,320651.975,4380546.127
+,SouthMid,,71,321207.984,4381287.473
+,SouthMid,,71,321393.321,4381542.311
+,SouthMid,,72,319876.505,4379190.352
+,SouthMid,,72,320627.372,4379788.266
+,SouthMid,,72,320971.671,4380291.266
+,SouthMid,,72,321620.349,4381241.116
+,SouthMid,,72,321828.853,4381658.123
+,SouthMid,,72,321967.855,4381912.961
+,SouthEast,,73,322482.173,4378298.921
+,SouthEast,,73,322459.006,4379781.614
+,SouthEast,,73,322393.303,4380413.989
+,SouthEast,,73,322365.493,4380789.423
+,SouthEast,,73,322365.493,4381234.382
+,SouthEast,,73,322448.922,4381943.535
+,SouthEast,,73,322574.067,4382944.692
+,SouthEast,,74,322899.181,4376978.398
+,SouthEast,,74,323339.355,4377997.749
+,SouthEast,,74,323918.532,4379781.614
+,SouthEast,,74,324103.869,4380685.129
+,SouthEast,,74,324266.038,4382492.161
+,SouthEast,,74,324312.372,4383256.674
+,SouthEast,,74,324335.539,4383488.345
+,SouthWest,,75,317107.413,4378113.584
+,SouthWest,,75,316829.408,4380082.786
+,SouthWest,,75,316713.572,4381495.977
+,SouthWest,,75,316620.904,4382584.829
+,SouthWest,,75,316620.904,4382955.503
+,SouthWest,,76,317871.926,4379040.267
+,SouthWest,,76,318752.275,4381310.64
+,SouthWest,,76,319192.449,4382654.331
+,SouthWest,,76,319261.95,4383511.512
+,SouthWest,,76,319331.452,4383859.018
+,NorthEast,,77,325308.556,4386059.89
+,NorthEast,,77,324708.479,4386094.166
+,NorthEast,,77,323999.326,4386205.405
+,NorthEast,,77,323331.887,4386302.74
+,NorthEast,,77,322574.842,4386546.399
+,NorthEast,,77,322389.505,4386685.401
+,MidEast,,78,323501.525,4382886.001
+,MidEast,,78,324544.043,4384206.524
+,MidEast,,78,325007.384,4385110.04
+,MidEast,,78,325239.055,4385851.387
+,NorthEast,,79,324370.29,4386639.067
+,NorthEast,,79,324416.624,4387056.074
+,NorthEast,,79,324578.794,4387380.413
+,NorthEast,,79,324879.966,4387751.087
+,NorthEast,,79,325018.968,4388121.76
+,NorthEast,,79,325204.305,4388585.101
+,NorthEast,,79,325528.644,4389233.779
+,MidEast,,80,324370.29,4384855.203
+,MidEast,,80,323767.946,4384183.357
+,MidEast,,80,323443.607,4383650.515
+,MidEast,,80,323003.433,4383187.173
+,MidEast,,80,322587.972,4382763.927
+,MidEast,,80,322007.248,4382237.323
+,MidEast,,80,321659.742,4381936.151
+,MidEast,,80,321567.074,4381866.65
+,NorthMid,,81,323814.28,4387334.079
+,NorthMid,,81,323489.941,4386592.733
+,NorthMid,,81,323119.268,4386013.556
+,NorthMid,,81,322262.086,4385619.716
+,NorthMid,,81,321590.241,4385480.713
+,NorthMid,,81,320895.229,4385503.881
+,NorthMid,,81,320455.055,4385550.215
+,NorthMid,,81,319412.536,4385596.549
+,NorthMid,,82,322910.764,4385851.387
+,NorthMid,,82,322331.587,4385666.05
+,NorthMid,,82,319227.2,4384994.205
+,NorthMid,,82,318995.529,4384924.704
+,SouthEast,,83,325204.305,4382746.999
+,SouthEast,,83,324532.459,4381403.309
+,SouthEast,,83,323976.45,4380383.957
+,SouthEast,,83,323466.774,4379804.781
+,SouthEast,,83,323119.268,4379248.771
+,SouthEast,,83,322910.764,4379040.267
+,SouthEast,,83,322725.428,4378878.098
+,NorthWest,,84,320756.227,4385179.542
+,NorthWest,,84,318671.19,4385225.876
+,NorthWest,,84,317165.33,4385411.212
+,NorthWest,,84,316609.32,4385457.546
+,SouthMid,,85,318624.856,4382260.49
+,SouthMid,,85,319736.875,4381773.982
+,SouthMid,,85,320779.394,4381588.645
+,SouthMid,,85,321636.575,4381472.81
+,SouthMid,,85,322007.248,4381426.476
+,SouthMid,,85,322354.755,4381380.142
+,MidMid,,86,321451.239,4384646.699
+,MidMid,,86,320501.389,4383511.512
+,MidMid,,86,319991.713,4383025.004
+,MidMid,,86,319528.372,4382631.164
+,MidMid,,86,319319.868,4382445.827
+,MidMid,,87,321219.568,4382561.662
+,MidMid,,87,319551.539,4383581.014
+,MidMid,,87,318856.527,4383812.684
+,MidMid,,88,321219.568,4383303.009
+,MidMid,,88,319991.713,4384021.188
+,MidMid,,88,319389.369,4384623.532
+,MidMid,,88,319111.364,4384855.203
+,MidMid,,89,322285.253,4384947.871
+,MidMid,,89,322030.416,4383349.343
+,MidMid,,89,322007.248,4382329.992
+,MidMid,,89,321868.246,4381495.977
+,MidMid,,89,321613.408,4380754.631
+,NorthMid,,90,321439.655,4386384.229
+,NorthMid,,90,321624.992,4387137.159
+,NorthMid,,90,321648.159,4387391.997
+,NorthMid,,90,321682.909,4387797.421
+,NorthMid,,90,321682.909,4388098.593
+,NorthMid,,90,321682.909,4388585.101
+,NorthMid,,90,321694.493,4388805.188
+,MidMid,,91,321775.578,4381055.803
+,MidMid,,91,321694.493,4381750.815
+,MidMid,,91,321659.742,4382283.657
+,MidMid,,91,321763.994,4382781.75
+,MidMid,,91,322018.832,4383442.011
+,MidMid,,91,322099.917,4383812.684
+,MidEast,,92,323686.861,4381994.069
+,MidEast,,92,324069.118,4383071.338
+,MidEast,,92,324103.869,4383442.011
+,MidEast,,92,324381.873,4384032.771
+,MidEast,,92,324706.212,4384403.445
+,MidEast,,92,324937.883,4384785.701
+,MidEast,,92,325030.551,4385272.21
+,MidEast,,92,325076.886,4385445.963
+,MidWest,,93,319794.793,4383824.268
+,MidWest,,93,319319.868,4384391.861
+,MidWest,,93,319192.449,4384669.866
+,MidWest,,93,318902.861,4385063.706
+,MidWest,,93,318671.19,4385399.629
+,MidWest,,93,318566.938,4385527.048
+,NorthMid,,94,323686.861,4386662.234
+,NorthMid,,94,323096.101,4386569.566
+,NorthMid,,94,322702.261,4386407.396
+,NorthMid,,94,321995.665,4386198.893
+,NorthMid,,94,321763.994,4385978.806
+,NorthMid,,94,321300.653,4385666.05
+,NorthMid,,94,321196.401,4385538.631
+,NorthMid,,95,320802.561,4387148.743
+,NorthMid,,95,320918.396,4387693.169
+,NorthMid,,95,320964.73,4388029.092
+,NorthMid,,95,320987.897,4388411.348
+,NorthMid,,95,320987.897,4388538.767
+,NorthWest,,96,318960.778,4388504.017
+,NorthWest,,96,318717.524,4388075.426
+,NorthWest,,96,317953.011,4386940.239
+,NorthWest,,96,317281.166,4386245.227
+,NorthWest,,96,316562.986,4385642.883
+,NorthWest,,96,316331.316,4385364.878
+,NorthWest,,96,316030.144,4385133.207
+,MidWest,,97,318381.602,4385260.626
+,MidWest,,97,318103.597,4384519.28
+,MidWest,,97,317848.759,4383916.936
+,MidWest,,97,317593.921,4383268.258
+,MidWest,,97,317501.253,4382758.582
+,MidWest,,97,317362.25,4382156.239
+,MidWest,,97,317292.749,4381924.568
+,MidWest,,97,317246.415,4381762.398
+,MidWest,,98,317454.919,4385121.624
+,MidWest,,98,317061.078,4383638.931
+,MidWest,,98,316945.243,4382781.75
+,MidWest,,98,316759.906,4381762.398
+,MidWest,,98,316713.572,4381183.221
+,MidWest,,99,318080.43,4382573.246
+,MidWest,,99,317084.245,4383152.423
+,MidWest,,99,316505.069,4383546.263
+,MidWest,,99,316041.727,4383777.934
+,MidWest,,99,315902.725,4383847.435
+,SouthWest,,100,319587.108,4380066.365
+,SouthWest,,100,318627.665,4379503.214
+,SouthWest,,100,318322.625,4379372.855
+,SouthWest,,100,317822.046,4379278.996
+,SouthWest,,100,317258.896,4379226.853
+,SouthWest,,100,316690.405,4379121.352
+,SouthWest,,100,316157.563,4378889.681
+,SouthWest,,101,317065.964,4379106.922
+,SouthWest,,101,317045.107,4379388.498
+,SouthWest,,101,316992.963,4379868.219
+,SouthWest,,101,316982.534,4380139.366
+,SouthWest,,101,316961.677,4380410.513
+,SouthWest,,101,316961.677,4380639.944
+,SouthWest,,101,317024.249,4381109.237
+,SouthWest,,101,317076.393,4381328.24
+,SouthWest,,101,317128.537,4381432.527
+,SouthWest,,101,317191.109,4381714.103
+,SouthWest,,101,317253.681,4382183.395
+,SouthWest,,101,317274.539,4382590.115
+,SouthWest,,101,317274.539,4382756.975
+,SouthWest,,101,317337.111,4383194.981
+,SouthWest,,101,317368.397,4383507.843
+,SouthWest,,101,317378.826,4383695.56
+,SouthEast,,102,324845.79,4379054.779
+,SouthEast,,102,324845.79,4379857.79
+,SouthEast,,102,324751.932,4380264.51
+,SouthEast,,102,324762.36,4380462.656
+,SouthEast,,102,324772.789,4380963.235
+,SouthEast,,102,324845.79,4381401.241
+,SouthEast,,102,324887.505,4382047.822
+,SouthEast,,102,324897.934,4382371.112
+,SouthEast,,102,324897.934,4382631.83
+,SouthEast,,102,324835.361,4383059.408
+,SouthEast,,102,324804.075,4383309.697
+,SouthEast,,102,324772.789,4383507.843
+,SouthEast,,102,324751.932,4383716.417
+,SouthEast,,102,324741.503,4383956.278
+,SouthEast,,102,324741.503,4384237.853
+,SouthEast,,102,324731.074,4384352.569
+,MidMid,,103,320298.868,4382172.966
+,MidMid,,103,320309.296,4382767.403
+,MidMid,,103,320340.583,4382944.692
+,MidMid,,103,320392.726,4383184.552
+,MidMid,,103,320528.3,4383747.703
+,MidMid,,103,320611.729,4384269.139
+,MidMid,,103,320736.874,4384874.005
+,MidMid,,103,320872.447,4385239.01
+,MidMid,,103,321180.095,4385932.52
+,MidMid,,103,321211.381,4386094.166
+,MidMid,,103,321211.381,4386182.81
+,MidMid,,103,321237.453,4386323.597
+,SouthEast,,104,324282.639,4380582.586
+,SouthEast,,104,324136.637,4381072.736
+,SouthEast,,104,323969.778,4381875.748
+,SouthEast,,104,323875.919,4382209.467
+,SouthEast,,104,323782.061,4382418.041
+,SouthEast,,104,323750.774,4382626.616
+,SouthEast,,104,323719.488,4382835.19
+,SouthEast,,104,323719.488,4383043.765
+,SouthEast,,104,323719.488,4383273.196
+,SouthEast,,104,323729.917,4383481.771
+,SouthEast,,104,323761.203,4383857.205
+,SouthEast,,104,323761.203,4383961.492
+,SouthEast,,105,325033.507,4379790.004
+,SouthEast,,105,324814.504,4380280.154
+,SouthEast,,105,324647.644,4380905.877
+,SouthEast,,105,324355.64,4381750.603
+,SouthEast,,105,324188.781,4382230.324
+,SouthEast,,105,324063.636,4382678.759
+,SouthEast,,105,324001.064,4382960.335
+,SouthEast,,105,323938.491,4383200.195
+,SouthEast,,105,323938.491,4383450.485
+,SouthEast,,105,323938.491,4383669.488
+,SouthEast,,105,323938.491,4384003.207
+,SouthEast,,105,323959.349,4384316.069
+,SouthWest,,106,317889.833,4379988.149
+,SouthWest,,106,318233.981,4380509.585
+,SouthWest,,106,318421.698,4380801.59
+,SouthWest,,106,318588.557,4381104.022
+,SouthWest,,106,318849.276,4381542.029
+,SouthWest,,106,319057.85,4381802.747
+,SouthWest,,106,319141.28,4381907.034
+,SouthWest,,106,319381.14,4382240.753
+,SouthWest,,106,319516.714,4382480.614
+,SouthWest,,106,319714.859,4382856.048
+,SouthWest,,106,319996.435,4383304.483
+,SouthWest,,106,320152.866,4383596.487
+,SouthWest,,106,320288.439,4383982.35
+,SouthWest,,106,320382.298,4384232.639
+,NorthEast,,107,324355.64,4383085.479
+,NorthEast,,107,324355.64,4384503.786
+,NorthEast,,107,324428.641,4385369.369
+,NorthEast,,107,324386.926,4386130.666
+,NorthEast,,107,324324.354,4386672.96
+,NorthEast,,107,324313.925,4387340.398
+,NorthEast,,107,324397.355,4387778.404
+,NorthEast,,107,324512.071,4388341.555
+,NorthEast,,107,324678.931,4388842.134
+,NorthEast,,107,324877.076,4389071.565
+,NorthEast,,107,324981.363,4389196.71
+West,MidEast,,108,322965.026,4382139.066
+West,MidEast,,108,322965.026,4382902.093
+West,MidEast,,108,323136.049,4383362.541
+West,MidEast,,108,323267.605,4383730.899
+West,MidEast,,108,323320.228,4384033.478
+West,MidEast,,108,323517.563,4384454.459
+West,MidEast,,108,323714.897,4384638.638
+West,MidEast,,108,324175.345,4385046.463
+West,MidEast,,108,324280.59,4385204.33
+West,MidEast,,108,324359.524,4385388.509
+East,NorthEast,,109,324398.99,4385612.155
+East,NorthEast,,109,324398.99,4385796.334
+East,NorthEast,,109,324320.057,4386072.602
+East,NorthEast,,109,324162.189,4386309.404
+East,NorthEast,,109,324030.633,4386585.672
+East,NorthEast,,109,323964.854,4386967.186
+East,NorthEast,,109,324017.477,4387322.388
+East,NorthEast,,109,324030.633,4387664.435
+East,NorthEast,,109,324135.878,4387914.392
+East,NorthEast,,109,324227.967,4388177.505
+East,NorthEast,,109,324267.434,4388295.906
+West,NorthEast,,110,324464.769,4385704.245
+West,NorthEast,,110,324609.481,4386283.093
+West,NorthEast,,110,324793.66,4386717.229
+West,NorthEast,,110,324977.839,4387151.365
+West,NorthEast,,110,325306.73,4387677.591
+West,NorthEast,,110,325451.442,4388085.415
+West,NorthEast,,110,325675.088,4388532.707
+West,NorthEast,,110,325872.422,4388901.065
+West,NorthEast,,110,326030.29,4389164.178
+West,NorthEast,,110,326122.379,4389295.734
+West,SouthMid,,111,318813.004,4379130.921
+West,SouthMid,,111,319760.21,4380078.127
+West,SouthMid,,111,320049.634,4380393.862
+West,SouthMid,,111,320470.614,4380722.753
+West,SouthMid,,111,320799.505,4380933.243
+West,SouthMid,,111,321352.042,4381446.313
+West,SouthMid,,111,321549.377,4381683.115
+West,SouthMid,,111,321707.245,4381919.916
+West,SouthMid,,111,321799.334,4382143.562
+West,MidWest,,112,319886.606,4381047.148
+West,MidWest,,112,319873.45,4381547.062
+West,MidWest,,112,319755.05,4382086.444
+West,MidWest,,112,319465.626,4382678.447
+West,MidWest,,112,318742.065,4383546.72
+West,MidWest,,112,318492.108,4383849.299
+West,MidWest,,112,318242.151,4384191.346
+West,MidWest,,112,317992.194,4384441.303
+West,MidWest,,112,317216.011,4385020.151
+West,MidWest,,112,317044.988,4385164.863
+West,MidWest,,112,316834.498,4385296.42
+West,MidWest,,112,316545.074,4385467.443
+West,MidMid,,113,319255.135,4383138.895
+West,MidMid,,113,319439.314,4383599.342
+West,MidMid,,113,319807.672,4384257.124
+West,MidMid,,113,320136.563,4384730.727
+West,MidMid,,113,320333.898,4384954.373
+West,MidMid,,113,320478.61,4385151.708
+West,MidMid,,113,320662.789,4385454.287
+West,MidMid,,113,320820.656,4385638.466
+West,MidMid,,113,321083.769,4386125.225
+West,MidMid,,113,321189.014,4386296.248
+West,MidMid,,113,321320.571,4386533.05
+West,NorthMid,,114,318462.923,4384305.251
+West,NorthMid,,114,318607.635,4384792.01
+West,NorthMid,,114,318949.682,4385410.325
+West,NorthMid,,114,319107.55,4385620.815
+West,NorthMid,,114,319291.729,4385791.838
+West,NorthMid,,114,319475.908,4385962.861
+West,NorthMid,,114,319620.62,4386133.885
+West,NorthMid,,114,319975.822,4386449.62
+West,NorthMid,,114,320199.468,4386765.355
+West,NorthMid,,114,320423.114,4387054.78
+West,NorthMid,,114,320607.293,4387278.425
+West,NorthMid,,114,320699.382,4387436.293
+West,NorthMid,,114,320936.184,4387699.406
+West,NorthMid,,114,321706.745,4388607.487
+West,NorthMid,,114,321915.32,4388982.921
+West,NorthMid,,114,322082.179,4389149.781
+West,NorthWest,,115,320778.589,4389931.935
+West,NorthWest,,115,320669.087,4389728.575
+West,NorthWest,,115,320371.869,4389368.784
+West,NorthWest,,115,320105.936,4388977.707
+West,NorthWest,,115,319584.026,4388295.906
+West,NorthWest,,115,318636.82,4387138.209
+West,NorthWest,,115,318150.062,4386611.984
+West,NorthWest,,115,317755.392,4386138.381
+West,NorthWest,,115,317439.657,4385888.424
+West,NorthWest,,115,317176.544,4385677.933
+West,NorthWest,,115,316887.12,4385520.066
+West,NorthWest,,115,316545.074,4385270.108
+West,NorthWest,,115,315976.163,4384926.149
+West,NorthWest,,115,315428.655,4384597.644
+West,NorthWest,,115,315100.15,4384331.712
+West,NorthWest,,115,314724.716,4384065.779
+West,NorthWest,,115,314599.572,4383971.921
+East,MidMid,,116,320269.286,4381446.313
+East,MidMid,,116,320321.909,4382077.784
+East,MidMid,,116,320361.376,4382801.344
+East,MidMid,,116,320453.465,4383367.037
+East,MidMid,,116,320716.578,4384327.398
+East,MidMid,,116,321058.624,4385011.492
+East,MidMid,,116,321242.803,4385577.184
+East,MidMid,,116,321598.006,4386234.966
+East,MidMid,,116,321650.628,4386353.367
+West,NorthEast,,117,321649.462,4385099.085
+West,NorthEast,,117,321899.419,4385691.089
+West,NorthEast,,117,322175.687,4386440.96
+West,NorthEast,,117,322438.8,4386888.252
+West,NorthEast,,117,322780.847,4387309.233
+West,NorthEast,,117,323043.96,4387651.279
+West,NorthEast,,117,323346.539,4388006.481
+West,NorthEast,,117,323662.275,4388493.24
+West,NorthEast,,117,323938.543,4389111.555
+West,NorthEast,,117,324175.345,4389756.182
+West,NorthEast,,117,324464.769,4390729.699
+West,NorthEast,,117,324622.636,4391242.769
+West,NorthEast,,117,324714.726,4391492.726
+East,SouthEast,,118,324859.438,4379027.757
+East,SouthEast,,118,323885.921,4379356.648
+East,SouthEast,,118,323030.804,4379882.874
+East,SouthEast,,118,322425.645,4380238.076
+East,SouthEast,,118,321136.392,4380948.481
+East,SouthEast,,118,320649.633,4381303.683
+East,SouthEast,,118,320202.341,4381540.485
+East,SouthEast,,118,320070.785,4381658.885
+East,MidEast,,119,323491.251,4380303.855
+East,MidEast,,119,323925.387,4381382.617
+East,MidEast,,119,324227.967,4382171.955
+East,MidEast,,119,324464.769,4382816.582
+East,MidEast,,119,324648.948,4383329.652
+East,MidEast,,119,324898.905,4384000.589
+East,MidEast,,119,325069.928,4384474.192
+East,MidEast,,119,325148.862,4384829.395
+East,MidEast,,119,325188.329,4385145.13
+East,MidEast,,119,325293.574,4385460.865
+East,MidEast,,119,325385.663,4385855.534
+East,MidEast,,119,325556.687,4386342.293
+East,MidEast,,119,325714.554,4386579.095
+East,MidEast,,119,325793.488,4386710.651
+East,MidEast,,119,325898.733,4386815.896
+East,MidEast,,119,326337.097,4387210.039
+East,MidEast,,119,326545.672,4387502.043
+East,MidEast,,119,326879.391,4387919.192
+East,MidEast,,119,327004.535,4388252.911
+East,MidEast,,119,327087.965,4388607.487
+West,NorthEast,,120,324042.779,4388357.198
+West,NorthEast,,120,324021.921,4388252.911
+West,NorthEast,,120,323834.204,4387877.477
+West,NorthEast,,120,323729.917,4387606.33
+West,NorthEast,,120,323596.496,4387000.075
+West,NorthEast,,120,323609.652,4386565.939
+West,NorthEast,,120,323662.275,4386079.18
+West,NorthEast,,120,323754.364,4385434.554
+West,NorthEast,,120,323741.208,4385039.885
+West,NorthEast,,120,323649.119,4384763.616
+West,NorthEast,,120,323491.251,4384487.348
+West,MidMid,,121,321399.505,4381645.73
+West,MidMid,,121,321517.905,4381790.442
+West,MidMid,,121,321794.174,4382264.045
+West,MidMid,,121,322083.598,4382711.337
+West,MidMid,,121,322412.489,4383277.029
+West,MidMid,,121,322557.201,4383895.344
+West,MidMid,,121,322688.757,4384342.636
+West,MidMid,,121,322780.847,4384789.928
+West,MidMid,,121,322912.403,4385750.289
+West,MidMid,,121,322912.403,4386579.095
+West,MidMid,,121,322912.403,4386789.585
+West,MidMid,,121,323166.766,4387460.328
+West,MidMid,,121,323375.34,4387731.475
+West,MidMid,,121,323646.487,4388127.766
+West,MidMid,,121,323729.917,4388273.768
+West,MidMid,,121,323750.774,4388336.341
+East,SouthMid,,122,319518.248,4378304.197
+East,SouthMid,,122,320162.875,4378817.267
+East,SouthMid,,122,320439.143,4379185.625
+East,SouthMid,,122,320846.968,4379488.205
+East,SouthMid,,122,321162.703,4379869.718
+East,SouthMid,,122,321491.594,4380119.676
+East,SouthMid,,122,321781.018,4380382.788
+East,SouthMid,,122,321886.263,4380501.189
+East,SouthWest,,123,317308.101,4379185.625
+East,SouthWest,,123,317294.945,4379488.205
+East,SouthWest,,123,317321.256,4379738.162
+East,SouthWest,,123,317387.035,4380080.209
+East,SouthWest,,123,317492.28,4380356.477
+East,SouthWest,,123,317558.058,4380474.878
+East,SouthWest,,123,317676.459,4380606.434
+East,SouthWest,,123,317689.614,4380895.858
+East,SouthWest,,123,317729.081,4381264.216
+East,SouthWest,,123,317755.392,4381698.352
+East,SouthWest,,123,317808.015,4382000.932
+East,SouthWest,,123,317860.638,4382514.002
+East,SouthWest,,123,317873.793,4382948.138
+East,SouthWest,,123,317873.793,4383237.562
+East,SouthWest,,123,317794.859,4384092.679
+East,SouthWest,,123,317794.859,4384368.947
+East,SouthWest,,123,317768.548,4384447.881
+East,SouthWest,,123,317768.548,4384526.815
+East,NorthMid,,124,320899.59,4386026.558
+East,NorthMid,,124,320728.567,4386434.383
+East,NorthMid,,124,320794.345,4386986.919
+East,NorthMid,,124,320899.59,4387526.301
+East,NorthMid,,124,321189.014,4388289.328
+East,NorthMid,,124,321386.349,4388670.841
+East,NorthWest,,125,319949.506,4390416.87
+East,NorthWest,,125,319683.573,4390166.581
+East,NorthWest,,125,319433.284,4389994.507
+East,NorthWest,,125,319120.422,4389697.289
+East,NorthWest,,125,318885.776,4389384.427
+East,NorthWest,,125,318463.413,4388962.064
+East,NorthWest,,125,318018.505,4388512.974
+East,NorthWest,,125,317334.412,4387947.281
+East,NorthWest,,125,316939.743,4387421.056
+East,NorthWest,,125,316702.941,4387105.32
+East,NorthWest,,125,316176.716,4386592.25
+East,NorthWest,,125,315939.914,4386276.515
+East,NorthWest,,125,315874.136,4386184.425
+East,NorthWest,,125,315506.87,4385645.731
+East,NorthWest,,125,315162.723,4385285.94
+East,NorthWest,,125,314849.861,4385004.364
+East,NorthWest,,125,314521.356,4384582.001
+East,NorthWest,,125,314224.138,4384316.069
+,MidEast,,126,325848.685,4384703.669
+,MidEast,,126,324444.284,4384814.909
+,MidEast,,126,323804.656,4384856.624
+,MidEast,,126,323262.363,4384981.769
+,MidEast,,126,322845.214,4385134.723
+,MidEast,,126,322219.491,4385273.773
+,MidEast,,126,322024.821,4385343.298
+,NorthMid,,127,321955.296,4384230.901
+,NorthMid,,127,321357.383,4384661.954
+,NorthMid,,127,321009.759,4384995.674
+,NorthMid,,127,320731.66,4385287.678
+,NorthMid,,127,320300.606,4385704.827
+,NorthMid,,127,320092.031,4385982.926
+,NorthMid,,127,319911.267,4386302.74
+,NorthMid,,127,319841.742,4386372.265
+,MidEast,,128,327506.197,4387322.529
+,MidEast,,128,326997.986,4385151.082
+,MidEast,,128,326535.976,4383048.936
+,MidEast,,128,326120.167,4381778.408
+,MidEast,,128,325866.061,4380715.785
+,NorthWest,,129,320298.84,4390787.604
+,NorthWest,,129,319559.624,4389447.775
+,NorthWest,,129,318982.112,4388662.358
+,NorthWest,,129,318173.594,4387622.835
+,NorthWest,,129,317226.474,4386629.514
+,NorthWest,,129,316371.755,4385543.79
+,NorthWest,,129,315932.846,4384896.976
+,NorthWest,,129,315678.74,4384550.469
+,SouthEast,,130,324641.735,4378451.936
+,SouthEast,,130,325450.252,4380161.373
+,SouthEast,,130,326073.966,4381362.599
+,SouthEast,,130,326374.272,4382425.222
+,SouthEast,,130,326489.775,4383834.353
+,SouthEast,,130,326489.775,4384042.258
+,SouthEast,,130,326559.076,4384411.866
+,SouthWest,,131,317087.871,4378960.147
+,SouthWest,,131,317665.383,4380507.881
+,SouthWest,,131,318289.097,4382171.117
+,SouthWest,,131,318520.102,4382817.931
+,SouthWest,,131,318635.604,4383349.243
+,SouthWest,,131,319028.313,4383926.755
+,SouthWest,,131,319259.318,4384434.966
+,SouthWest,,131,319559.624,4384943.177
+,SouthWest,,131,319721.328,4385289.685
+,SouthWest,,131,320137.137,4385959.599

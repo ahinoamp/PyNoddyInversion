@@ -5,8 +5,18 @@ Created on Wed Jul 15 15:58:21 2020
 @author: ahinoamp
 """
 
+import GeneralInversionUtil as GI
+import VisualizationUtilities as Viz
+import PriorUncertaintyUtil as Unc
+import LoadInputDataUtility as DI
+import SimulationUtilities as sim
+import SamplingHisFileUtil as sample
+import PSO_GA_Utilities as PSOGA
+import MCMC_Util as MCMC
+from deap import base
+
 import pandas as pd
-import GravityInversionUtilities as GI
+import SimulationUtilities as sim
 import VisualizationUtilities as Viz
 import PriorUncertaintyUtil as Unc
 import LoadInputDataUtility as DI
@@ -35,7 +45,7 @@ P['MaxFaultIntersectionError'] = 500
 #############################
 ## 0 define the model grid boundaries + some other input stuff
 #############################  
-folder = 'Z:/OptimisationPatua/CheckHistory/'
+folder = 'Results/'
  
 folderoutput = folder+'Scratch/'
 P['folder']=folderoutput
@@ -43,14 +53,9 @@ P['output_name'] = P['folder']+'noddy_out'
 P['iterationNum'] =0
 
 
-Norm = pd.read_pickle('NormalizingFactorSummary.pkl')
+Norm = {'Grav': 2.4, 'Tracer': 1.0, 'FaultMarkers': 500, 'GT': 315, 'Mag':300}
 
-P['verbose']=True    
-P['Grav_comboNormalizingFactor'] = Norm['Grav']
-P['Mag_comboNormalizingFactor'] = Norm['Mag']
-P['Tracer_comboNormalizingFactor'] = Norm['Tracer']
-P['GT_comboNormalizingFactor'] = Norm['GT']
-P['FaultIntersection_comboNormalizingFactor'] = Norm['FaultIntersection']    
+P['verbose']=True     
 P['SimulationShiftType']='Datum Shift'
 P['ErrorNorm']='L1'
 P['ErrorType']='Global'
@@ -67,8 +72,6 @@ DI.loadData(P)
 nRealizations = 5500
 ErrList=[]
 for i in range(nRealizations):
-    if(i<288):
-        continue
     print(i)
     try:
         SampledInputFileName = folder+'HistoryTest'+str(i)+'.his'
@@ -82,7 +85,7 @@ for i in range(nRealizations):
         P['GlobalMoveEachDir'] = 1000
         P['XYZ_Axes_StepStd'] = 300
         P['cubesize'] = 150
-        P['ScenarioNum'] = random.choice([5, 10,10, 11, 11, 12, 12, 13, 13, 14, 14, 15, 15, 16, 16, 17, 17, 18, 18, 19, 19])
+        P['ScenarioNum'] = random.choice([10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20])
         P['SlipParam'] = 0.1
         P['xy_origin']=xy_origin
         P['GeneralPerturbStrategy']=''
@@ -102,65 +105,34 @@ for i in range(nRealizations):
         P['StartUpdateLocalWeight']=random.uniform(30, 60)
         P['UpdateLocalWeightsFreqRuleBased']=random.uniform(1, 40)
         P['verbose']=True
+
+        toolbox = base.Toolbox()
+        GI.register_sim_functions(P, toolbox)
         
-        Unc.DefinePriorUncertainty(P, ModelParametersTableF)
+        P={}
+        P['toolbox']=toolbox
+        P['HypP'] = P
+        #1. Setup output folders and initialize parameters
+        GI.setupFoldersParameters(P) 
         
-        ################################
+        DI.loadData(P)
+        
+        #############################
+        ## 1.5 Define the range of uncertainties for these runs
         ## 1.75 choose only a subset of events which to care about
         ################################
-        ModelParametersTable = pd.read_csv(ModelParametersTableF)
-        ModelParametersTable = GI.SelectFaultingEvents(ModelParametersTable, P)        
-        ModelParametersTable = GI.OrderFaultingEvents(ModelParametersTable,P)        
+        P['ModelParamTable'] = GI.InitializeParameters(P)
         
-        ModelParametersTable.to_csv(folder+'ThreadModelParameters.csv')
-        FullParameterHistory = ModelParametersTable.copy()
-        P['FullParameterHistory']=FullParameterHistory
-        P['nEvents']=int(np.max(ModelParametersTable['EventNumber']))
-        P['nFaults']=int(np.sum(ModelParametersTable['EventName'].drop_duplicates().str.contains('Fault')))
-        ##############################
-        ##1.8 Create a base file and remove from table all parameters that have no std
-        ##############################
-        #debugging line
-        #ModelParametersTable.loc[15:, 'proposal_std_or_range']=0
-        GI.CreateTemplatePyNoddyFile(P,ModelParametersTable)
-        
-        #only keep those parameters that need to be optimized in the model parameter table
-        P['OptimizeParametersIdx'] = ModelParametersTable['proposal_std_or_range']>0.000001
-        ModelParametersTable=ModelParametersTable[ModelParametersTable['proposal_std_or_range']>0.000001].reset_index()
-        ModelParametersTable = ModelParametersTable.drop(['index'], axis=1)
-        P['nParameters']= np.shape(ModelParametersTable)[0]
-        P['ModelParametersTable']=ModelParametersTable
-        
-        
+    
         #############################
         ## 2. Calculate mismatch #1
         #############################
         P['iterationNum']=0
-        P['GeneralPerturbStrategy']=''
-        P['ErrorType']='Global'
-        P['LearningRate']='None'
-        P['sampledParamterValues']=GI.ProposeParametersExploration(P)
-        P['ModelParametersTable'][str(P['iterationNum'])] = P['sampledParamterValues']
-        P['Grav_AllAcceptedList'] = [1]
-        P['GT_AllAcceptedList'] = [1]
-        P['Mag_AllAcceptedList'] = [1]
-        P['Tracer_AllAcceptedList'] = [1]
-        P['FaultIntersection_AllAcceptedList'] = [1]
-        P['Combo_AllAcceptedList']=[1]
-        P['Combo_MismatchList'] = [2.2]
-        P['OptimMethod']='MCMC'
-        P['SimulationsExplorationStage']=2
-        P['ExplorationStage']='Explore'
-        P['Combo_lastAcceptedIndex']=0
-        P['AcceptProbType']=''    
-        P['ErrorType']='Global'
-        P['Combo_lastAcceptanceProbability']=0.3
-        P['Combo_lastNormalizingFactor']=0.1
-        P['thread_num']=i
-        
-        GI.SimulateGetGlobalMismatch(P)
-        GI.OutputImageAndHistoryFile(P, folderoutput+'Visualization/Viz_'+str(i))
-    #    Err = GetErrFromFile(hisfile)
+        MCMC.updateDataTypeWeights(P)
+        sample.ProposeParameters(P)
+        sim.simulate_calc_mismatch(P)
+
+        #    Err = GetErrFromFile(hisfile)
         Err = [P['Grav_MismatchList'][-1],
                P['Mag_MismatchList'][-1],
                P['Tracer_MismatchList'][-1],
@@ -169,21 +141,21 @@ for i in range(nRealizations):
        
         ErrList.append(Err)
         gravBlock = {}
-        gravBlock['gravSim'] = P['gSim']
+        gravBlock['Grav']['Sim'] = P['gSim']
         gravBlock['Err'] = Err
     
         with open('Z:/OptimisationPatua/ReducedDimensionSpace2/gravfile_'+str(i)+'.pickle', 'wb') as handle:
             pickle.dump(gravBlock, handle, protocol=pickle.HIGHEST_PROTOCOL)
     
         magBlock = {}
-        magBlock['magSim'] = P['gSimMag']
+        magBlock['Mag']['Sim'] = P['gSimMag']
         magBlock['Err'] = Err
     
         with open('Z:/OptimisationPatua/ReducedDimensionSpace2/magfile_'+str(i)+'.pickle', 'wb') as handle:
             pickle.dump(magBlock, handle, protocol=pickle.HIGHEST_PROTOCOL)
     
         gtBlock = {}
-        gtBlock['gtSim'] = P['GT_Sim']
+        gtBlock['GT']['Sim'] = P['GT_Sim']
         gtBlock['Err'] = Err
     
         with open('Z:/OptimisationPatua/ReducedDimensionSpace2/gtfile_'+str(i)+'.pickle', 'wb') as handle:

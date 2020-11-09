@@ -189,7 +189,7 @@ class Fitness(object):
             self.values = values
         
     def getValues(self):
-        return tuple(-1.*x for x in self.wvalues)
+        return tuple(x for x in self.wvalues)
 
     def getWeightedValues(self):
         return self.wvalues
@@ -220,7 +220,7 @@ class Fitness(object):
             err_weighted.append(err*self.dat_opt_wts[dt])
 
         if(self.method=='GA'):
-            self.wvalues = (np.sum(err_weighted),)
+            self.wvalues = (-1.*np.sum(err_weighted),)
         else:
             self.wvalues = tuple(-1.*x for x in err_weighted)
                 

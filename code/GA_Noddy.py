@@ -198,7 +198,7 @@ def register_functions(P, toolbox):
     
 if __name__ == "__main__":
     tasks = pd.read_pickle('Combo_Scratch/parameters.pkl')
-    params = tasks.iloc[1, :]
+    params = tasks.iloc[993, :]
     params = params.to_dict()
     params['Windows'] = True
     params['npop'] = 4
