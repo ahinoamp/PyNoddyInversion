@@ -4,6 +4,12 @@
 
 PyNoddy_Inversion is a repository for stochastic inversion of geological and geophysical data for constraining structural features in the subsurace.
 
+As is shown in the image below, the code takes in gravity, magnetic, fault markers, stratigraphy markers and tracer connectivity information and tries to find a structural geologic model that matches the data.
+
+![geologic model](/InversionExample.PNG)
+
+For examples of resultant models for the Patua Geothermal Field case study, see the folder Example_Resultant_Models\InteractiveHTML, where you can download an html file of the 3D model and then open it to view in your browser. That folder also includes a power point with images of all of the example models.
+
 This repository is seperated into
 1. core code
 2. data files
