@@ -1,7 +1,5 @@
 # PyNoddy_Inversion
 
-https://htmlpreview.github.io/?https://github.com/ahinoamp/PyNoddyInversion/blob/master/Example_Resultant_Models/InteractiveHTML/GeoModel_1553.html
-
 ![geologic model](/Github.PNG)
 
 PyNoddy_Inversion is a repository for stochastic inversion of geological and geophysical data for constraining structural features in the subsurace.
@@ -10,7 +8,12 @@ As is shown in the image below, the code takes in gravity, magnetic, fault marke
 
 ![geologic model](/InversionExample.png)
 
-For examples of resultant models for the Patua Geothermal Field case study, see the folder Example_Resultant_Models\InteractiveHTML, where you can download an html file of the 3D model and then open it to view in your browser. That folder also includes a power point with images of all of the example models.
+For examples of resultant models for the Patua Geothermal Field case study, see the folder Example_Resultant_Models\InteractiveHTML, where you can download an html file of the 3D model and then open it to view in your browser. That folder also includes a power point with images of all of the example models. Or click on one of these links to see some examples now:
+- https://htmlpreview.github.io/?https://github.com/ahinoamp/PyNoddyInversion/blob/master/Example_Resultant_Models/InteractiveHTML/GeoModel_503.html
+- https://htmlpreview.github.io/?https://github.com/ahinoamp/PyNoddyInversion/blob/master/Example_Resultant_Models/InteractiveHTML/GeoModel_2151.html
+- https://htmlpreview.github.io/?https://github.com/ahinoamp/PyNoddyInversion/blob/master/Example_Resultant_Models/InteractiveHTML/GeoModel_4375.html
+- https://htmlpreview.github.io/?https://github.com/ahinoamp/PyNoddyInversion/blob/master/Example_Resultant_Models/InteractiveHTML/GeoModel_6039.html
+- https://htmlpreview.github.io/?https://github.com/ahinoamp/PyNoddyInversion/blob/master/Example_Resultant_Models/InteractiveHTML/GeoModel_1553.html
 
 This repository is seperated into
 1. core code
