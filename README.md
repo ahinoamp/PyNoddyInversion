@@ -1,6 +1,6 @@
 # PyNoddy_Inversion
 
-https://cdn.rawgit.com/ahinoamp/PyNoddyInversion/master/Example_Resultant_Models/InteractiveHTML/GeoModel_1553.html
+https://htmlpreview.github.io/?ahinoamp/PyNoddyInversion/master/Example_Resultant_Models/InteractiveHTML/GeoModel_1553.html
 
 ![geologic model](/Github.PNG)
 
