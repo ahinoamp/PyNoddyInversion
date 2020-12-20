@@ -15,6 +15,11 @@ For examples of resultant models for the Patua Geothermal Field case study, see 
 - https://htmlpreview.github.io/?https://github.com/ahinoamp/PyNoddyInversion/blob/master/Example_Resultant_Models/InteractiveHTML/GeoModel_6039.html
 - https://htmlpreview.github.io/?https://github.com/ahinoamp/PyNoddyInversion/blob/master/Example_Resultant_Models/InteractiveHTML/GeoModel_1553.html
 
+If you'd like to download the GIS data associated with this project, you can do so here:
+https://drive.google.com/file/d/197MIDjw85VurKN3FLpsL7mFN7DxwWKSx/view?usp=sharing
+
+If you have any questions or comments, I'd be happy to talk (ahinoamp followed by the domain gmail). 
+
 This repository is seperated into
 1. core code
 2. data files
