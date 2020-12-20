@@ -12,18 +12,11 @@ import matplotlib.pyplot as plt
 
 plt.close('all')
 
-file = 'Z:/FinalThesisRun/PlotsCombo/ParametersWithMismatch.csv'
+file = 'C:/Users/ahino/Documents/GitHub/PyNoddyInversion/code/Combo_Scratch/ParametersWithMismatch.csv'
 
 Data = pd.read_csv(file)
-Data['Look'] = Data['OptimMethod']
 
-fig, ax = plt.subplots(1, 1, figsize=(8,4))
-
-figOptim = sns.catplot(x="Look", y="MinMismatch", kind="box", data=Data);
-
-#figOptim  = sns.catplot(x="Look", y="MinMismatch", kind="swarm",
-#            data=Data.query("MinMismatch <= 0.54"));
-
+figOptim = sns.catplot(x="OptimMethod", y="MinMismatch", kind="box", data=Data);
 
 figOptim.set_axis_labels("Search method", "Final mismatch")
 

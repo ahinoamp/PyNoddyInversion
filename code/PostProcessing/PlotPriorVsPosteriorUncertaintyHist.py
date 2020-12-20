@@ -11,9 +11,9 @@ import numpy as np
 import os
 
 
-folder = 'Z:/FinalThesisRun/'
+folder = 'C:/Users/ahino/Documents/FinalGeothermicsToday/'
 folderresults = os.path.abspath(os.path.join(os.path.dirname( __file__), '..', 'Combo_Scratch'))
-file=folderresults+'/'+'ErrorHistorySummary.csv'
+file=folder+'/'+'ErrorHistorySummary.csv'
 Data = pd.read_csv(file)
 Data['Status'] = 'Prior'
 
@@ -22,7 +22,7 @@ P['Grav_comboNormalizingFactor'] = 2.4
 P['Tracer_comboNormalizingFactor'] = 1.0
 P['FaultMarkers_comboNormalizingFactor'] = 500
 P['GT_comboNormalizingFactor'] = 315
-P['Mag_comboNormalizingFactor'] = 330
+P['Mag_comboNormalizingFactor'] = 300
             
 DataTypes = ['Grav', 'Tracer', 'FaultMarkers', 'GT', 'Mag']
 RealError = []
@@ -36,15 +36,15 @@ for i in range(len(Data)):
 Data['RealError'] = RealError
           
 PercentPosterior = 1
-threshold = np.percentile(Data['RealError'], 2.5)
+threshold = np.percentile(Data['RealError'], 1.5)
 filterPosterior = Data['RealError'] < threshold
 
 
 datakeys = list(Data.keys())
 Parammeters2Plot = []
 for i in range(len(datakeys)):
-#    if(('Fault' not in datakeys[i])&('filename' not in datakeys[i])&('Status' not in datakeys[i])):
-    if(('filename' not in datakeys[i])&('Status' not in datakeys[i])):
+    if(('Fault' not in datakeys[i])&('filename' not in datakeys[i])&('Status' not in datakeys[i])):
+#    if(('filename' not in datakeys[i])&('Status' not in datakeys[i])):
         Parammeters2Plot.append(datakeys[i])
         
 print('number of prior: ' + str(len(Data)))
@@ -83,12 +83,12 @@ for i in range(len(Parammeters2Plot)):
         
         # Plot formatting
     plt.legend(prop={'size': 12}, loc='upper left', bbox_to_anchor=(1, 0.95))
-    plt.title('Prior vs. Posterior')
+    plt.title(parameter + ': Prior vs. Posterior')
     plt.xlabel(parameter)
     plt.ylabel('Density')
 #    plt.legend()
 
-    fig.savefig('Plots/'+parameter+'.png', dpi = 125,bbox_inches="tight") 
+    fig.savefig('C:/Users/ahino/Documents/FinalGeothermicsToday/Plots/'+parameter+'.png', dpi = 125,bbox_inches="tight") 
     
 FaultProperties = ['Amplitude', 'Dip', 'Dip Direction', 'Pitch', 'Profile Pitch', 'XAxis', 'YAxis', 'ZAxis', 'X', 'Y', 'Z', 'Slip']
 Zones = ['MidEast','MidMid', 'MidWest','NorthEast',
@@ -138,6 +138,6 @@ for fp in range(len(FaultProperties)):
         plt.xlabel(pname)
         plt.ylabel('Density')
 #        plt.xlim([np.min(datai[parameter]), np.max(datai[parameter])])
-        fig.savefig('Plots/'+pname+'.png', dpi = 100,bbox_inches="tight") 
+        fig.savefig('C:/Users/ahino/Documents/FinalGeothermicsToday/Plots/'+pname+'.png', dpi = 100,bbox_inches="tight") 
 
         

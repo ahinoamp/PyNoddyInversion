@@ -35,7 +35,7 @@ def LoadResults(folder, DataTypes):
     NormalizingFactor['Tracer'] = 1.0
     NormalizingFactor['FaultMarkers'] = 300.
     NormalizingFactor['GT'] = 315.
-    NormalizingFactor['Mag'] = 330.
+    NormalizingFactor['Mag'] = 300.
     
     print(NormalizingFactor)
     Initialize=0

@@ -133,21 +133,16 @@ def register_functions_MCMC(P, toolbox):
         
 
 if __name__== "__main__":
+    start = time.time()
     tasks = pd.read_pickle('Combo_Scratch/parameters.pkl')
     params = tasks.iloc[91, :]
     params = params.to_dict()
-    params['OutputImageFreq']=1
+    params['OutputImageFreq']=15
     params['verbose']=True    
-#    params['MCMC']=True    
-    params['nruns']=300
-#    params['SimulationsExplorationStage']=1
-    params['nExploreRuns']=5
-#    params['cubesize']=150    
-#    params['MO_WeightingMethod']='Extreme'
-#    params['MCMC_SwitchWeightFreq']=2
     params['Windows'] = True
-    params['ScenarioNum'] = 16
-    params['DataTypes'] = ['Grav']
-    params['DatNormCoef'] = {'Grav': 2.4}
         
     MCMC_Noddy(params)
+    
+    end = time.time()
+    if(params['verbose']):
+        print('Calculation time took '+str(end - start) + ' seconds')
