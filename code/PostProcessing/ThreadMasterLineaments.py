@@ -13,8 +13,10 @@ import random
 import multiprocessing
 import numpy as np
 import sys
-import Lineaments_gcp as prior_gen
-    
+import Lineaments_gcp2 as prior_gen
+from glob import glob
+
+
 class Predictor(multiprocessing.Process):
     def __init__(self, input_queue, output_queue, gpu_id):
         multiprocessing.Process.__init__(self)
@@ -32,7 +34,7 @@ class Predictor(multiprocessing.Process):
             else:
                 try:
 #                    self.initialize_logging(input['thread_num'])
-                    prior_gen.create_lineaments(input)
+                    prior_gen.create_lineaments2(input)
                     self.input_queue.task_done()
                     self.output_queue.put('complete- run #'+str(input['run_n'])+' on cpu#'+str(self.gpu_id))
                 except Exception:
@@ -47,13 +49,16 @@ if __name__ == "__main__":
     #sample the realizations
     num_runs =  5000
     tasks = []
-    num_cpus = 32
-       
-    for i in range(num_runs):
+    num_cpus = 96
+    folder = 'HistoryFileTransferBest/'
+    
+    historyfiles = glob(folder+'*.his')
+    
+    for i in range(len(historyfiles)):
         params = {}
         
         params['run_n'] = i
-        
+        params['hisfile'] =historyfiles[i]
         tasks.append(params)
 
     

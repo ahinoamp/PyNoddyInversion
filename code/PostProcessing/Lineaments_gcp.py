@@ -15,6 +15,7 @@ import numpy as np
 from sklearn.decomposition import PCA
 from scipy import interpolate
 from scipy.signal import savgol_filter
+import from glob import glob
 
 from deap import base
 
@@ -161,8 +162,8 @@ def flipdict(dict2flip):
                 flippedDict[fn]=[key]
     return flippedDict
 
-def create_lineaments(values):
-    folder = 'win/'
+def create_lineaments2(values):
+    folder = 'Scratch2/'
 
     run_n = values['run_n']
     
@@ -221,73 +222,68 @@ def create_lineaments(values):
     ## Setup the folders
     ##############################
     
-    try:
-        P={}
-        toolbox = base.Toolbox()
-        GI.register_sim_functions(HypPara, toolbox)
-        P['toolbox']=toolbox
-    
-        P['HypP'] = HypPara
-        GI.setupFoldersParameters(P)    
-        DI.loadData(P)
-        
-        #############################
-        ## 1.5 Define the range of uncertainties for these runs
-        ## 1.75 choose only a subset of events which to care about
-        ################################
-        P['ModelParamTable'] = GI.InitializeParameters(P)
-        
-    
-        #############################
-        ## 2. Calculate mismatch #1
-        #############################
-        P['iterationNum']=0
-        MCMC.updateDataTypeWeights(P)
-        sample.ProposeParameters(P)
-        sim.simulate_calc_mismatch(P)
-    
-        #    Err = GetErrFromFile(hisfile)
-        Err = [P['Grav']['L1MismatchList'][-1],
-               P['Mag']['L1MismatchList'][-1],
-               P['Tracer']['L1MismatchList'][-1],
-               P['GT']['L1MismatchList'][-1],
-               P['FaultMarkers']['L1MismatchList'][-1]]
+#    try:
+    P={}
+    toolbox = base.Toolbox()
+    GI.register_sim_functions(HypPara, toolbox)
+    P['toolbox']=toolbox
+
+    P['HypP'] = HypPara
+    GI.setupFoldersParameters(P)    
+    DI.loadData(P)
        
-        FaultPriorMatrix = P['CombinedFaultMatrix'].astype(int)
-        dictBlock = {}
-        dictBlock['FaultBlock'] = FaultPriorMatrix
-        dictBlock['FaultBlockErr'] = Err
+    #############################
+    ## 2. Calculate mismatch #1
+    #############################
+    P['iterationNum']=0
+    MCMC.updateDataTypeWeights(P)
+
+    P['SampledInputFileName'] = values['hisfile']
+
+    sim.simulate_calc_mismatch(P)
+
+    #    Err = GetErrFromFile(hisfile)
+    Err = [P['Grav']['L1MismatchList'][-1],
+           P['Mag']['L1MismatchList'][-1],
+           P['Tracer']['L1MismatchList'][-1],
+           P['GT']['L1MismatchList'][-1],
+           P['FaultMarkers']['L1MismatchList'][-1]]
+   
+    FaultPriorMatrix = P['CombinedFaultMatrix'].astype(int)
+    dictBlock = {}
+    dictBlock['FaultBlock'] = FaultPriorMatrix
+    dictBlock['FaultBlockErr'] = Err
+
+    with open(folder+'Blocks/file_'+str(run_n)+'.pickle', 'wb') as handle:
+        pickle.dump(dictBlock, handle, protocol=pickle.HIGHEST_PROTOCOL)
+       
+    #get fault location 
+    dictFaultI = {}
+    FaultsXY = GetFaultXYCode(P)
+    dictFaultI['nFaults'] = len(P['faultNumbers'])
+    dictFaultI['Err']=Err
+    for i in range(len(P['faultNumbers'])):
+        a = getXSection(FaultsXY, i, P, P['HypP']['xy_extent'][0]/2.0)
+        b = getYSection(FaultsXY, i, P, P['HypP']['xy_extent'][1]/2.0)
+        c = getZSection(FaultsXY, i, P, 0)  
+        if((len(a)>=2)|(len(b)>=2)|(len(c)>=2)):
+            smallDict = {}
+            if(len(a)>=2):
+                smallDict['X']=a
+            if(len(b)>=2):
+                smallDict['Y']=b
+            if(len(c)>=2):
+                smallDict['Z']=c
+                    
+            dictFaultI[str(i)]=smallDict
     
-        with open(folder+'Blocks/file_'+str(run_n)+'.pickle', 'wb') as handle:
-            pickle.dump(dictBlock, handle, protocol=pickle.HIGHEST_PROTOCOL)
-           
-        #get fault location 
-        dictFaultI = {}
-        FaultsXY = GetFaultXYCode(P)
-        dictFaultI['nFaults'] = len(P['faultNumbers'])
-        dictFaultI['Err']=Err
-        for i in range(len(P['faultNumbers'])):
-            a = getXSection(FaultsXY, i, P, P['HypP']['xy_extent'][0]/2.0)
-            b = getYSection(FaultsXY, i, P, P['HypP']['xy_extent'][1]/2.0)
-            c = getZSection(FaultsXY, i, P, 0)  
-            if((len(a)>=2)|(len(b)>=2)|(len(c)>=2)):
-                smallDict = {}
-                if(len(a)>=2):
-                    smallDict['X']=a
-                if(len(b)>=2):
-                    smallDict['Y']=b
-                if(len(c)>=2):
-                    smallDict['Z']=c
-                        
-                dictFaultI[str(i)]=smallDict
-        
-            with open(folder+'Faults/file_'+str(run_n)+'.pickle', 'wb') as handle:
-                pickle.dump(dictFaultI, handle, protocol=pickle.HIGHEST_PROTOCOL)
+        with open(folder+'Faults/file_'+str(run_n)+'.pickle', 'wb') as handle:
+            pickle.dump(dictFaultI, handle, protocol=pickle.HIGHEST_PROTOCOL)
     
-    except:
-        print('theres a problem in the air tonight')
+#    except:
+#        print('theres a problem in the air tonight')
     
 if __name__== "__main__":
-    params = {'run_n': 4458}
-        
-    create_lineaments(params)
+    params = {'run_n': 4458, 'hisfile': 'faultmodel.his'}
+
+    create_lineaments2(params)

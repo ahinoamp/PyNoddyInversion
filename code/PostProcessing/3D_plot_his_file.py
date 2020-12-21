@@ -13,6 +13,7 @@ import pandas as pd
 import matplotlib.pylab as pl
 from scipy.interpolate import griddata
 import SimulationUtilities as sim
+from glob import glob
 
 def getDXF_parsed_structure(output_name):
     filename = output_name + '.dxf'
@@ -58,15 +59,15 @@ def getDXF_parsed_structure(output_name):
     cell_data = np.asarray(cell_data, dtype=object)
 #    print('Finished reading model')
    
-    Data = pd.DataFrame({'x': np.asarray(xpoint, dtype=float), 
-                         'y': np.asarray(ypoint, dtype=float),
-                         'z': np.asarray(zpoint, dtype=float),
-                         'cell_data': np.repeat(np.asarray(cell_data),3)})
+#    Data = pd.DataFrame({'x': np.asarray(xpoint, dtype=float), 
+#                         'y': np.asarray(ypoint, dtype=float),
+#                         'z': np.asarray(zpoint, dtype=float),
+#                         'cell_data': np.repeat(np.asarray(cell_data),3)})
     
-    Data.to_csv('xyz_cell.csv')
+#    Data.to_csv('xyz_strat.csv')
     return points, cell_data, faceCounter
 
-def convertSurfaces2VTK(points, cell_data, faceCounter, outputOption = 1, fileprefix='Surface',  xy_origin=[0,0,0]):
+def convertSurfaces2VTK(points, cell_data, faceCounter, outputOption = 1, fileprefix='Surface',  xy_origin=[0,0,0], num=0):
     
     # Choose output option
     num3Dfaces=faceCounter
@@ -101,7 +102,7 @@ def convertSurfaces2VTK(points, cell_data, faceCounter, outputOption = 1, filepr
                          'z': np.asarray(points[:, 2], dtype=float),
                          'cell_data': np.repeat(np.asarray(CatCodes),3)})
 
-    Data.to_csv('xyz_cell.csv')
+    Data.to_csv('Example_Resultant_Models/150mResDataPoints/xyz_'+str(num)+'.csv')
     ## if you would like a single vtk file
     if (outputOption==2): 
         cells = np.zeros((num3Dfaces, 3),dtype ='int')
@@ -136,7 +137,7 @@ def convertSurfaces2VTK(points, cell_data, faceCounter, outputOption = 1, filepr
 
 def CalculatePlotStructure(modelfile, plot, includeGravityCalc=0, cubesize = 250,  
                            xy_origin=[317883,4379246, 1200-4000], plotwells =1,
-                           outputOption = 1, outputfolder = ''):
+                           outputOption = 1, outputfolder = '', num=0):
     
     output_name = 'ScratchPlots/'
     if(includeGravityCalc==0):
@@ -162,7 +163,10 @@ def CalculatePlotStructure(modelfile, plot, includeGravityCalc=0, cubesize = 250
     # or make a single vtk file for all surfaces (option 2)
     fileprefix = outputfolder+'Surface'
     start = time.time()
-    nSurfaces, points, CatCodes = convertSurfaces2VTK(points, cell_data, faceCounter, outputOption, fileprefix,  xy_origin=xy_origin)   
+    nSurfaces, points, CatCodes = convertSurfaces2VTK(points, cell_data,
+                                                      faceCounter, outputOption,
+                                                      fileprefix, num=num, 
+                                                      xy_origin=xy_origin)   
     end = time.time()
     print('Convert 2 VTK time took '+str(end - start) + ' seconds')
 
@@ -207,14 +211,18 @@ def CalculatePlotStructure(modelfile, plot, includeGravityCalc=0, cubesize = 250
 
     return points
 
-num = 2321
+num = 503
+G = 255
 
-folder = 'C:/Users/ahino/Documents/FinalGeothermicsToday/Top50/Thread2321/'
+folder = 'C:/Users/ahino/Documents/FinalGeothermicsToday/Top50/Thread'+str(num)+'/HistoryFileInspection/'
+
+picklefiles = glob(folder+'His_'+str(num)+'_G_'+str(G)+'*.his')
+
 # Model with five faults three layers 
-modelfile = 'faultmodel.his'
+modelfile = picklefiles[0]
 #modelfile = 'ToyHistory1.his'
 #Alter the mesh size if desiring to speed up the process. Recommended size is 100
-cubesize = 200
+cubesize = 150
 includeGravityCalc = 0
 xy_origin=[316448, 4379166, -2700]
 xy_extent = [8850, 9035,3900]
@@ -222,6 +230,6 @@ vtkP.settings.embedWindow(False) #you can also choose to change to itkwidgets, k
 
 plot = vtkP.Plotter(axes=1, bg='white', interactive=1)
 
-points = CalculatePlotStructure(modelfile, plot, includeGravityCalc, cubesize = cubesize, xy_origin=xy_origin)
+points = CalculatePlotStructure(modelfile, plot, includeGravityCalc, cubesize = cubesize, xy_origin=xy_origin, num=num)
 plot.show(viewup='z')
 vtkP.exportWindow('embryo.x3d')
