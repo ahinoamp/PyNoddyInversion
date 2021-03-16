@@ -72,6 +72,12 @@ def visualize_opt_step(filename, P):
   
     PlotSummary(P, axs, colsPerDataType)          
  
+    if(P['HypP']['jupyter']):
+        from IPython.display import clear_output
+        from IPython import display
+        clear_output(wait=True)
+        display.display(fig)
+        
     fig.savefig(filename,dpi=100,bbox_inches='tight')
     plt.close(fig)
 

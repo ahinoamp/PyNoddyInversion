@@ -59,9 +59,9 @@ def add2Table(P, scenario_scalar, eventN_scalar, event_name,
 def add_strat_event(P):
     # Event 1: stratigraphy
     LayerNames = ['Sed', 'Mafic','Felsic',  'Intrusive']
-    LayerDensityMin = [ 2.1, 2.2, 2.3, 2.5]
-    LayerDensityMax = [ 2.36, 2.42, 2.65,  2.85]
-    LayerDensityStd = [ 0.02, 0.02, 0.02,   0.02]
+    LayerDensityMin = [ 2100, 2200, 2300, 2500]
+    LayerDensityMax = [ 2360, 2420, 2650,  2850]
+    LayerDensityStd = [ 200, 200, 200,   200]
     nL = len(LayerNames)
     add2Table(P, 0, 1, LayerNames, ['Density']*nL, ['Gaussian']*nL, 
               LayerDensityMin, LayerDensityMax, LayerDensityStd)    
@@ -94,11 +94,11 @@ def add_plug_events(P):
     # 3. Plug events 
     NameP0 = 'Plug0'
     ParamP0 = ['X', 'Y', 'Z', 'Radius', 'XAxis', 'YAxis', 'ZAxis', 'Density', 'MagSus', 'Dip Direction']
-    MinP0 = [6950, 3980, 500, 200, 200, 300, 2500, 2.5, 0.0001, 5]
-    MaxP0 = [7950, 4980, 2500,800, 800, 1000, 4000, 2.9, 0.01, 20]
+    MinP0 = [6950, 3980, 500, 200, 200, 300, 2500, 2500, 0.0001, 5]
+    MaxP0 = [7950, 4980, 2500,800, 800, 1000, 4000, 2900, 0.01, 20]
     StdP0 = [P['HypP']['XYZ_Axes_StepStd'], P['HypP']['XYZ_Axes_StepStd'],P['HypP']['XYZ_Axes_StepStd'],
            P['HypP']['XYZ_Axes_StepStd'],P['HypP']['XYZ_Axes_StepStd'], P['HypP']['XYZ_Axes_StepStd'], 
-           P['HypP']['XYZ_Axes_StepStd'], 0.03, 0.07, 2]
+           P['HypP']['XYZ_Axes_StepStd'], 200, 0.07, 2]
     DistP0 = ['Gaussian', 'Gaussian','Gaussian','Gaussian', 'Gaussian',
               'Gaussian', 'Gaussian', 'Gaussian', 'LogGaussian', 'Gaussian']
     add2Table(P, 0, 3, [NameP0]*len(ParamP0), ParamP0, DistP0, 
@@ -106,11 +106,11 @@ def add_plug_events(P):
     
     NameP1 = 'Plug1'
     ParamP1 = ['X', 'Y', 'Z', 'Radius', 'XAxis', 'YAxis', 'ZAxis', 'Density', 'MagSus', 'Dip Direction']
-    MinP1 = [3150, 2880, 400,  50,  150,  150,  2500, 2.5, 0.0001, 0]
-    MaxP1 = [4150, 3880, 2500, 400, 600, 600, 4000, 2.9, 0.01, 10]
+    MinP1 = [3150, 2880, 400,  50,  150,  150,  2500, 2500, 0.0001, 0]
+    MaxP1 = [4150, 3880, 2500, 400, 600, 600, 4000, 2900, 0.01, 10]
     StdP1 = [P['HypP']['XYZ_Axes_StepStd'], P['HypP']['XYZ_Axes_StepStd'],P['HypP']['XYZ_Axes_StepStd'],
            P['HypP']['XYZ_Axes_StepStd'],P['HypP']['XYZ_Axes_StepStd'], P['HypP']['XYZ_Axes_StepStd'], 
-           P['HypP']['XYZ_Axes_StepStd'], 0.03, 0.07, 2]
+           P['HypP']['XYZ_Axes_StepStd'], 200, 0.07, 2]
     DistP1 = ['Gaussian', 'Gaussian','Gaussian','Gaussian', 'Gaussian',
               'Gaussian', 'Gaussian', 'Gaussian', 'LogGaussian', 'Gaussian']
     add2Table(P, 0, 4, [NameP1]*len(ParamP0), ParamP1,DistP1, 
@@ -118,11 +118,11 @@ def add_plug_events(P):
 
     NameP2 = 'Plug2'
     ParamP2 = ['X', 'Y', 'Z', 'Radius', 'XAxis', 'YAxis', 'ZAxis', 'Density', 'MagSus', 'Dip Direction']
-    MinP2 = [3650, 5080, 500,  0,  150,  150, 2500, 2.5, 0.0001, 0]
-    MaxP2 = [4650, 6080,2500,400, 600, 600, 4000, 2.9, 0.01, 10]
+    MinP2 = [3650, 5080, 500,  0,  150,  150, 2500, 2500, 0.0001, 0]
+    MaxP2 = [4650, 6080,2500,400, 600, 600, 4000, 2900, 0.01, 10]
     StdP2 = [P['HypP']['XYZ_Axes_StepStd'], P['HypP']['XYZ_Axes_StepStd'],P['HypP']['XYZ_Axes_StepStd'],
            P['HypP']['XYZ_Axes_StepStd'],P['HypP']['XYZ_Axes_StepStd'], P['HypP']['XYZ_Axes_StepStd'], 
-           P['HypP']['XYZ_Axes_StepStd'], 0.03, 0.07, 2]
+           P['HypP']['XYZ_Axes_StepStd'], 200, 0.07, 2]
     DistP2 = ['Gaussian', 'Gaussian','Gaussian','Gaussian', 'Gaussian',
               'Gaussian', 'Gaussian', 'Gaussian', 'LogGaussian', 'Gaussian']
     add2Table(P, 0, 5, [NameP2]*len(ParamP2), ParamP2, DistP2, 
