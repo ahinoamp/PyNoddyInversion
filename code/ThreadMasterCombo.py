@@ -505,6 +505,7 @@ if __name__ == "__main__":
         params['verbose']=True    
         params['graniteIdx'] = 4
         params['Windows'] = False
+        params['jupyter'] = False
         tasks.append(params)
 
     HypParametersPD = pd.DataFrame(tasks)    
