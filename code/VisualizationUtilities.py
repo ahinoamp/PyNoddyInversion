@@ -54,7 +54,7 @@ def visualize_opt_step(filename, P):
                                                            indexing='xy')
     P['Viz']['FaultsXY'] = GI.GetFaultsXY(P)
 
-    # Plot a row for each data type for the summary        
+    # Plot a row for each data type for the summary 
     if('Grav' in P['DataTypes']):
         PlotGravityRow(P, axs)
 
@@ -232,6 +232,8 @@ def PlotGraniteTopRow(P, axs):
     '''Create a row of plots showing the observed, simulated, mismatch and
     optimisation progress of the granite top data'''
     
+    rn = int('Grav' in P['DataTypes'])
+
     norm, norm_mis = get_norm(P, datatype = 'GT')
        
     # 1. plot observed granite top
@@ -239,7 +241,7 @@ def PlotGraniteTopRow(P, axs):
     if(P['nDataTypes']==1):
         ax = axs[1]
     else:
-        ax = axs[1,0]
+        ax = axs[rn,0]
     
     plt_scatter(P, P['GT']['xObs'], P['GT']['yObs'], P['GT']['Obs'], ax,
             title='Observed Granite Top', norm=norm, s=38, edgecolors='k',
@@ -251,7 +253,7 @@ def PlotGraniteTopRow(P, axs):
     if(P['nDataTypes']==1):
         ax = axs[1]
     else:
-        ax = axs[1, 1]
+        ax = axs[rn, 1]
 
     plt_heatmap(P, P['xxLith'], P['yyLith'], P['GT']['simViz'], 
                 norm, ax, title='Simulated Granite Top')
@@ -265,7 +267,7 @@ def PlotGraniteTopRow(P, axs):
         if(P['nDataTypes']==1):
             ax = axs[2]
         else:
-            ax = axs[1,2]
+            ax = axs[rn,2]
         # choose the local weights for parameter 40
         LocalWeightChosen = P['GT']['LocalErrorWeights'][:, 88]
         
@@ -283,7 +285,7 @@ def PlotGraniteTopRow(P, axs):
     if(P['nDataTypes']==1):
         ax = axs[axisIdx]
     else:
-        ax = axs[1, axisIdx]
+        ax = axs[rn, axisIdx]
         
     grid_mismatch = griddata(np.array([P['GT']['xObs'],P['GT']['yObs']]).T, 
                          (P['GT']['L1MismatchMatrix'][:,-1].reshape(-1,)), 
@@ -300,7 +302,7 @@ def PlotGraniteTopRow(P, axs):
     if(P['nDataTypes']==1):
         ax = axs[axisIdx+1]
     else:
-        ax = axs[1, axisIdx+1]
+        ax = axs[rn, axisIdx+1]
     
     plt_optim_progress(P, ax, datatype='GT')
 
@@ -308,7 +310,8 @@ def PlotGraniteTopRow(P, axs):
 def PlotMagneticsRow(P, axs):
     '''Create a row of plots showing the observed, simulated, mismatch and
     optimisation progress of the magnetics data'''
-    
+    rn = (int('Grav' in P['DataTypes'])+int('GT' in P['DataTypes']))
+
     if('ObsGrid' not in P['Mag'].keys()):
         xy_obs = np.array([P['Mag']['xObs'],P['Mag']['yObs']]).T
         P['Mag']['ObsGrid'] = griddata(xy_obs, P['Mag']['Obs'], 
@@ -322,7 +325,7 @@ def PlotMagneticsRow(P, axs):
     if(P['nDataTypes']==1):
         ax = axs[0]
     else:
-        ax = axs[2,0]
+        ax = axs[rn,0]
     
     plt_heatmap(P, P['Viz']['GeoXX'], P['Viz']['GeoYY'], P['Mag']['ObsGrid'], 
                 norm, ax, title='Observed magnetics')
@@ -332,7 +335,7 @@ def PlotMagneticsRow(P, axs):
     if(P['nDataTypes']==1):
         ax = axs[1]
     else:
-        ax = axs[2, 1]
+        ax = axs[rn, 1]
     plt_heatmap(P, P['Viz']['GeoXX'], P['Viz']['GeoYY'], P['Mag']['simViz'], 
                 norm, ax, title='Simulated magnetics')
 
@@ -343,7 +346,7 @@ def PlotMagneticsRow(P, axs):
         if(P['nDataTypes']==1):
             ax = axs[2]
         else:
-            ax = axs[2,2]
+            ax = axs[rn,2]
         # choose the local weights for parameter 30
         LocalWeightChosen = P['Mag']['LocalErrorWeights'][:, 30]
         
@@ -362,7 +365,7 @@ def PlotMagneticsRow(P, axs):
     if(P['nDataTypes']==1):
         ax = axs[axisIdx]
     else:
-        ax = axs[2, axisIdx]
+        ax = axs[rn, axisIdx]
  
     grid_mismatch = griddata(np.array([P['Mag']['xObs'],P['Mag']['yObs']]).T, 
                          (P['Mag']['L1MismatchMatrix'][:,-1].reshape(-1,)), 
@@ -376,7 +379,7 @@ def PlotMagneticsRow(P, axs):
     if(P['nDataTypes']==1):
         ax = axs[axisIdx+1]
     else:
-        ax = axs[2, axisIdx+1]
+        ax = axs[rn, axisIdx+1]
     
     plt_optim_progress(P, ax, datatype='Mag')
 
@@ -385,9 +388,11 @@ def PlotMagneticsRow(P, axs):
 def PlotTracerData(P, axs):
     '''Create a row of plots showing the observed, simulated, mismatch and
     optimisation progress of the tracer data'''
-    
+    rn = (int('Grav' in P['DataTypes'])+int('GT' in P['DataTypes'])+
+       int('Mag' in P['DataTypes']))
+
     # Plot observed data
-    ax = axs[3,0]
+    ax = axs[rn,0]
     AddFaults2Axis(P['Viz']['FaultsXY'], ax,  alpha=0.355, lw=1, ballsize=3)
     Xarrow = P['Tracer']['Connections']['midx'].values
     Yarrow = P['Tracer']['Connections']['midy'].values
@@ -407,7 +412,7 @@ def PlotTracerData(P, axs):
     ax.set_ylim([P['ymin'], P['ymax']])
 
     # Plot simulated data
-    ax = axs[3,1]
+    ax = axs[rn,1]
     AddFaults2Axis(P['Viz']['FaultsXY'], ax,  alpha=0.35, lw=1, ballsize=3)
     ax.scatter(X1, Y1, c='red', s=5, label='Injection')
     ax.scatter(X2, Y2, c='blue', s=5, label='Collection')
@@ -425,7 +430,7 @@ def PlotTracerData(P, axs):
 
     # Plot extra data
     if(P['HypP']['ErrorType']=='Local'):
-        ax = axs[3, 2]
+        ax = axs[rn, 2]
         ax.set_xlim([P['xmin'], P['xmax']])
         ax.set_ylim([P['ymin'], P['ymax']])
         axisIdx=3
@@ -452,7 +457,7 @@ def PlotTracerData(P, axs):
     if(P['nDataTypes']==1):
         ax = axs[axisIdx+1]
     else:
-        ax = axs[3, axisIdx+1]
+        ax = axs[rn, axisIdx+1]
     
     plt_optim_progress(P, ax, datatype='Tracer')
 
@@ -461,9 +466,12 @@ def PlotFaultMarkers(P, axs):
     '''Create a row of plots showing the observed, simulated, mismatch and
     optimisation progress of the fault marker data'''
 
+    rn = (int('Grav' in P['DataTypes'])+int('GT' in P['DataTypes'])+
+       int('Mag' in P['DataTypes'])+int('Tracer' in P['DataTypes']))
+
     # 1. plot observed data
     orient='vertical'
-    ax = axs[4, 0]
+    ax = axs[rn, 0]
     #first plot the wells
     x = P['FaultMarkers']['WellData']['Xm'].values
     y = P['FaultMarkers']['WellData']['Ym'].values
@@ -484,7 +492,7 @@ def PlotFaultMarkers(P, axs):
     ax.set_ylim([P['ymin'], P['ymax']])
 
     # 2. Plot the simulated data    
-    ax = axs[4, 1]
+    ax = axs[rn, 1]
     #first plot the wells
     AddFaults2Axis(P['Viz']['FaultsXY'], ax,  alpha=0.355, lw=1, ballsize=3)
     cf = ax.scatter(x, y, c='k', s=8)   
@@ -504,12 +512,12 @@ def PlotFaultMarkers(P, axs):
 
     #3. Plot some extra stuff
     if(P['HypP']['ErrorType']=='Local'):
-        ax = axs[4, 2]
+        ax = axs[rn, 2]
         axisIdx=3
     else:
         axisIdx=2 
 
-    ax = axs[4,axisIdx]
+    ax = axs[rn,axisIdx]
     ax.plot(P['idWells'], P['zWells'])
     ax.scatter(P['FaultMarkers']['simID'], P['FaultMarkers']['simZ'], s=8, c='r', marker='X', alpha=0.7)
     ax.scatter(idmarker, zmarker, c = 'k', s=10)
@@ -520,7 +528,7 @@ def PlotFaultMarkers(P, axs):
     if(P['nDataTypes']==1):
         ax = axs[axisIdx+1]
     else:
-        ax = axs[4, axisIdx+1]
+        ax = axs[rn, axisIdx+1]
     
     plt_optim_progress(P, ax, datatype='FaultMarkers')
 

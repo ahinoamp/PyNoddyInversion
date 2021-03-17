@@ -122,8 +122,8 @@ def simulate_calc_mismatch(P):
         errcode = calculate_model(P['SampledInputFileName'], P['output_name'],
                                   outputoption='TOPOLOGY', Windows=P['HypP']['Windows'])
         if(P['verbose'] & (num_tries > 0)):
-            print('Topology & geology calc is having issues: '
-                  + str(num_tries) + ' times')
+            print('Topology & geology calc is having issues: tried '
+                  + str(num_tries) + ' times, and continuing to try')
         num_tries = num_tries + 1
 
     if(P['verbose']):
@@ -378,7 +378,7 @@ def calc_granitetop(P):
         topgranite[((np.isnan(isnanTotal))&(topgranite<=-1200))] = np.NaN
    
     if(np.sum(topgranite<-1500)):
-        print('There might be an issue')
+        print('Top of granite is very high in ' + str(np.sum(topgranite<-1500)) +' spots')
         
     P['GT']['simViz']=topgranite
     P['xLith'] = np.linspace(P['xminL'], P['xmaxL'], P['nxL'], dtype=np.float32)+P['xmin']
@@ -733,6 +733,9 @@ def CheckFaultConnection(faultConnectionsInj, faultConnectionsPro, FaultConnecti
 
 def calc_fault_markers(P):
     """Calculate mismatch between observed and simulated fault marker data."""
+
+    if('Tracer' not in P['DataTypes']):
+        get_fault_blocks(P)
 
     obsFaultMarkers = P['FaultMarkers']['Obs']
     wellpaths = P['FaultMarkers']['WellData']
