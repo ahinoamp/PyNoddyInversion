@@ -262,7 +262,7 @@ def getHypPara():
     param = {}
     param['Name']='SelectionMethod'
     param['Type']= 'pRandChoice'
-    param['parameters']= ['selTournament']
+    param['parameters']= ['selTournament', 'selStochasticUniversalSampling', 'selRoulette']
     param['Methods']= ['GA']
     HyperParameters.append(param)
 

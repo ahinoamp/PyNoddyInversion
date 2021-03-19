@@ -59,8 +59,8 @@ def EvalPopGlobal(population, P, toolbox, folder, verbose,
     for ind in population:
         if not ind.fitness.valid:
             ind.fitness.setValues(EvaluateError(ind, P))
-            if(ind.fitness.getValues()[0] < lowestErr):
-                lowestErr=ind.fitness.getValues()[0]
+            if(np.mean(ind.fitness.getValues()) < lowestErr):
+                lowestErr=np.mean(ind.fitness.getValues())
                 P['BestIdxGen'] = P['iterationNum']
                 P['BestIdxP'] = copy.deepcopy(P)
 
@@ -87,8 +87,8 @@ def EvalPopLocal(population, P, toolbox, folder, verbose,
             ind.fitness.setValues(EvaluateError(ind, P))
             UpdateLocalWts(P)
             SetLocalNonNormErrors(P, ind)
-            if(ind.fitness.getValues()[0] < lowestErr):
-                lowestErr=ind.fitness.getValues()[0]
+            if(np.mean(ind.fitness.getValues()) < lowestErr):
+                lowestErr=np.mean(ind.fitness.getValues())
                 P['BestIdxGen'] = P['iterationNum']
                 P['BestIdxP'] = copy.deepcopy(P)
 
@@ -268,7 +268,7 @@ def selStochasticUniversalSamplingMinimize(individuals, k, fit_attr="fitness"):
     
     Error=[]
     for i in range(len(individuals)):
-        Error.append(float(individuals[i].fitness.getValues()[0]))
+        Error.append(float(np.mean(individuals[i].fitness.getValues())))
     
     Error=np.asarray(Error)
     Fitness = 1.0/Error
@@ -314,7 +314,7 @@ def selRouletteMinimize(individuals, k, fit_attr="fitness"):
     """
     Error=[]
     for i in range(len(individuals)):
-        Error.append(float(individuals[i].fitness.getValues()[0]))
+        Error.append(float(np.mean(individuals[i].fitness.getValues())))
     
     Error=np.asarray(Error)
     Fitness = 1.0/Error

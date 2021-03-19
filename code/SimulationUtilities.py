@@ -122,7 +122,7 @@ def simulate_calc_mismatch(P):
         errcode = calculate_model(P['SampledInputFileName'], P['output_name'],
                                   outputoption='TOPOLOGY', Windows=P['HypP']['Windows'])
         if(P['verbose'] & (num_tries > 0)):
-            print('Topology & geology calc is having issues: tried '
+            print('Topology & geology calc is having issues (common situation): tried '
                   + str(num_tries) + ' times, and continuing to try')
         num_tries = num_tries + 1
 
@@ -144,8 +144,8 @@ def simulate_calc_mismatch(P):
                                       outputoption='ANOM_FROM_BLOCK',
                                       Windows=P['HypP']['Windows'])
             if(P['verbose'] & (num_tries > 0)):
-                print('Gravity & mag calc is having issues: ' + str(num_tries)
-                      + ' times')
+                print('Gravity & mag calc is having issues (common situation): tried running ' + str(num_tries)
+                      + ' times, and continuing to try')
             num_tries = num_tries + 1
 
         if(P['verbose']):
