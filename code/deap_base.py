@@ -189,7 +189,7 @@ class Fitness(object):
             self.values = values
         
     def getValues(self):
-        return tuple(x for x in self.wvalues)
+        return tuple(-x for x in self.wvalues)
 
     def getWeightedValues(self):
         return self.wvalues
@@ -296,6 +296,13 @@ class Fitness(object):
         """
         copy_ = self.__class__()
         copy_.wvalues = self.wvalues
+        copy_.dat_norm_wts = self.dat_norm_wts
+        copy_.dat_opt_wts = self.dat_opt_wts
+        copy_.weights = self.weights
+        copy_.method = self.method
+        copy_.errNorm = self.errNorm
+        copy_.L1_error_matrix = self.L1_error_matrix
+        copy_.datatypes = self.datatypes
         return copy_
 
     def __str__(self):

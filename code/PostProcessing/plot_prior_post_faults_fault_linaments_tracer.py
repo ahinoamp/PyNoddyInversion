@@ -83,9 +83,8 @@ def getXZPost(folder,threshold, Norm):
         Err = dicti['Err']
         Err = (Err[0]/Norm['Grav'] + 
                Err[1]/Norm['Mag'] +
-               Err[2]/Norm['Tracer'] +
-               Err[3]/Norm['GT'] +
-               Err[4]/Norm['FaultMarkers'])/5.0 
+               Err[2]/Norm['GT'] +
+               Err[3]/Norm['FaultMarkers'])/4.0 
 
         print(Err)
         if(Err<threshold):            
@@ -123,12 +122,11 @@ xy_extent = [8850, 9035,3900]
 P['xy_origin']=xy_origin
 P['xy_extent'] = xy_extent
 
-folderPri = 'PickleResults/Faults/'
-folderPost = 'Scratch2/Faults/'
+folder = 'HistoryFileTransferRandom/Faults/'
 
-xLargePost, zLargePost = getXZPost(folderPost, threshold=0.51,Norm=Norm)
+xLargePost, zLargePost = getXZPost(folder, threshold=0.7,Norm=Norm)
 
-xLargePri, zLargePri = getXZ(folderPri)
+xLargePri, zLargePri = getXZ(folder)
 
 #OneLargeDict = pd.DataFrame({'xLargePost':xLargePost, 
 #                'zLargePost':zLargePost})

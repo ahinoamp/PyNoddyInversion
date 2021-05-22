@@ -203,4 +203,7 @@ if __name__ == "__main__":
     params['Windows'] = True
     params['npop'] = 4
     params['ngen'] = 2
+    params['jupyter']=True
+    params['SelectionMethod'] = 'selRoulette'
+    params['DataTypes'] = ['Grav', 'Mag', 'GT', 'FaultMarkers']
     GA_Noddy(params)

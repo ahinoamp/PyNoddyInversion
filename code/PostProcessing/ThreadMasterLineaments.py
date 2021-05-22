@@ -13,7 +13,7 @@ import random
 import multiprocessing
 import numpy as np
 import sys
-import Lineaments_gcp2 as prior_gen
+import Lineaments_gcp_notracer as prior_gen
 from glob import glob
 
 
@@ -47,10 +47,10 @@ if __name__ == "__main__":
       
   
     #sample the realizations
-    num_runs =  5000
+    num_runs =  3400
     tasks = []
-    num_cpus = 96
-    folder = 'HistoryFileTransferBest/'
+    num_cpus = 32
+    folder = 'HistoryFileTransferRandom/'
     
     historyfiles = glob(folder+'*.his')
     

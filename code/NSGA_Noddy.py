@@ -211,6 +211,9 @@ if __name__ == "__main__":
     params = params.to_dict()
     params['npop'] = 8
     params['ngen'] = 3
+    params['jupyter'] = False
     params['Windows'] = True
+    params['DataTypes'] = ['Grav', 'Mag', 'GT', 'FaultMarkers']
+
  
     NSGA2_Noddy(params)

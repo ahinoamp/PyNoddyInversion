@@ -11,8 +11,9 @@ Created on Mon May 25 12:26:56 2020
 
 @author: ahinoamp
 """
-import GravityInversionUtilities as GI
+import GeneralInversionUtil as GI
 import LoadInputDataUtility as DI
+import SimulationUtilities as sim
 import matplotlib.pyplot as plt
 import numpy as np
 from glob import glob
@@ -24,6 +25,7 @@ import re
 from scipy.signal import savgol_filter
 from matplotlib.lines import Line2D
 import pickle
+from deap import base
 
 from sklearn.decomposition import PCA
 
@@ -128,8 +130,8 @@ def getYSection(FaultsXY, i, P, sliceValue):
                  
 def GetFaultXYCode(P):
     Fault3DPoints = np.nonzero(P['CombinedFaultMatrix']>-0.1)
-    x = Fault3DPoints[0]*P['cubesize']+P['xy_origin'][0]+P['N1'].xmin+P['cubesize']
-    y = Fault3DPoints[1]*P['cubesize']+P['xy_origin'][1]+P['N1'].ymin+P['cubesize']
+    x = Fault3DPoints[0]*P['cubesize']+P['xy_origin'][0]+P['xmin']+P['cubesize']
+    y = Fault3DPoints[1]*P['cubesize']+P['xy_origin'][1]+P['ymin']+P['cubesize']
 #    z = (P['xy_origin'][2]+P['N1'].zmax) - Fault3DPoints[2]*P['cubesize']-P['cubesize']
     z = -2700 + Fault3DPoints[2]*float(P['cubesize'])+P['cubesize']
     faultcodes = P['CombinedFaultMatrix'][Fault3DPoints]
@@ -177,17 +179,21 @@ P['CalcMagnetics']=True
 P['CalcGraniteTop']=True
 P['CalcTracer']=False
 P['CalcFaultIntersection']=True
-P['DataTypes'] = ['Grav', 'Mag', 'GT', 'FaultIntersection']
+P['DataTypes'] = ['Grav', 'Mag', 'GT', 'FaultMarkers']
 P['JoinType']='LINES'
 P['errCalcMethodFaultIntersection']='Distance'
 P['MaxFaultIntersectionError'] = 500
+P['HypP']={}
+P['HypP']['Windows']=False
+P['HypP']['graniteIdx'] = 4
+P['HypP']['MaxFaultMarkerError'] = 525
 
 #############################
 ## 0 define the model grid boundaries + some other input stuff
 #############################  
  
 
-folderoutput = folder+'Scratch4/'
+folderoutput = folder+'Scratch/'
 P['folder']=folderoutput
 
 P['output_name'] = folderoutput+'noddy_out'
@@ -203,6 +209,19 @@ P['ErrorType']='Global'
 P['cubesize']=150
 P['xy_origin']=[316448, 4379166, 1200-4000]
 P['xy_extent'] = [8800, 9035,4000]
+P['xmin'] = P['xy_origin'][0]
+P['xmax'] = P['xy_origin'][0]+P['xy_extent'][0]
+
+P['ymin'] = P['xy_origin'][1]
+P['ymax'] = P['xy_origin'][1]+P['xy_extent'][1]
+
+P['zmin'] = P['xy_origin'][2]
+P['zmax'] = P['xy_origin'][2]+P['xy_extent'][2]
+
+toolbox = base.Toolbox()
+GI.register_sim_functions(P, toolbox)
+
+P['toolbox']=toolbox
 
 DI.loadData(P)
 
@@ -210,6 +229,10 @@ plt.close('all')
 start = 0
 ErrList = []
 for h in range(nFiles):
+    if(h<100):
+        continue
+    if(h>600):
+        break
     print(h)
     hisfile = historyfiles[h]
     print(historyfiles[h])
@@ -218,29 +241,23 @@ for h in range(nFiles):
     #calculate model
 
     try:
-        GI.SimulateGetGlobalMismatch(P)
+        sim.simulate_calc_mismatch(P)
+    
+        print(list(P['FaultMarkers'].keys()))
     
     #    Err = GetErrFromFile(hisfile)
-        Err = [P['Grav_MismatchList'][-1],
-               P['Mag_MismatchList'][-1],
-               P['GT_MismatchList'][-1],
-               P['FaultIntersection_MismatchList'][-1]]
+        Err = [P['Grav']['L1MismatchList'][-1],
+               P['Mag']['L1MismatchList'][-1],
+               P['GT']['L1MismatchList'][-1],
+               P['FaultMarkers']['L1MismatchList'][-1]]
        
+        
         ErrList.append(Err)
         FaultPriorMatrix = P['CombinedFaultMatrix'].astype(int)
         dictBlock = {}
         dictBlock['FaultBlock'] = FaultPriorMatrix
         dictBlock['FaultBlockErr'] = Err
     
-        with open(folder+'Blocks/file_'+str(h)+'.pickle', 'wb') as handle:
-            pickle.dump(dictBlock, handle, protocol=pickle.HIGHEST_PROTOCOL)
-    
-        Lithology = {}
-        Lithology['Lithology'] = P['N1'].block
-        Lithology['LithologyErr'] = Err
-    
-        with open(folder+'Lithology/file_'+str(h)+'.pickle', 'wb') as handle:
-            pickle.dump(Lithology, handle, protocol=pickle.HIGHEST_PROTOCOL)
             
         #get fault location 
         dictFaultI = {}
