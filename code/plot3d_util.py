@@ -50,7 +50,7 @@ def getDXF_parsed_structure(output_name):
                              np.asarray(zpoint, dtype=float)))
     cell_data.pop()
     cell_data = np.asarray(cell_data, dtype=object)
-#    print('Finished reading model')
+    print('Finished reading model')
    
 #    Data = pd.DataFrame({'x': np.asarray(xpoint, dtype=float), 
 #                         'y': np.asarray(ypoint, dtype=float),
@@ -131,7 +131,7 @@ def CalculatePlotStructure(modelfile, plot, cubesize = 250,
                            xy_origin=[317883,4379246, 1200-4000], plotwells =1,
                            outputOption = 1, outputfolder = '', num=0):
     
-    output_name = 'Combo_Scratch/3dmodel'
+    output_name = 'PostProcessing/3dmodel'
     outputoption = 'BLOCK_SURFACES'
 
     #Calculate the model
@@ -194,15 +194,11 @@ def CalculatePlotStructure(modelfile, plot, cubesize = 250,
 
     for i in range(nSurfaces):
         filename = fileprefix+str(i)+'.vtk'
-        e=vtkP.load(filename).c(colors[i, 0:3])
-    
+        e=vtkP.load(filename).tomesh(fill=True).c(colors[i, 0:3])
         plot += e
 
     return points
 
-def plot_3d_model(modelfile, cubesize, plot):
-
-    xy_origin=[316448, 4379166, -2700]
-    xy_extent = [8850, 9035,3900]
+def plot_3d_model(modelfile, cubesize, plot, xy_origin = [316448, 4379166, -2700]):
 
     points = CalculatePlotStructure(modelfile, plot, cubesize = cubesize, xy_origin=xy_origin)
