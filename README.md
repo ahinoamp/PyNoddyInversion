@@ -11,7 +11,7 @@ As is shown in the image below, the code takes in gravity, magnetic, fault marke
 # Run the code!
 
 Check out this Binder jupyter notebook that gives you an example of running the code with all the necessary python packages for you:
-https://mybinder.org/v2/gh/ahinoamp/PyNoddyInversion/master?filepath=code%2Frun_MCMC_thread.ipynb
+https://mybinder.org/v2/gh/ahinoamp/PyNoddyInversion/HEAD?filepath=code%2Frun_PyNoddyInversionThread.ipynb
 
 All you need to do is run the cells and observe the results (and then run again - this is a stochastic workflow - so each time will be different). 
 
