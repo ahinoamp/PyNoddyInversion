@@ -16,7 +16,7 @@ dependencies:
   - pip=19.2.3=py37_0
   - itkwidgets=0.24.1=py37_0
   - k3d=2.7.1
-  - ipywidgets=7.5.1
+  - ipywidgets
   - pip:
     - itk-core==5.0.1
     - itk-filtering==5.0.1
